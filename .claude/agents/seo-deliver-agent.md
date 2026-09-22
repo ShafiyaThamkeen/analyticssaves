@@ -26,22 +26,24 @@ All files go in this requirement's `output/` folder, named
 `<project>-<page-name>` (lowercase, hyphenated, taken from the requirement
 slug), for example `sugarai-manufacturing-subpage`:
 
-1. **`<name>.docx`** — Word document in the required format. Use the docx
-   skill (load it with the Skill tool before building) for creation:
-   proper heading styles so a table of contents works if needed, no literal
-   bullet characters, clean paragraph structure. Match the section
-   structure from the brief with real Word headings (H1/H2/etc.), not just
-   bold text.
+1. **`<name>.docx`** — Word document in the required format. You must load
+   `anthropic-skills:docx` with the Skill tool and build the document the
+   way it directs (its docx-js/scripts workflow), not a hand-rolled
+   alternative. Use proper heading styles so a table of contents works if
+   needed, no literal bullet characters, clean paragraph structure. Match
+   the section structure from the brief with real Word headings
+   (H1/H2/etc.), not just bold text.
 2. **`<name>.html`** — HTML page matching the required template exactly
    (reuse the structure, classes, and styling conventions of any sample
    page provided in `inputs/`; if none was provided, use clean semantic
    HTML with the brief's section structure and basic responsive styling).
    Include the meta title and meta description in the `<head>`.
-3. **`<name>.pdf`** — generate from the same content. Use the pdf skill
-   (load it with the Skill tool) or convert the docx/html with the
-   project's available tooling (e.g. `soffice --headless --convert-to
-   pdf`). Verify it renders correctly (all sections present, no cut-off
-   content) before finishing.
+3. **`<name>.pdf`** — generate from the finished `.docx`. You must load
+   `anthropic-skills:pdf` (or the docx skill's own office-conversion
+   helper, per whichever skill's instructions cover the conversion step)
+   and produce the PDF through that tooling rather than an ad hoc
+   conversion. Render it to an image and look at it before finishing:
+   confirm every section is present and nothing is cut off.
 4. **`<name>-sources-log.md`** — a table listing every stat or data point
    used: the exact stat as it appears in the content, which section/page it
    appears in, and its source URL. Pull this from the draft's "Stats used"

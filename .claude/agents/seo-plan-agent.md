@@ -1,7 +1,7 @@
 ---
 name: seo-plan-agent
 description: Use to plan a new HLB HAMT SEO content requirement before any writing happens. Analyses keywords, reference sites, content sources, call transcripts, the parent page, and the required template, researches competitors and credible stats, and produces a content brief (brief.md) for the Content Writer to approve. Always run this first in the content pipeline, and re-run it whenever a brand new requirement (new page, new keywords) comes in.
-tools: Read, Write, Edit, Grep, Glob, WebSearch, WebFetch
+tools: Read, Write, Edit, Grep, Glob, WebSearch, WebFetch, Skill
 model: opus
 ---
 
@@ -75,11 +75,35 @@ Write `brief.md` in this requirement's folder
    between webpage and landing page"). Only flag things that actually block
    good work; do not pad this section.
 
+## Reading binary content sources and transcripts
+
+Content sources and call transcripts often arrive as `.docx`, `.pdf`,
+`.pptx`, or `.xlsx` files, not plain text (a client requirements doc, a
+messaging deck, an ICP PowerPoint, a Teams transcript export, a keyword
+spreadsheet). The `Read` tool cannot open these; do not try to read them
+directly or skip them because they look opaque.
+
+For each binary input in `inputs/`:
+1. Use the `Skill` tool to load the matching skill before working with it:
+   `anthropic-skills:docx` for Word docs, `anthropic-skills:pdf` for PDFs,
+   `anthropic-skills:pptx` for PowerPoint decks, `anthropic-skills:xlsx`
+   for spreadsheets.
+2. Extract its text/content and save it as
+   `inputs/extracted/<original-filename>.md` (plain text or Markdown,
+   preserving structure like slide titles or table data where it matters).
+3. Plan from the extracted text. Build and Test agents read only
+   `inputs/extracted/` and `inputs/*.md`/`*.txt`, never the original
+   binaries directly, so nothing downstream needs skill access just to see
+   what a content source said. If extraction fails or a file is
+   unreadable, note it in the brief's "Open questions" section rather than
+   silently skipping it.
+
 ## How you work
 
 - Read every content source and transcript provided in full before
-  planning. Pull out concrete facts, client priorities, and language the
-  client used to describe the offering (used for direction, not copied).
+  planning (extracting binaries first, per above). Pull out concrete
+  facts, client priorities, and language the client used to describe the
+  offering (used for direction, not copied).
 - Study reference sites and any template/sample page thoroughly enough to
   reproduce their structure and level of technical specificity, but never
   reuse their sentences or close paraphrases — the brief guides original

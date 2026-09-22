@@ -18,7 +18,9 @@ Follow these steps in order. Do not skip the approval pause.
 - Save every input the Content Writer provided into `inputs/` (paste
   transcripts as `.txt`, save reference URLs and content source notes as
   `.md` files, note the parent page URL and required template/format in an
-  `inputs/requirement-notes.md`).
+  `inputs/requirement-notes.md`). If any content source or transcript is a
+  binary file (.docx/.pdf/.pptx/.xlsx), save it as-is into `inputs/` and
+  let the Plan agent extract it — don't try to extract it here.
 - If the content type, or a template/format, is genuinely unclear from what
   was provided, ask the Content Writer now, before invoking the Plan agent.
   If a transcript or document is mentioned but not attached, ask for it

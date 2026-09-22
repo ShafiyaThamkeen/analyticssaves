@@ -13,6 +13,22 @@ studies. All four agents run on Opus.
 | Test | `.claude/agents/seo-test-agent.md` | QAs the draft against the brief and content standards, up to 3 fix loops |
 | Deliver | `.claude/agents/seo-deliver-agent.md` | Produces the .docx / .html / .pdf / sources log |
 
+## Skill wiring
+
+Only two agents have the `Skill` tool (the rest are scoped to
+Read/Write/Edit/Grep/Glob/WebSearch so they stay on the brief instead of
+wandering into file-format conversion):
+
+- **Plan** uses `anthropic-skills:docx`, `anthropic-skills:pdf`,
+  `anthropic-skills:pptx`, and `anthropic-skills:xlsx` to extract text from
+  any binary content source or call transcript (client requirement docs,
+  messaging decks, ICP PowerPoints, keyword spreadsheets) into
+  `inputs/extracted/`, so Build and Test never need skill access just to
+  read what a content source said.
+- **Deliver** uses `anthropic-skills:docx` and `anthropic-skills:pdf` to
+  produce the final Word document and PDF — this is mandatory in its
+  instructions, not a fallback among several methods.
+
 ## Running it
 
 Start a new requirement with:
