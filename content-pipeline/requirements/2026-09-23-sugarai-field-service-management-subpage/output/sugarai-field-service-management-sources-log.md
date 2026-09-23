@@ -1,32 +1,45 @@
 # Sources log: SugarAI for Field Service Management (industry subpage)
 
 - Page: `sugarai-field-service-management` (`.docx`, `.html`, `.pdf` in this folder)
-- Content version: `draft/draft-v3.md` (passed Test, loop 3 of 3)
-- Compiled from: draft-v3 "Stats used" table and "Sources" footnote list. Nothing added or dropped.
-- Status of every URL below: **not yet click-verified**. All were found through search result text because WebFetch was egress-blocked (brief Section 10.5). Each one must be opened and checked before publication.
+- Content version: `draft/draft-v5.md` (approved; replaces v3). The Block 7 H2 is "What the service desk and ERP layers deliver", per the fix in `draft/test-report-v5-revision.md`.
+- Compiled from: draft-v5 "Stats used" table and "Sources" footnote list. Nothing added or dropped.
+- Removed since the v3 delivery: Grand View Research (MEA FSM market), Mordor Intelligence (GCC FM), Mordor Intelligence (UAE FM), Aquant 2025 benchmark, Mordor Intelligence (global FSM) and DataReportal (UAE). None of them appears on the page any more.
+
+## Verification status
+
+| Source | Status |
+|:-|:-|
+| Sugar Sell data sheet (AWS Marketplace copy) | **Verified.** The Plan agent read the PDF in full and Test re-checked it (see `draft/test-report-v5-revision.md`, item 2). The +23% / +30% / 3x figures and their metric names match. |
+| Sugar Serve data sheet (AWS Marketplace copy) | **Verified.** The Plan agent read the PDF in full and Test re-checked it. The -27% / +30% figures and their metric names match. |
+| Official sugarcrm.com / sugarai.com copies of both data sheets | **Not verified.** Neither could be reached from the sandbox. Someone should confirm that the figures still match there after the rebrand. |
+| Nucleus Research, 8% figure | **Not verified: search-result text only.** Nobody opened the Nucleus page or the sugarai.com resource page ("Sugar's ERP integration increases recurring revenue by 8%"). Confirm the 8% figure, that it measures recurring revenue, and that it applies to Sugar customers with ERP integration. One search summary tied it to the sales-i integration; see the Test report, advisory 2b. |
+| FAQ 7 press release (source 1) | **Not verified: search-result text only.** Needs a click-check. |
+
+**Every URL below needs a human click-check before publication.** The two AWS Marketplace PDFs have been read, but they should still be opened once more to confirm the links resolve.
 
 ## Stats and data points
 
-| # | Footnote | Brief ID | Stat exactly as it appears on the page | Section where it appears | Source | Source URL |
-|:-|:-|:-|:-|:-|:-|:-|
-| 1 | [1] | S1 | "US$809.8M" / "Regional field service market" / "Middle East and Africa field service management revenue in 2025, forecast to grow 8.3% yearly to 2033." | Block 2, stats band ("Why SugarAI earns its place in field operations"), stat 1 | Grand View Research, Middle East and Africa field service management market outlook | https://www.grandviewresearch.com/horizon/outlook/field-service-management-market/mea |
-| 2 | [2] | S2 | "US$70.25B" / "GCC facilities management, 2025" / "Hard services, led by MEP and HVAC maintenance, hold the largest share of this market." | Block 2, stats band, stat 2 | Mordor Intelligence, GCC facility management market | https://www.mordorintelligence.com/industry-reports/gcc-facility-management-market |
-| 3 | [3] | S3 | "64.88%" / "Outsourced FM in the UAE" / "Share of UAE facility management delivered by outsourced providers in 2025." | Block 2, stats band, stat 3 | Mordor Intelligence, UAE facility management market | https://www.mordorintelligence.com/industry-reports/uae-facility-management-market |
-| 4 | [4] | P1 | "86%" / "First-time fix rate at top-performing service organisations" | Block 7, proof band ("What well-run field service operations achieve"), tile 1 | Aquant, 2025 Field Service Benchmark Report (press release) | https://www.globenewswire.com/news-release/2025/02/13/3026225/0/en/Aquant-s-2025-Field-Service-Benchmark-Report-Reveals-AI-Enabling-39-Faster-Machinery-Repairs-and-More.html (report: https://discover.aquant.ai/service-benchmark-report) |
-| 5 | [4] | P2 | "39%" / "Faster resolution for top performers using AI" | Block 7, proof band, tile 2 | Same as row 4 | Same as row 4 |
-| 6 | [5] | R1 | "28.16%" / "Scheduling and dispatch leads FSM investment." / "Share of 2025 global field service management software revenue, the largest single category." The source's full category is "scheduling, dispatch and route optimisation", which footnote 5 names in full. | Block 7, proof band, tile 3 | Mordor Intelligence, global field service management market | https://www.mordorintelligence.com/industry-reports/field-service-management-market |
-| 7 | [6] | R2 | "100%" / "UAE mobile connections run on broadband." / "Share of the UAE's 21.9 million mobile connections classed as broadband (3G, 4G or 5G) in early 2025." | Block 7, proof band, tile 4 | DataReportal, Digital 2025: United Arab Emirates | https://datareportal.com/reports/digital-2025-united-arab-emirates |
+These figures carry no on-page footnote, per the site's convention for vendor figures. Where each one comes from is stated in the visible copy instead: the Block 2 lede names SugarCRM and Sugar Sell, the Block 7 lede names SugarCRM and Sugar Serve, and the Block 7 tile 3 label names Nucleus Research.
 
-## Non-stat fact with a source
+| # | Stat exactly as it appears on the page | Section where it appears | Source | Source URL | Verified? |
+|:-|:-|:-|:-|:-|:-|
+| W1 | "+23%" / "Increased revenue" / "Sugar Sell customers grew revenue by this margin." | Block 2, "Why SugarAI earns its place in field operations", stat 1 | Sugar Sell data sheet, "Sugar Sell: AI-Powered Sales and Intelligent Account Management", © 2024 SugarCRM Inc. (source text: "Increased Revenue + 23%") | https://sugarcrm-aws-marketplace-public-assets.s3.amazonaws.com/Sugar+Sell.pdf | Yes (AWS copy read in full) |
+| W2 | "+30%" / "Improved win rate" / "Win rates rose across that customer group." | Block 2, stat 2 | Same Sugar Sell data sheet (source text: "Improved Win Rate + 30%") | https://sugarcrm-aws-marketplace-public-assets.s3.amazonaws.com/Sugar+Sell.pdf | Yes (AWS copy read in full) |
+| W3 | "3×" / "Pipeline volume" / "Pipelines tripled in volume for those customers." | Block 2, stat 3 | Same Sugar Sell data sheet (source text: "Pipeline Volume 3x") | https://sugarcrm-aws-marketplace-public-assets.s3.amazonaws.com/Sugar+Sell.pdf | Yes (AWS copy read in full) |
+| P1 | "-27%" / "Reduced case error rate" | Block 7, "What the service desk and ERP layers deliver", tile 1 | Sugar Serve data sheet, "Platform for Customer Service Heroes", Rev. 08152022 (source text: "Reduced Case Error Rate - 27%") | https://sugarcrm-aws-marketplace-public-assets.s3.amazonaws.com/Sugar+Serve.pdf | Yes (AWS copy read in full) |
+| P2 | "+30%" / "Revenue contribution from support teams" | Block 7, tile 2 | Same Sugar Serve data sheet (source text: "Revenue Contribution from Support Team + 30%") | https://sugarcrm-aws-marketplace-public-assets.s3.amazonaws.com/Sugar+Serve.pdf | Yes (AWS copy read in full) |
+| P4 | "8%" / "Higher recurring revenue with ERP integration (Nucleus Research)" | Block 7, tile 3 | Nucleus Research, "How unifying CRM and ERP with Sugar drives sales performance", 2025 (search-result text: "8% average boost in recurring revenue") | https://nucleusresearch.com/research/single/how-unifying-crm-and-erp-with-sugar-drives-sales-performance/ | **No** (search snippet only) |
 
-| # | Footnote | Fact exactly as it appears on the page | Section where it appears | Source URL |
-|:-|:-|:-|:-|:-|
-| 8 | 7 (no inline marker, so the FAQPage JSON-LD can match the visible answer word for word) | "SugarCRM became SugarAI in April 2026, and existing instances keep running." | Block 13, FAQ 7 answer ("Questions field service teams ask us") | https://sugarai.com/press-releases/sugarcrm-unveils-new-brand-identity-as-sugarai-declaring-the-next-generation-of-crm |
+## Non-stat fact with a source (the page's only footnote)
+
+| # | Footnote | Fact exactly as it appears on the page | Section where it appears | Source URL | Verified? |
+|:-|:-|:-|:-|:-|:-|
+| 1 | Source 1 (`<li id="src-1" value="1">` in the Sources note under the FAQ). There is no inline marker, so the FAQPage JSON-LD can repeat the visible answer word for word. | "SugarCRM became SugarAI in April 2026, and existing instances keep running." | Block 13, FAQ 7 answer ("Questions field service teams ask us") | https://sugarai.com/press-releases/sugarcrm-unveils-new-brand-identity-as-sugarai-declaring-the-next-generation-of-crm | **No** (search snippet only) |
 
 ## Not sourced (by design)
 
 - "26 years" (Block 12, "Regional delivery depth" card) is an HLB HAMT company fact that the Content Writer confirmed in brief Section 10.4. It is not a sourced stat.
-- No other figures appear in the copy. The Salesforce stats (P3/P4) were rejected in brief Section 10.3 and appear nowhere.
+- The page contains no pricing or cost figures.
 
 ## Internal links (also to be click-checked before publication)
 
