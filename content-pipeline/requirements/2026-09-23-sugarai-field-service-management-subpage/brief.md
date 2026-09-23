@@ -2,7 +2,7 @@
 
 Requirement folder: `content-pipeline/requirements/2026-09-23-sugarai-field-service-management-subpage/`
 Prepared by: Plan agent, 2026-09-23
-Status: awaiting Content Writer approval before Build starts
+Status: **APPROVED** with the decisions in Section 10 below. Ready for Build.
 
 > **Research limitation for this run (read first).** The network egress policy blocked WebFetch for every domain I tried: all five reference sites, sugarcrm.com, marketplace.sugarcrm.com and sugarai.com. The reference-site analysis and all stats below come from WebSearch result text, which names the source URL and quotes or summarises it. I did not open any page directly. Every stat URL in Section 6 was returned by search, but someone must click through each one before publication (see Open Questions).
 >
@@ -381,3 +381,18 @@ Footer: reuse the template footer links, with sibling links (Manufacturing, Real
 4. **Years-in-region figure.** The live Insurance page says "26 years". If HLB HAMT's IT arm was founded in 1999 (per the Healthcare run), that is 27 years in 2026. Build will write "more than 25 years" unless you give an exact figure to use across the series.
 5. **Research tooling limitation.** WebFetch was blocked for every domain, so the reference-site analysis and all stats rely on search-result text. Before publication, click-verify each URL in Sections 6 and 8, especially the exact P3 wording and the S1 and S3 figures.
 6. **`.docx` not extracted.** No shell was available to run the docx skill's pandoc step. The PDF (extracted to `inputs/extracted/`) appears to be an export of the same draft, and the live HTML is the authoritative template anyway, so the risk is low. If the Word file contains anything the PDF lacks (comments, tracked changes, extra notes), please flag it.
+
+---
+
+## 10. Content Writer decisions (2026-09-23) — resolves Section 9
+
+1. **Field service layer:** HLB HAMT deploys the core SugarAI product, customized/configured per industry — not a separate third-party FSM add-on or marketplace plugin. This **confirms** Section 4's existing guardrail rather than loosening it: keep every capability framed as SugarAI configured/extended by HLB HAMT for field service (assignment rules, job sheets, mobile checklist access, ERP integration). **Still do not claim** native route optimization, GPS live tracking, full offline mode, IoT remote monitoring, AR, or a drag-and-drop dispatch board — those remain unconfirmed. Where useful, phrase capability lines as "configured by HLB HAMT for field service operations" to reflect that this is customization of SugarAI itself, not a bolt-on product.
+2. **Parent/slug:** Keep the parent as originally specified, `https://sugarai.com/`. Do **not** switch to the `/sugarai-crm/industries/field-service-management/` hub pattern suggested in Open Question 2. The breadcrumb text may still read `Home › Technology Consulting Services › CRM Solutions (SugarAI) › Field Service Management` as page copy, but any actual parent link target should point to `https://sugarai.com/`.
+3. **Salesforce stats (P3/P4): rejected.** Do not cite Salesforce or any competing-CRM-vendor research, even footnoted. Replace Block 7's tiles 3 and 4 with the reserves, reframed to fit the proof band (P1 and P2, the Aquant first-time-fix and faster-resolution stats, are unaffected and stay as written):
+   - **Tile 3 (replaces P3):** figure **`28.16%`**, label `Scheduling and dispatch leads FSM investment`, description (6-12 words + footnote): "share of 2025 global field service management software revenue, the largest single category." Source: R1, Mordor Intelligence global FSM report, https://www.mordorintelligence.com/industry-reports/field-service-management-market (2025 data, ~1 year old).
+   - **Tile 4 (replaces P4):** figure **`100%`**, label `UAE mobile connections run on broadband`, description (6-12 words + footnote): "of the UAE's 21.9 million mobile connections are 3G, 4G or 5G, so technicians stay connected on site." Source: R2, DataReportal Digital 2025: UAE, https://datareportal.com/reports/digital-2025-united-arab-emirates (early 2025 data, ~20 months old).
+   - Update Block 7's lede if needed so it still reads naturally with a market-capability stat and a connectivity stat instead of two AI-adoption stats: keep it framed as industry benchmarks/context, not SugarAI or HLB HAMT results.
+   - In Section 6, move S-labelled Salesforce stats (P3/P4 as originally listed) to "rejected," and mark R1/R2 as used (no longer reserve).
+4. **Years in region: use "26 years"** (matches the live template) throughout, not "more than 25 years." Block 12, card 1 should read using **26 years** in the UAE and GCC.
+5. **Source URL click-verification:** confirmed required. The Deliver agent's handoff summary must flag this as an outstanding manual step before publication (every URL in Sections 6 and 8 was found via search, not opened directly).
+6. **`.docx` vs PDF/HTML: confirmed identical**, no content gap. The Content Writer wants all three formats — `.docx`, `.html`, and `.pdf` — delivered at the end, per the pipeline's standard Deliver output (no change needed, this is already the default).
