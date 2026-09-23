@@ -184,7 +184,7 @@ Jobs, asset records and checklists on the technician's phone, with photos and si
 
 **Eyebrow:** Proven
 
-**H2:** What well-run field service operations achieve
+**H2:** What the service desk and ERP layers deliver
 
 **Lede:** The first two figures are SugarCRM's own numbers for Sugar Serve, its customer service module. The third is analyst research on Sugar's ERP integration.
 
