@@ -2,7 +2,7 @@
 
 Requirement folder: `content-pipeline/requirements/2026-09-28-power-bi-services-homepage/`
 Prepared by: Plan agent, 2026-09-28
-Status: **DRAFT, awaiting Content Writer approval.** Section 9 has 7 open questions. Items 1 and 3 affect the keyword plan and the page URL. The brief gives a default for each, so Build can proceed if the Content Writer approves the defaults.
+Status: **APPROVED (2026-09-28), all 7 open questions resolved to their stated defaults.** Ready for Build. See Section 10.
 
 > **Inputs read in full:** `inputs/requirement-notes.md`; `inputs/content-source/hlb-data-viz-v4 (1).html` (whole file read; only Tab 3, lines 302-418, plus the shared hero stats and closing CTA are in scope); `inputs/content-source/data-viz-documentation-extracted.md` (the .docx was already extracted before planning, so I read that extraction instead of re-running the docx skill; Section 6 matches the HTML); `inputs/structural-sample/sugarai-crm-homepage-extracted-text.txt` (all 772 lines) and the raw `sugarai-crm-hlbhamt-homepage.html` (checked for heading tags, section IDs, band colours and nav URLs). No transcript was provided.
 >
@@ -362,3 +362,15 @@ Build writes these as `[data visualisation services](PLACEHOLDER:/services/data-
 5. **Video for S13.** The template has a 60-second overview video. Is there a Power BI demo video? **Default:** a static dashboard screenshot or GIF with the same copy and a "Book a live demo" button.
 6. **Which SugarAI URL is canonical?** The uploaded page lives at `/sugarai-crm-2/`. The site's mega-menu links `/sugarai-crm/`, and the dropdown links `/sugar-crm-dubai`. **Default:** link to `/sugarai-crm-2/` (the confirmed live page) until you confirm.
 7. **Approve these corrections to the prepared content** (Build applies them unless you object): "14+ Yrs Gartner #1" becomes "Leader, 19th consecutive year (2026)"; no "Q&A in Arabic" or Arabic Copilot claims; mobile is iOS and Android only (the Windows app is retired); Q&A is not featured (it retires February 2027); the Power BI vs Tableau price comparison is dropped, while Tableau and Qlik stay named only as migration sources in S8 item 05; the unverified "Salesforce (60+ modules)" detail is dropped.
+
+---
+
+## 10. Content Writer decisions (2026-09-28) — all 7 open questions approved to their stated defaults
+
+1. **Certification claim:** unconfirmed. Build uses the default: S12 tile 1 reads "Microsoft Power BI partner in the UAE" (not "certified"). The keyword "Certified Power BI Partner in UAE" is recorded as not placed. The alternate meta title (which used "Certified") is not used; only the primary meta title from Section 7 is used.
+2. **Parent/breadcrumb:** default confirmed. The breadcrumb and parent link use the live HLB HAMT nav chain (Home › Services › Technology Consulting Services › Digital Transformation & Analytics › Data Analytics & Business Intelligence (Power BI)). Microsoft's Power BI product page is background only, not linked by default.
+3. **Final URL / page overlap:** not resolved now (business/IT decision outside this pipeline run, needs the Content Writer to coordinate redirects). Build and Deliver proceed without a final URL; the page is built section-complete and ready to slot into whichever URL is decided later. This remains open before go-live.
+4. **Self-published claims (33x, PowerUP! $4,500, FAQ 9 timelines):** default confirmed. Publish as planned, with the "one recent engagement" qualifier on 33x and the offer treated as currently valid in USD.
+5. **Video for S13:** no video supplied. Default confirmed: static dashboard screenshot/GIF placeholder with a "Book a live demo" button, copy written so it doesn't depend on a specific asset.
+6. **Canonical SugarAI URL:** default confirmed. Link to `/sugarai-crm-2/` (the confirmed live uploaded page).
+7. **Corrections to prepared content:** all approved. Build applies every correction listed (Gartner wording, no Arabic Copilot claim, iOS/Android only, Q&A dropped, Tableau/Qlik price comparison dropped but named as migration sources, "Salesforce (60+ modules)" dropped).
