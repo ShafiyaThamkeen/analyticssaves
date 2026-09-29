@@ -1,0 +1,895 @@
+[]
+
+[]
+
+Your AI roadmap starts here
+
+AI Pathfinder
+
+[]
+
+-   Careers
+-   Customer Portal
+-   Service Status
+-   Call us on 0345 095 7000
+
+[bcn]
+
+AI [down] []
+
+AI
+
+Build your future with AI
+
+Unlock new levels of productivity with transformational solutions driven
+by the latest advancements in AI.
+
+Find out more[down]
+
+-   Pathfinder[down]
+
+-   Microsoft Copilot[down]
+
+-   Copilot Chat Adoption Programme[down]
+
+-   AI Agents[down]
+
+-   AI Kickstarters[down]
+
+-   LLM Integration[down]
+
+IT Solutions [down] []
+
+IT Solutions
+
+The next level
+
+Depend on us to get your organisation to the next level.
+
+Find out more[down]
+
+-   Infrastructure and Cloud[down]
+
+    -   Cloud Infrastructure[down]
+    -   Hybrid Infrastructure[down]
+    -   Microsoft Azure[down]
+    -   Cloud Connectivity[down]
+    -   Data Centre[down]
+    -   Managed IT Support[down]
+    -   Infrastructure as Code[down]
+
+-   Cyber Security[down]
+
+    -   Cyber Essentials[down]
+    -   Cyber Security Assessment[down]
+    -   Cyber Security Awareness[down]
+    -   Firewall Security[down]
+    -   Managed Detection & Response[down]
+    -   Managed Network Security[down]
+    -   Penetration Testing[down]
+
+-   Modern Workplace[down]
+
+    -   Intune Managed Service[down]
+    -   Azure Virtual Desktop[down]
+    -   Microsoft 365[down]
+    -   Microsoft Teams[down]
+    -   Cloud Telephony[down]
+    -   Productivity Accelerator[down]
+
+-   Business Applications & Development[down]
+
+    -   Application Development[down]
+    -   Microsoft .NET Development[down]
+    -   Power Platform[down]
+    -   SharePoint[down]
+    -   Business Analysis Services[down]
+    -   Sage[down]
+    -   Microsoft Power Apps[down]
+
+-   Data & AI[down]
+
+    -   Data[down]
+    -   AI and Automation[down]
+    -   AI Agents[down]
+    -   Microsoft Copilot[down]
+    -   AI Kickstarters[down]
+    -   Power BI Services[down]
+    -   Microsoft Fabric[down]
+    -   Microsoft Purview[down]
+    -   Data Warehousing Services[down]
+    -   EasySPC – Statistical Process Control (SPC) Software[down]
+    -   Public View[down]
+
+-   Managed & Professional Services[down]
+
+    -   Infrastructure managed service[down]
+    -   Security managed service [down]
+    -   End user managed service [down]
+    -   Managed Azure Service[down]
+
+Sectors [down] []
+
+Sectors
+
+Specialist sector
+
+BCN have a heritage of delivering outcomes through our cloud-first
+services and currently support over 1200 customers across specialist
+sectors.
+
+Find out more[down]
+
+-   Healthcare[down]
+
+    -   EasySPC for Healthcare[down]
+    -   Public View[down]
+
+-   Professional Services[down]
+
+    -   Law Firms and Legal Services[down]
+
+-   Financial Services[down]
+
+-   Wholesale and Distribution[down]
+
+    -   Logistics[down]
+
+-   Public Sector[down]
+
+    -   G-Cloud 14[down]
+    -   Social Housing[down]
+
+-   Industrial[down]
+
+    -   Manufacturing[down]
+    -   EasySPC for Manufacturing[down]
+
+Client Stories
+
+About Us [down] []
+
+About Us
+
+Delivering digital transformation and innovation
+
+Your tech partner
+
+Find out more[down]
+
+-   Our Approach[down]
+
+-   Our Team[down]
+
+-   Our Tech Partners[down]
+
+    -   Microsoft Partnership[down]
+    -   Microsoft Funding[down]
+    -   Microsoft Licensing Types[down]
+
+-   ESG[down]
+
+-   Our Locations[down]
+
+    -   IT Support Manchester[down]
+    -   IT Support Reading[down]
+    -   IT Support Liverpool[down]
+    -   IT Support Leeds[down]
+
+-   BCN Academy[down]
+
+Resources
+
+Careers
+
+-   Careers[down]
+-   Customer Portal[down]
+-   Service Status[down]
+-   Call us on 0345 095 7000[down]
+
+Contact us
+
+[search]
+
+Contact us
+
+Search
+
+[search]
+
+[abstract shapes]
+
+-   []
+-   Data and AI
+-   Power BI Services
+
+[]
+
+Power BI Services
+
+Connect your business data, consolidate reports, and transform your
+decision-making with Microsoft Power BI.
+
+Speak to an expert [down] View Power BI Managed Service [down]
+
+Data for decision making
+
+Connecting data from virtually any source including Microsoft and
+third-part applications, Power BI presents data in an intuitive,
+easy-to-understand way, giving businesses the power to transform data
+into insight through interactive visuals and custom dashboards for
+informed decision making.
+
+TRANSFORM DATA INTO INSIGHT
+
+What is Power BI?
+
+Part of the Microsoft Power Platform suite, Power BI is a cloud-based
+application that helps businesses connect, visualise and use their data
+for informed decision making. Power BI is Microsoft’s business
+intelligence platform and data visualisation tool that allows businesses
+to connect their data, prepare and model it to provide the insights and
+analysis they need.
+
+Speak to an expert [down]
+
+The Power BI Kickstarter
+
+Enhance Your Business with Power BI in Just 7 Days
+
+Organise and improve your business’s data operations in just 7 days and
+get up to 3 custom-built Power BI dashboards.
+
+The Power BI Kickstarter gives is your all-inclusive solution designed
+to optimise your reporting processes and elevate your digital presence.
+Tailored to meet your specific needs, this dynamic project delivers
+enhancements to your existing data operations, ensuring cost savings,
+time efficiency, and improved decision-making.
+
+Learn more about our Power BI Kickstarter here. Or contact us to learn
+more about how Power BI can enhance your business operations.
+
+*The Kickstarter is subject to an initial review of your current data
+estate.
+
+Contact us [down]
+
+-   []
+
+    Cost Savings
+
+    Automate data preparation and reporting processes to reduce
+    operational costs.
+
+-   []
+
+    Time Efficiency
+
+    Streamline reporting and dashboard creation for quick access to
+    data.
+
+-   []
+
+    Improved Decision-Making
+
+    Gain valuable insights from real-time, interactive dashboards.
+
+Solutions
+
+Power BI dashboards tailored for your team
+
+To maximise the value of your Power BI investment, it’s crucial that
+your dashboards are tailored to your department’s unique needs. Our BCN
+data experts specialise in creating custom dashboards that highlight the
+key metrics that matter most to your team. See how personalised
+dashboards can drive better decision-making and efficiency for your
+department:
+
+-   []
+
+    HR Dashboards
+
+    HR teams spend up to 57% of their time on administrative tasks.
+    BCN's Power BI solutions can streamline these processes, offering
+    real-time dashboards and automated reporting to improve efficiency,
+    reduce errors, and drive data-driven decisions. Enhance your HR
+    team's performance and make smarter, faster decisions with Power BI.
+
+    Find out more [right]
+
+-   []
+
+    Financial Reporting
+
+    Save up to 80% of reporting time with BCN’s Power BI solutions. By
+    integrating data from ERP, banking, and accounting systems, finance
+    teams gain real-time insights into key metrics like revenue,
+    expenses, and cash flow, improving efficiency and driving smarter
+    decision-making.
+
+    Find out more [right]
+
+-   Data Assessment
+
+-   Free Data Assessment
+
+    Could your organisation save time and improve efficiency by
+    automating data processes? Our free data assessment is designed to
+    help teams streamline workflows, enhance decision-making, and unlock
+    the power of data-driven insights.
+
+    What’s Included:
+
+    -   Tailored Consultation: A 60-minute session with our experts to
+        evaluate your current data management practices.
+    -   Personalised Use Cases: Our experts will identify potential use
+        cases across your business to demonstrate what’s possible and
+        how this could drive efficiencies  
+    -   Strategic Roadmap: Clear steps to achieve impactful improvements
+        quickly and cost-effectively.
+
+    Why Book Now?
+
+    -   Gain a free evaluation of the maturity of your data systems.
+    -   Discover opportunities to enhance reporting, forecasting, and
+        operational efficiency.
+    -   Explore how tools like Power BI and others can transform your
+        data processes.
+
+    Learn more about the assessment and it’s benefits here.
+
+    Schedule your free assessment with the BCN data experts today!
+
+    Get your free Data Assessment now
+
+How can my business use Power BI?
+
+Create a data-driven culture in your business with business intelligence for all
+
+Power BI can be leveraged in a variety of ways to help you gain valuable
+insights into your business operations, identify areas for improvement,
+and make data-driven decisions. BCN specialise in Power BI services to
+businesses of all sizes and provide training and support to ensure our
+customers get the most out of the tool.
+
+Speak to an expert today [down]
+
+-   Data Insight Through Visualisation
+
+    Transform your data with Power BI’s range of visually appealing
+    charts, cards, data maps and more. Give your teams the insights they
+    need to make better decisions, faster.
+
+    []
+
+-   Connect Multiple Data Sources
+
+    Power BI connects to 150+ data sources, including Excel, SQL,
+    Oracle, Google Analytics, CRM systems, EPOS systems and accountancy
+    software, enabling you to generate powerful and accurate reports and
+    insights. Power BI can further enable you to embed visualisations
+    into apps or your website.
+
+    []
+
+-   Collaborate on Reports
+
+    Collaborate and share your Power BI reports and dashboards with
+    colleagues in Power BI Workspaces or in Microsoft Teams, giving your
+    teams visibility and management of dashboards, reports, and data
+    sheets.
+
+    []
+
+-   Integrations
+
+    Power BI can be seamlessly integrate with Microsoft products like
+    Excel and the other Power Platform applications. Power BI can also
+    be layered across a number of stand-alone data sources or integrated
+    as part of your Microsoft Azure environment.
+
+    []
+
+-   Surface
+
+    Power BI can be surfaced to your business users through a host of
+    end user platforms.  Power BI apps can give your team reporting on
+    the go, Teams embedded reports gives your team the insights where
+    they work. Power BI can be embedded into all kinds of user platforms
+    such as Power Apps, SharePoint, .NET applications, portals and
+    beyond with Power BI Embedded Licensing.
+
+    []
+
+-   Governance & Adoption
+
+    Deploying Power BI within your organisation requires not only a data
+    and analytics strategy but a strong vision for the governance and
+    control of the data that is exposed to your business users.  There
+    are a number of features in the Power BI platform that enable
+    visibility and control of access, lineage and data source control. 
+    For more advanced reporting we have a number of tools to extend and
+    enhance this functionality, enabling disaster recovery, usage
+    analytics, change tracking and assurance within your Power BI
+    estate.
+
+    []
+
+Power BI Demo
+
+Curious about what your Power BI dashboards could look like? Watch this
+demo from one of our Power BI experts, who will guide you through
+example dashboards for finance and sales. See how easy it is to
+transform raw data into actionable insights, saving you time and money.
+See for yourself how intuitive and user-friendly dashboards can
+streamline your decision-making process.
+
+Our approach
+
+How BCN can develop Power BI to meet your business’s needs?
+
+Data maturity of your organisation is crucial. We will analyse your
+starting point, understand your challenges, and transform your data into
+a custom reporting solution, building data flows, models, and reports
+based on our insights. After testing, we will deliver the solution and
+continue to support for continuous improvement.
+
+Speak to an expert today [down]
+
+-   Discover
+
+    Data maturity is the key here. We unpick where you are starting from
+    and understand the challenge you are looking to solve.  We take time
+    to understand how the data in your organisation is stored and
+    transform this into a data model, measures and a packaged look and
+    feel for the reporting insights you are looking to achieve. We put
+    ourselves in your users’ shoes so we understand how you will work
+    with the reports, dashboards and insights we create. In this phase
+    we create detailed user stories, analyse data transformations, and
+    consider how the solution will fit within your infrastructure and
+    broader operating model.
+
+    []
+
+-   Build
+
+    We’ve done the research, now we’re building from it. Leveraging
+    insights from the discovery phase, we ensure we create data flows,
+    models, reports and measures that get to the heart of what you want
+    to achieve.
+
+    []
+
+-   Deliver
+
+    Following rounds of internal and user testing, the solution is now
+    ready to be delivered! In this phase we deliver outcomes achieved
+    through the application of technology underpinned by robust project
+    management and application lifecycle management.
+
+    []
+
+-   Evolve
+
+    Our project doesn’t end with delivery. Through ongoing success and
+    metric tracking, we provide ongoing recommendations and hands-on
+    support for continuous improvement and evolution.
+
+    []
+
+Example HR Dashboards
+
+Within Power BI we can create a suite of HR reports that can be used in
+conjunction with most HR systems i.e. SAP. Oracle, etc. They cover many
+regulatory HR topics like gender pay gap reporting, inclusion and
+diversity and people metrics. Take a look at some example reports here.
+
+[gallery image]
+
+Payroll
+
+[gallery image]
+
+People Overview
+
+[gallery image]
+
+Starters & Leavers
+
+[gallery image]
+
+Expenses
+
+[gallery image]
+
+Gender Pay Gap
+
+[gallery image]
+
+Sickness
+
+[gallery image]
+
+Absence
+
+-   []
+    Payroll
+
+-   []
+    People Overview
+
+-   []
+    Starters & Leavers
+
+-   []
+    Expenses
+
+-   []
+    Gender Pay Gap
+
+-   []
+    Sickness
+
+-   []
+    Absence
+
+[]
+
+[]
+
+Institute of Motor Industries (IMI) Management Accounts
+
+Find out how we implemented, visualised, and surfaced Sage 200 insights through Power BI
+
+Explore our customer stories [down]
+
+[] []
+
+01 02  / 02
+
+The IMI
+
+The IMI’s aim was clear, collaborate with a highly consultative IT
+partner to take the business forward from a financial reporting
+perspective. Initially chosen for a Sage 200 support role, a later
+requirement on analytics – specifically the implementation,
+visualisation, and surfacing of Sage 200 insights through Power BI – led
+to BCN working on the complex visualisation project of the IMI’s
+management accounts.
+
+View Case Study [right]
+
+-   Power BI
+-   Professional Memberships
+-   Sage200
+
+Rotherham NHS Foundation Trust
+
+Connecting multiple data sources and transforming the way their
+performance data is collected, presented, disseminated, and analysed,
+BCN harnessed Power BI to link the Trust’s data sources and create near
+real-time data visualisations for 250,000 outpatient appointments.
+
+View Case Study [right]
+
+-   Healthcare
+-   Power BI
+
+[prev]
+
+01 02  / 02
+
+[prev]
+
+Power BI support
+
+How can BCN support you with Power BI?
+
+Our experienced Power Platform teams understand the ins-and-outs of
+Power BI and how you can maximise its potential.  BCN’s Power BI
+services support our customers on-going data and digital transformation
+journeys, offering the following services.
+
+Speak to an expert today [down]
+
+-   Power BI Managed Service
+
+    BCN’s Microsoft Power BI managed service ensures that you get the
+    most out of your Power BI investment. Our expert team will provide
+    ongoing support to help you optimise your estate and applications so
+    you can leverage better insights.  
+
+    Power BI Managed Service [right]
+
+-   Power BI Governance
+
+    BCN’s Power BI Governance Service covers three core areas: Risk
+    Assessment, Disaster Recovery, and Data Compliance. Our experts will
+    audit your Power BI estate and provide best practice guidance on
+    data management to ensure your data is secure and provides the
+    insights you need.
+
+    Power BI Governance [right]
+
+-   Power BI Consultancy
+
+    Unsure what you need, what’s involved or how to begin? Our experts
+    will guide and advise on how you can turn your business into a
+    data-driven environment with Power BI.
+
+-   Power BI Development
+
+    Whether your just starting out with Power BI or want to extend and
+    enhance your existing data functionality, our Power BI experts can
+    create business intelligence solutions for your needs.
+
+-   Power BI Migration
+
+    Still using legacy data visualisation software? As a Microsoft
+    Solutions Partner for Business Applications, BCN have the expertise
+    and know-how to migrate your current environment to Power BI.
+
+-   Power BI Optimisation
+
+    Our team will review your current licensing mix, improve and create
+    new dashboards, train your team and introduce best practice and
+    standardisation of your Power BI environment.
+
+[]
+
+[]
+
+Power BI Capabilities
+
+BCN’s Power BI Plug-In: EasySPC
+
+EasySPC is a Microsoft-certified Power BI solution designed to easily
+create and manage control charts.
+
+EasySPC is our advanced solution designed to take your existing
+statistical process control (SPC) practices to the next level, moving
+beyond the limitations of traditional tools like Excel.
+
+ 
+
+Learn more [down]
+
+[]
+
+[]
+
+Why Bcn?
+
+Get the most out of your technology investments
+
+Our Power Platform teams are leaders in the field and have
+up-to-the-minute knowledge of the platform and its possibilities. As a
+recognised Microsoft Solutions Partner for Business Applications, BCN
+have the Microsoft seal of approval as an  expert in the field of Power
+Platform.
+
+-   Leading Experts
+
+    Our experts have developed pioneering solutions for our customers,
+    ranging from innovative applications for our NHS customers, to
+    solutions that have streamlined our commercial customers operations.
+
+-   Specialist Knowledge
+
+    Our developers have specialist knowledge of the platform and are
+    kept up to date with the latest developments from Microsoft.
+    Leveraging our extensive experience, we get to the heart of our
+    customers' challenges and integrate their solutions with their
+    environment.
+
+-   Microsoft Solutions Partner
+
+    Don’t just take our word for it. BCN has been recognised by
+    Microsoft for our Power Apps development capabilities, highlighting
+    our commitment to delivering leading solutions from Microsoft’s
+    Business Applications platform. An achievement few MSPs across the
+    UK can shout about.
+
+FaQS
+
+Power BI Frequently Asked Questions
+
+Our expert team answer some of the most frequently asked questions on
+business intelligence and Power BI. Got another question? We’re here to
+help.
+
+-   What is business intelligence?
+
+    Business intelligence allows firms to collect, examine, and turn
+    unstructured data into valuable insights for strategic decision
+    making. Data from diverse sources must be gathered, integrated, and
+    interpreted in order to provide a complete picture of business
+    operations, performance, and trends. Data warehousing, mining,
+    reporting and dashboards are just a few of the tools and
+    methodologies included in business intelligence (BI). 
+
+    []
+
+-   Who uses business intelligence?
+
+    Numerous stakeholders within an organisation can use business
+    intelligence to guide decision-maing and enhance business
+    performance. BI can be used by business analysts; executive and
+    senior management; operations managers, sales and marketing
+    professionals, finance and accounting teams.
+
+     
+
+    []
+
+-   What sources can I connect Power BI to?
+
+    Excel, Text/CSV, XML, JSON, Folder, PDF, SharePoint folder, SLQ
+    Server database, Oracle database, Power BI datasets, Power BI
+    dataflows, Microsoft Dataverse.
+
+     
+
+    []
+
+-   What are the advantages of using Power BI?
+
+    Power BI dashboards offer several advantages, including:
+
+    -   The dashboards are simple and easy to use for non-technical
+        users.
+    -   Real-time data updates means you always have the latest data,
+        stats and KPIs
+    -   Dashboards are interactive and can be customised for you
+    -   Ability to share insights with others
+
+    Plus, as its part of the Microsoft eco-system there’s seamless
+    integration with other Microsoft products.
+
+    []
+
+Ready to discover the power of your data?
+
+Contact us to speak to one of our Power BI experts
+
+Get in touch [down] [down] [down]
+
+Sign up to our newsletter
+
+-   [instagram]
+-   [linkedin]
+-   [youtube]
+
+-   [Cyber Essentials Plus]
+-   [ISO 27001]
+-   [ISO 9001]
+-   [NHS Digital Toolkit]
+
+We’d be delighted to chat to you about how we can help and support with
+your IT requirements.
+
+[email protected] [down] 0345 095 7000 [down] Opening Hours: Mon-Fri 8am
+to 6pm
+
+-   IT Solutions
+-   Sectors
+-   About
+-   Careers
+-   Customer Portal
+-   Service Status
+
+-   
+
+    IT Support Manchester
+
+    Second Floor, Building 4
+    Manchester Green
+    331 Styal Rd
+    Manchester
+    M22 5LW
+
+    View in maps
+
+-   
+
+    IT Support Leeds
+
+    First Floor, Darwin House
+    Valley Park
+    7 Savannah Way
+    Leeds
+    LS10 1AB
+
+    View in maps
+
+-   
+
+    IT Support Liverpool
+
+    The Heath Business Park
+    Runcorn
+    Cheshire
+    WA7 4QX
+
+    View in maps
+
+-   
+
+    IT Support London
+
+    Suite 4
+    Campus
+    Reading International
+    Reading
+    RG2 6DA
+
+    View in maps
+
+-   
+
+    IT Support Reading
+
+    Suite 4
+    Campus
+    Reading International
+    Reading
+    RG2 6DA
+
+    View in maps
+
+-   Managed IT & Industry IT Support
+    -   IT Support Consulting
+    -   IT Support Outsourcing
+    -   IT Support for Law Firms
+    -   IT Support for Manufacturing
+    -   IT Support for Financial Services
+    -   IT Support for Healthcare
+    -   IT Support for Accounting Firms
+    -   IT Support for Utilities Companies
+    -   IT Support for Insurance Companies
+    -   IT Support for Investment Firms
+-   Microsoft Cloud, Data & Business Applications
+    -   Microsoft Azure
+    -   Azure Container Apps
+    -   Fabric in Azure
+    -   Microsoft Partner
+    -   Microsoft CSP
+    -   Power BI License
+    -   Power Apps Licensing
+    -   Sage
+-   AI Strategy, Agentic AI & Frontier Firm Advisory
+    -   Copilot for Business
+    -   Copilot Training
+    -   AI Strategy
+    -   AI Roadmap
+    -   AI Consultants
+    -   What is Agentic AI
+    -   Agentic AI Examples
+    -   Agentic AI for Business
+    -   What is a Frontier Firm
+    -   How to be a Frontier Firm
+    -   Shadow AI
+    -   AI Governance
+-   Industry & Use‑Case Led AI Solutions
+    -   AI Manufacturing
+    -   Agentic AI for Manufacturing
+    -   AI for Financial Services
+    -   Agentic AI for Finance
+    -   AI in Healthcare Companies
+    -   Agentic AI for Healthcare
+    -   Agentic AI for Insurance
+    -   AI for Logistics
+    -   AI for Inventory Management
+    -   AI in Recruitment
+    -   AI Cyber Security
+    -   SPC
+    -   SPC Control Chart
+    -   NHS SPC Charts
+
+-   Privacy Policy
+-   Terms and Conditions
+-   Cookie Declaration
+-   Gender Pay Gap
+-   Modern Slavery Statement
+
+©BCN Group 2026

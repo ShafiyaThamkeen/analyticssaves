@@ -1,0 +1,615 @@
+[]
+
+Skip to content
+
+DSP is recognised for the fourth time as a Representative Vendor in the
+latest Gartner® Market Guide for OCI Professional and Managed Services.
+Read now.
+
+[DSP From Ground to Cloud]
+
+[DSP]
+
+-   Services
+    -   Consulting Services
+        -   Oracle
+        -   Microsoft
+        -   Google
+        -   Architecture
+    -   Managed Services
+        -   Oracle Managed Services
+        -   SQL Server Managed Services
+        -   OCI Managed Services
+        -   Azure Managed Services
+        -   On Premise Apps Managed Services
+        -   Cloud Apps Managed Services
+    -   Licensing and SAM
+        -   Oracle Licensing
+        -   Software Asset Management
+    -   Application Services
+        -   Application Development
+        -   Application Modernisation
+        -   Oracle Forms to Oracle APEX
+        -   Application Extensions
+        -   Archiving Solutions
+        -   Application Hosting
+        -   Development Training
+    -   Data Science
+        -   AI Strategy
+        -   Responsible AI and Governance
+        -   Agentic AI
+        -   Data Management for AI
+        -   Power BI
+        -   Microsoft Fabric
+        -   Machine Learning
+    -   Cloud Migration and Management
+        -   Cloud Readiness and Design
+        -   Migration to Fusion and Cloud Applications
+        -   Migration to Cloud Infrastructure
+        -   Private Cloud
+        -   Database@ Hyperscaler
+        -   FinOps and Optimisation
+    -   Integration and APIs
+        -   API Management
+        -   GoldenGate
+    -   Disaster Recovery and Security
+        -   Disaster Recovery
+        -   Security Compliance
+        -   Cloud Security
+
+    Consultancy and Advisory
+
+    -   Oracle Advisory
+    -   Microsoft Advisory
+    -   Google Cloud Advisory
+    -   Architecture
+
+    Managed Services
+
+    -   Oracle Database Managed Services
+    -   SQL Server Managed Services
+    -   Oracle Cloud Infrastructure Managed Services
+    -   Azure Managed Services
+    -   On-Premise Applications Managed Services
+    -   Fusion & Cloud Applications Managed Services
+
+    Licensing and SAM
+
+    -   Oracle Licensing
+    -   Software Asset Management
+
+    Application Development and Modernisation
+
+    -   Application Development
+    -   Application Modernisation
+    -   Oracle Forms Migration
+    -   Application Extensions
+    -   Archiving Solutions
+    -   Application Hosting
+    -   Development Training
+
+    Data and AI
+
+    -   AI Strategy
+    -   Responsible AI and Governance
+    -   Agentic AI
+    -   Data Management for AI
+    -   Power BI
+    -   Microsoft Fabric
+    -   Machine Learning
+
+    Cloud Migration and Management
+
+    -   Cloud Readiness and Design
+    -   Migration to Fusion and Cloud Applications
+    -   Migration to Cloud Infrastructure
+    -   Private Cloud
+    -   Database@ Hyperscaler
+    -   FinOps and Optimisation
+
+    Integration and APIs
+
+    -   API Management
+    -   GoldenGate
+
+    Disaster Recovery and Security
+
+    -   Disaster Recovery
+    -   Security Compliance
+    -   Cloud Security
+-   Technologies
+    -   Oracle Cloud Infrastructure
+        -   Oracle Cloud Infrastructure
+        -   IaaS
+        -   PaaS
+    -   Oracle Database
+        -   Oracle Database
+        -   Autonomous Database
+        -   MySQL and Heatwave
+        -   Oracle APEX
+    -   Oracle Engineered Systems
+        -   Oracle Exadata
+        -   Oracle Database Appliance
+    -   Oracle Applications
+        -   Oracle Fusion and Cloud Applications
+        -   Oracle E-Business Suite
+        -   JD Edwards
+        -   Peoplesoft
+        -   Hyperion
+    -   Microsoft
+        -   SQL Server
+        -   Microsoft Azure
+        -   Power BI
+        -   Microsoft Fabric
+    -   Google
+        -   Google Cloud Platform (GCP)
+    -   Multicloud and Database Hyperscaler
+        -   Oracle Database@Azure
+        -   Oracle Database@GCP
+        -   Oracle Database@AWS
+        -   Oracle Azure Interconnect
+    -   Open Source Database
+        -   PostgreSQL
+        -   MySQL
+        -   MariaDB
+
+    Oracle Cloud Infrastructure
+
+    -   Oracle Cloud Infrastructure
+    -   IaaS
+    -   PaaS
+
+    Oracle Database
+
+    -   Oracle Database
+    -   Autonomous Database
+    -   MySQL and Heatwave
+    -   Oracle APEX
+
+    Oracle Engineered Systems
+
+    -   Oracle Exadata
+    -   Oracle Database Appliance
+
+    Oracle Applications
+
+    -   Oracle Fusion and Cloud Application
+    -   Oracle E-Business Suite
+    -   JD Edwards
+    -   Peoplesoft
+    -   Hyperion
+
+    Microsoft
+
+    -   SQL Server
+    -   Microsoft Azure
+    -   Power BI
+    -   Microsoft Fabric
+
+    Google
+
+    -   Google Cloud Platform (GCP)
+
+    Multicloud and Database Hyperscalers
+
+    -   Oracle Database@Azure
+    -   Oracle Database@GCP
+    -   Oracle Database@AWS
+    -   Oracle Azure Interconnect
+
+    Open Source Database
+
+    -   PostgresSQL
+    -   MySQL
+    -   MariaDB
+-   Industries
+    -   Finance
+    -   Healthcare
+    -   Travel and Transport
+    -   Higher Education
+    -   Public Sector
+    -   Manufacturing
+    -   Retail
+    -   Software Vendors
+
+    Recent case study:
+
+    Oracle EBS Cloud Deployment
+    Consolidating and Migrating assets into Oracle Cloud Infrastructure.
+
+    [Oracle EBS Cloud Deployment]
+     
+
+     
+
+    -   Finance
+    -   Healthcare
+    -   Travel and Transport
+    -   Higher Education
+
+    -   Public Sector
+    -   Manufacturing
+    -   Retail
+    -   Software Vendors
+-   Resources
+    -   Gartner
+    -   ISG
+    -   Blogs
+    -   Case Studies
+    -   Testimonials
+    -   Events
+    -   Webinars
+    -   Insights
+    -   Technical Resources
+
+    DSP recognised at Oracle AI World 2025
+
+    DSP is awarded Regional Best in Class, Service Partner
+    Technology/Cloud, Customer Success Partner and the EMEA Customer
+    Success Partner Award.  
+
+    [DSP - OPA Social Announcement]
+
+     
+
+     
+
+    -   Gartner Report
+    -   ISG Report
+    -   Blogs
+    -   Case Studies
+    -   Testimonials
+
+    -   Events
+    -   On-Demand Webinars
+    -   Upcoming Webinars
+    -   Insights
+    -   Technical Resources
+-   About
+    -   About DSP
+    -   What We Do
+    -   DSP Group Board
+    -   Careers
+    -   Project Harar
+
+     
+
+    [Oracle Microsoft Google]
+
+     
+
+    -   About us
+    -   What we do
+    -   DSP Group Board
+    -   Careers
+    -   Project Harar
+-   Customer Area
+    -   Customer Support Portal
+    -   Customer Resources
+
+    DSP is identified as a 'Leader' in the latest ISG Provider Lens® Oracle Cloud and Technology Ecosystem Report. 
+
+    [OCI Solutions and Capabilities Badge 2026] [Managed Services Badge
+    2026]
+
+     
+
+    -   Customer Support Portal
+    -   Customer Resources
+-   Contact us
+
+Contact us
+
+[]
+
+Are you looking for Power BI Services?
+
+Release the power in your data with DSP's multi-disciplinary Power BI
+services. We use our expertise to help you make better data-driven
+decisions for your organisation. We can build custom solutions, simplify
+data navigation, improve your team's skillset, and optimise costs
+meaning you can visualise and analyse data with greater speed,
+efficiency, and understanding.
+
+Talk to an expert today []
+
+Discuss our Power BI Services with our experts today.
+
+Fill in the form and one of our specialists will be in touch shortly.
+
+[Power BI Services]
+
+[Power BI Services]
+
+[]
+
+Unlock your potential with our Power BI Services
+
+Unlocking actionable insights from your information is key for informed
+decision-making and meeting organisational objectives. However,
+leveraging powerful tools like Microsoft Power BI can be challenging for
+organisations with limited resources, bandwidth, or expertise.
+That's where DSP comes in. We offer a range of Power BI services to help
+organisations of all sizes use Power BI to transform their data into a
+strategic advantage.
+
+-   Don't have the resources internally? Our team of experts can handle
+    everything from data connection and transformation to report
+    creation and deployment, freeing up your valuable time and
+    resources.
+-   Already using Power BI but want to take it to the next level? We
+    offer advanced training and development services to help you unlock
+    the full potential of Power BI and enhance your skill set.
+-   Struggling to keep up with the workload? We can take the burden of
+    Power BI management off your shoulders, allowing you to focus on
+    your core business activities.
+    Whether you're currently using Excel and are constrained by its
+    limitations, or you're looking for a more robust and scalable
+    solution that can be automated, Power BI offers a stand-out
+    alternative. 
+
+Alongside our skills in Power BI, our multi-disciplinary team has
+expertise in SQL Server and Oracle Databases and Cloud platforms. This
+means we can seamlessly integrate Power BI with your existing
+infrastructure, providing a comprehensive front-end and back-end
+solution for all your data needs.
+Whatever your requirements and overall goals, we can help you to unlock
+the potential of your data through Power BI.
+
+Get in Touch
+
+Speak to one of our Power BI experts today.
+
+[]
+
+Discover our Power BI Services
+
+We understand that every organisation has unique data landscapes and
+goals. That's why we offer a comprehensive suite of Power BI services
+tailored to your specific requirements:
+
+Customised Solutions
+
+Our experienced consultants work closely with you to understand your
+business objectives, data sources, and desired outcomes. We then design
+and implement a custom Power BI solution that seamlessly integrates with
+your existing infrastructure.
+
+Power BI Workshops
+
+Our team of experts provide comprehensive training programs and ongoing
+support, to improve your Power BI skills and ensure you are equipped to
+utilise the platform to its fullest extent.
+
+Advanced Analytics and Reporting
+
+We go beyond basic reporting to offer advanced analytics capabilities.
+Our team can help you develop interactive dashboards and reports that
+enable users to drill down into specific data points, gaining deeper
+insights and making data-driven decisions with confidence.
+
+Data Modelling and Visualisation
+
+From data cleaning and transformation to building efficient data models
+and creating visualisations, our team ensures your data is presented
+clearly and effectively, enabling you to uncover hidden patterns and
+trends.
+
+Speak to our expert innovation team today...
+
+Email us at enquiries@dsp.co.uk
+
+Call us on:
+0203 880 1686
+
+Submit an
+enquiry form
+
+[]
+
+Why choose DSP as your Power BI services provider?
+
+[]
+
+Expertise
+
+DSP are Power BI specialists with an in-depth knowledge of its features
+and advanced capabilities. We have the experience to handle intricate
+data conceptions, build complex models, and develop customised reports
+and dashboards tailored to your specific needs that will transform your
+data into actionable insights.
+
+[]
+
+Reduced Costs
+
+We have a team of Power BI experts, so outsourcing to us means that you
+don't need to invest time and money in recruitment, training and
+managing a dedicated Power BI team. Our expertise ensures a swift and
+efficient implementation, minimising delays and associated costs and
+freeing up internal resources.
+
+ 
+
+[]
+
+Efficiency and Time Saving
+
+With DSP's expertise, you can get started with Power BI quickly and
+efficiently, avoiding common pitfalls and delays that occur when
+companies don't have the skills internally. You can also focus on core
+business activities while we ensure your Power BI solution adapts and
+scales seamlessly alongside your evolving data needs and business goals.
+
+[]
+
+Discover one of our Power BI projects...
+
+NHS Foundation Trust: Power BI Report Migration
+
+DSP improved an NHS Foundation Trust's financial reporting with a
+seamless Power BI migration. By consolidating reporting into a single
+platform, the Trust streamlined processes, improved data accessibility,
+and enhanced department collaboration. 
+
+Read more []
+
+DSP: AI-powered Sentiment Analysis tool
+
+DSP developed an AI-powered Sentiment Analysis Tool to enhance customer
+support operations, resulting in improved customer experience, enabled
+proactive issue resolution, and strengthened retention efforts.
+
+Read more []
+
+[]
+
+DSP Customers
+
+[EDM logo-1]
+
+"Selecting a company like DSP is the best option as you receive a
+tailored database service. Generalists are not focused on the aspects
+required.”
+
+Chief Executive Officer | EDM
+
+[zopa]
+
+"We live and breathe this every day but it was really impressive how
+quickly DSP got on board with our systems and processes in order to
+start delivering results from the outset."
+
+Head of Infrastructure | Zopa
+
+[BRITA-logo-jpeg-620x350-1]
+
+"Our relationship now is so much more than just client-and-supplier; it
+is a genuine partnership. It’s more valuable to us as it means we grow
+and develop as an organisation while working with DSP."
+
+IT Manager | BRITA UK
+
+[]
+
+[DSP-Logo-2019-White-600px]
+
+ 
+
+Speak to an expert
+
+Want to discuss our Power BI Services with an expert? Fill out the form
+below and we'll be in touch shortly!
+
+Contact
+
+Sales Enquiries
++44 (0) 203 880 1686
+
+Technical Support
++44 (0) 330 058 8367
+
+Accounts Team
++44 (0)203 855 4160
+
+enquiries@dsp.co.uk
+
+Social Links
+
+[] []
+
+Europe Locations
+
+-   London (Head Office)
+    Chancery House
+    53-64 Chancery Lane
+    London
+    WC2A 1QS
+-    Leeds
+    Richmond House,
+    Lawnswood Business Park,
+    Leeds,
+    LS16 6QY
+-   Derby
+    Cubo Pride Park,
+    1 Pride Place
+    Derby
+    DE24 8QR
+-   Dublin
+    Inniscarra,
+    Main Street,
+    Rathcoole,
+    Dublin
+
+North America Locations
+
+-   Ottawa
+    343 Preston Street
+    Suite 130
+    Ottawa
+    ON
+    K1S 1N4
+
+-   Toronto
+    TD Canada Trust Tower
+    161 Bay Street
+    Suite 2330
+    Toronto
+    ON
+    M5J 2S1
+
+-    Montreal
+    2000 McGill College Avenue
+    6e étage Montréal
+    QC
+    H3A 3H3
+
+-   Minneapolis
+    1650 West End Blvd
+
+    Suite #100
+
+    St Louis Park
+
+    Minnesota
+
+    USA
+
+    55416
+
+About Us
+
+DSP is a Data Management and Cloud Platform MSP that delivers enterprise
+grade support & consulting services for Oracle, Microsoft and
+Multi-Cloud technologies.
+
+[vendor-logo-fullcolour-july-2023]
+
+ 
+
+Registered Office: C/O  Broadfield Law UK LLP, One Bartholomew Close,
+London, EC1A 7BL 
+
+Company Registration Number: 03898451
+
+Privacy Policy - Cookies Policy - Accessibility - Modern Slavery -
+Carbon Reduction Plan
+
+Copyright © 2025. Database Service Provider Global Limited, trading as
+DSP. All Rights Reserved.
+This work is registered with the UK Copyright Service: Registration No:
+03898451
+
+ DSP UK and India teams
+
+  [ISO-9001-2015-badge-white-DSP]  [ISO-20000-1-2018-badge-white]  
+
+ 
+
+DSP UK
+
+[cyberEssentials_PLUS][AC Logo 2025]
+
+ 
+
+[]
