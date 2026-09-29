@@ -3,6 +3,9 @@
 Requirement folder: `content-pipeline/requirements/2026-09-28-power-bi-services-homepage/`
 Prepared by: Plan agent, 2026-09-28
 Status: **APPROVED (2026-09-28), all 7 open questions resolved to their stated defaults.** Ready for Build. See Section 10.
+**Revision 2 (2026-09-29): brief UPDATED for a content-quality revision. Awaiting Content Writer approval before Build.** See Section 12. It covers the new sourcing (4 live HLB HAMT sibling pages and 4 fetched competitor pages), the removal of AI Insights and the shift to HLB HAMT-led branding.
+
+> **Precedence rule for Build and Test (Revision 2):** Sections 1-10 stay as the approved baseline. **Where Section 12 differs from anything in Sections 1-10, Section 12 wins.** Short "R2" callouts below mark each place where an original section is overridden. Anything without an R2 callout still applies exactly as written: keyword plan substance, word count range, the SugarAI structural mapping, the accuracy corrections and the Section 10 decisions. **Section numbers S0-S17 in Sections 2-10 are the original numbering. Section 12.2 gives the old-to-new renumbering after AI Insights is removed.**
 
 > **Inputs read in full:** `inputs/requirement-notes.md`; `inputs/content-source/hlb-data-viz-v4 (1).html` (whole file read; only Tab 3, lines 302-418, plus the shared hero stats and closing CTA are in scope); `inputs/content-source/data-viz-documentation-extracted.md` (the .docx was already extracted before planning, so I read that extraction instead of re-running the docx skill; Section 6 matches the HTML); `inputs/structural-sample/sugarai-crm-homepage-extracted-text.txt` (all 772 lines) and the raw `sugarai-crm-hlbhamt-homepage.html` (checked for heading tags, section IDs, band colours and nav URLs). No transcript was provided.
 >
@@ -20,13 +23,15 @@ Status: **APPROVED (2026-09-28), all 7 open questions resolved to their stated d
 | Target audience | Decision makers in UAE and wider GCC organisations that run on Microsoft 365, Azure or Dynamics, or on common ERPs (SAP, Oracle, NetSuite) and CRMs, and that report from spreadsheets or disconnected systems. **Economic buyers:** CFO/Group Finance Director, COO, CEO/MD. **Data-side buyers named in the source:** Chief Data Officer, Chief Marketing Officer, Chief Analytics Officer. **Also:** IT/BI managers and heads of reporting. Sectors named in the source: real estate, construction, hospitality, trading, financial services, healthcare, retail, logistics, government and education, across all 7 emirates plus KSA, Oman, Bahrain, Kuwait and Qatar. |
 | Business goal | Rank for **"Power BI service"** and the Power BI partner/consulting cluster in the UAE. Position HLB HAMT as the finance-literate Power BI partner: a licensed audit, tax and advisory firm that also builds the data platform, with Arabic/RTL design, UAE data residency and UAE tax logic. Drive three conversions: **(1)** consultation or live demo request, **(2)** 7-day proof of concept sign-up, **(3)** $4,500 PowerUP! fixed-price accelerator enquiry. |
 | **Word count** | **3,100-3,500 words, target about 3,300.** Test agent: fail below 2,900 or above 3,750. **How I sized it:** (a) I estimate the SugarAI template's unique visible body copy at **about 3,600 words (range 3,400-3,800)**. I tallied it section by section from the extracted text: hero and "one platform" block ~160, strip and badge ~55, Why HLB HAMT ~260, Explore SugarAI plus the AI layer and AI block ~460, 12 industry cards ~740, 6 offerings ~370, onboarding ~140, packages ~465, Why UAE grid ~120, video and the two CTAs ~80, 7 FAQs ~800, contact block ~40. The Packages tab copy appears twice in the markup (desktop tabs plus mobile accordion), and I counted it once. Nav, mega-menu, form labels and footer are excluded. (b) Competing pages: BCN ~3,500, Yes Dynamic ~2,400-2,800, Zenzero ~1,800-2,000, DSP ~1,400-1,600, Ranosys ~1,200-1,400. (c) Real content available: Tab 3 is about 2,000 words of source material, and most of that is FAQ. The Power BI page has fewer distinct sub-items than SugarAI (6 use-case cards, not 12), so I sized it **slightly under the template** rather than padding to match. **Count rule:** all visible body text (H1, headings, ledes, card and tile text, list items, strip labels and descriptions, PowerUP! terms and deliverables, FAQ questions and answers, CTA headings and body). **Excluded:** nav, anchor nav, breadcrumb, eyebrow labels, button labels, form field labels, footer, meta tags, alt text, JSON-LD and the footnote/source list. |
-| Positioning | **Positive and capability-led.** Power BI turns the data a business already has into one trusted set of numbers. HLB HAMT is the partner that gets the numbers right, because it understands the finance and regulatory logic behind them. **No pain-point opening.** The hero leads with the outcome. |
+| Positioning | **R2 override: HLB HAMT-led.** HLB HAMT is the provider and Power BI is the platform it delivers on. See Section 12.3. The original wording follows for reference. **Positive and capability-led.** Power BI turns the data a business already has into one trusted set of numbers. HLB HAMT is the partner that gets the numbers right, because it understands the finance and regulatory logic behind them. **No pain-point opening.** The hero leads with the outcome. |
 | Tone and style | Specific and technical in headings (semantic models, DAX, row-level security, workspaces and apps, data gateway, medallion lakehouse, IAS 12, intercompany eliminations), outcome-led in body copy. **British spelling** to match the live site (visualisation, optimise, organisation, programme, licence as a noun). Exceptions: Microsoft product names and exact keyword strings. **Zero em dashes anywhere.** Do not name competing consultancies. Do not name sources inline except where honest attribution needs it (Microsoft and Gartner in the recognition bar, Microsoft for the Fabric and AI-adoption figures). Every stat gets a footnote marker `[n]`. |
 | Template | **Mandatory:** the live SugarAI CRM homepage (`inputs/structural-sample/`). Follow its real section order and section types (Section 3). The Content Writer's industry-subpage section names are mapped onto it in Section 3a. |
 
 ---
 
 ## 2. Keyword placement plan
+
+> **R2:** Keywords, count ranges, regexes and stuffing caps are unchanged. Only the section numbers in the "Subheadings" and "Exact placements" columns move, because AI Insights is removed. The renumbered placement table is in Section 12.6, which also adds two branding counts ("HLB HAMT" floor, "Microsoft" cap) for Test.
 
 ### 2a. Count rules for the Test agent (read first)
 
@@ -110,11 +115,15 @@ The Content Writer described the page with the industry-subpage naming conventio
 
 **Anchor nav labels (S3), in this order:** Why HLB HAMT · Why Power BI · AI Insights · Use Cases · Services · Proof of Concept · Engagement Models · FAQ.
 
+> **R2:** S6 AI Insights is removed, and the sections after it renumber (S7 becomes S6, and so on). The anchor nav loses "AI Insights", and "Why Power BI" becomes "The Platform". Budgets are reallocated. The revised skeleton is in Section 12.4 and replaces the table above for Build.
+
 **Schema** (the source docx recommends this too): `Service` (serviceType "Microsoft Power BI consulting and implementation", provider HLB HAMT, areaServed UAE + GCC countries), `FAQPage` (the 9 Q&As, text identical to on-page copy), `BreadcrumbList` (S0). Note: Google now shows FAQ rich results mainly for government and health sites, so FAQPage schema is for completeness, not a guaranteed rich result.
 
 ---
 
 ## 4. Section-by-section outline
+
+> **R2:** The outline below is still the baseline for every section except S6, which is removed. Section 12.5 lists each section's Revision 2 changes (new sibling-page facts, HLB HAMT-led framing, relocated links). Build applies Section 4 and Section 12.5 together, and Section 12.5 wins where they conflict.
 
 Footnote markers `[n]` map to Section 6. "CS" means content-source (HLB HAMT's own prepared content). Anything I verified or sourced is labelled "S" (stat) or "F" (fact). Suggested headings are original. Build may refine the wording but must keep the keyword, the technical specificity and the no-em-dash rule. **Do not reuse any SugarAI H2 verbatim.**
 
@@ -167,7 +176,7 @@ Labels in Section 3b. Not counted.
   4. **Decisions on the go, and inside your own portals** (pillar 4 + FAQ 15): Power BI Mobile on iOS and Android with alerts, annotation and sharing; Power BI Embedded for branded dashboards inside web apps, investor portals or client platforms, on capacity-based licensing. Source pillar 4 says "at a fraction of traditional BI costs"; keep that idea only in qualitative form. Bullets: iOS and Android apps · Data-driven alerts · Mobile-optimised layouts · Embedded analytics · Capacity-based licensing.
 - **Platform layer block** (H3, 45-60 words + 4 bullets; mirrors the "AI Layer" block): **Microsoft Fabric and a medallion data lakehouse.** Fabric unifies Power BI with data engineering, warehousing and real-time analytics (FAQ 17). When data is spread across five or more systems, HLB HAMT builds a Bronze › Silver › Gold lakehouse with Azure Data Factory pipelines as the single source of truth (FAQ 14). **Stat:** Microsoft reports **more than 40,000 paid Fabric customers, up more than 60% year on year** [S1][4]. Bullets: Fabric readiness assessment · Azure Data Factory pipelines · Bronze, Silver and Gold layers · Migration planning.
 
-### S6. AI insights (`#aiinsights`) (150-190 words)
+### S6. AI insights (`#aiinsights`) (150-190 words). **[REMOVED IN REVISION 2. Do not build. See Section 12.2 for what relocates.]**
 - **Must accomplish:** show how AI in Power BI moves teams from "what happened" to "what should we do next" (FAQ 16), in the template's 3-point format, accurately.
 - **Eyebrow:** "AI INSIGHTS". **Suggested H2:** "Ask Your Data a Question and Act on the Answer". **Do not** write "in English or Arabic" (see accuracy note below).
 - **Lede** (45-60 words): Copilot and the built-in AI visuals surface drivers and outliers without anyone writing a query. **Stat:** in Q2 2026, **73.3% of the UAE's working-age population used generative AI tools, against 18.8% worldwide** [S2][5]. Frame this positively: UAE teams are already comfortable working with AI, so AI-assisted analytics is adopted quickly. Include the placeholder link **"advanced analytics services"** (P2, Section 8) for predictive models (source: Azure ML integration, FAQ 16).
@@ -265,6 +274,8 @@ Global. No new copy.
 
 ## 5. Competitive and reference analysis
 
+> **R2:** These takeaways were based on the fetch tool's summaries. They have been rechecked against the full competitor page text now in `inputs/competitor-content/`, and Section 12.8 adds to or corrects them.
+
 **Direction only. Nothing may be copied or closely paraphrased from these pages, including their headings, service names and FAQ wording.** The SugarAI page is HLB HAMT's own template, but its H2s and taglines must not be reused verbatim either.
 
 - **All five are UK-oriented, and none speaks to the UAE buyer.** Yes Dynamic (UK & Ireland), Zenzero (London; it lists a UAE office but the copy is UK-centric), DSP (UK/North America), BCN (UK only) and Ranosys (UK regional page of a Singapore firm). None addresses Arabic/RTL reporting, in-country hosting in UAE North/Central, UAE Corporate Tax/VAT dashboards or PDPL. **Gap to own:** a UAE-native, finance-literate Power BI partner.
@@ -276,6 +287,8 @@ Global. No new copy.
 ---
 
 ## 6. Stats and data points
+
+> **R2:** All stats were re-verified on 2026-09-29 against the new sibling and competitor pages (Section 12.7). Changes: S2 (73.3%) is **retired**, because its only slot (AI Insights) is removed. CS2 (33x) now cites a live HLB HAMT page. CS3 (7 days) gains a "defined use case" qualifier. A new HLB HAMT fact, CS5 "Since 1999", is added. Everything else is unchanged.
 
 Every stat below appears **once** on the page, in the section named. Footnote markers `[n]` go after the stat's description. Deliver renders a small sources note, and for [3] it also adds Gartner's disclaimer.
 
@@ -328,6 +341,8 @@ Both lead with the primary keyword, and neither contains an em dash.
 
 ## 8. Internal linking suggestions
 
+> **R2:** Several links change. L4 moves from the removed S6 to the FAQ. P1 is no longer a placeholder, because the data visualisation page is live at `/services/data-visualization-uae/`. P2 moves to the Chief Analytics Officer card. A new link, L6, points to the live Power BI dashboard development page. See Section 12.9.
+
 **Core links (live URLs taken from the template's own nav, or found through search; Deliver should click through each before publishing):**
 
 | # | Anchor text | Target | Placement |
@@ -374,3 +389,298 @@ Build writes these as `[data visualisation services](PLACEHOLDER:/services/data-
 5. **Video for S13:** no video supplied. Default confirmed: static dashboard screenshot/GIF placeholder with a "Book a live demo" button, copy written so it doesn't depend on a specific asset.
 6. **Canonical SugarAI URL:** default confirmed. Link to `/sugarai-crm-2/` (the confirmed live uploaded page).
 7. **Corrections to prepared content:** all approved. Build applies every correction listed (Gartner wording, no Arabic Copilot claim, iOS/Android only, Q&A dropped, Tableau/Qlik price comparison dropped but named as migration sources, "Salesforce (60+ modules)" dropped).
+
+---
+
+## 12. Revision 2 (2026-09-29): new sourcing, AI Insights removed, HLB HAMT-led branding
+
+(There is no Section 11. Section 12 is the number the pipeline assigned to this revision.)
+
+**Authoritative spec:** `inputs/revision-2-notes.md`. The Content Writer judged v1 (draft-v4) under-sourced and too Microsoft-led. This is a **content-quality revision, not a structural rebuild**. The SugarAI template mapping, keyword plan, word count range and Section 10 decisions all stand, except where this section explicitly changes them.
+
+### 12.0 Inputs read for this revision
+
+| Input | Lines that matter (the rest is shared nav/footer chrome) | Role |
+|---|---|---|
+| `inputs/revision-2-notes.md` | all | Spec |
+| `inputs/hlbhamt-sibling-pages/power-bi-partner-in-dubai-uae-extracted.txt` (live: `/services/power-bi-partner-in-dubai-uae/`) | 356-796 | Secondary. **This is essentially Bala's Tab 3, already published live**: the same pillars, portfolio, CxO lists, engagement models, PowerUP!, 5 PoC steps and 21-question FAQ. It confirms that the primary source is live, public HLB HAMT copy, and it contains the same outdated claims the brief already corrects. |
+| `.../microsoft-power-bi-consulting-in-dubai-uae-extracted.txt` (live: `/services/microsoft-power-bi-consulting-in-dubai-uae/`, the nav target) | 356-503 only | Secondary. Five consulting services (Strategy and Planning; Implementation; Data Integration and Automation; Custom Dashboards and Reporting; Training and Support) and four reasons to choose HLB HAMT (industry expertise, tailored solutions, track record through HLB International, end-to-end service). **Lines 507-585 are WordPress theme demo content** (testimonials credited to "Execor", "Kate Smith, Swirl" and "Carlos Martines, MEX"; stats 90%, 1.6x and 60%). They are not HLB HAMT results. **Never use them.** See 12.12. |
+| `.../data-visualization-uae-extracted.txt` (live: `/services/data-visualization-uae/`) | 356-667 | Secondary. This is Bala's Tab 1, now live. Power BI-relevant items: dashboard optimisation "across pipeline, data model, and semantic layers" with **the 33x result stated publicly** ("In a recent engagement, we achieved a 33x improvement in report load times and interactivity"); **Tableau to Power BI migration** as a named service (preserve business logic, redesign visuals, operational continuity); "Proud Microsoft Partner in the Business Intelligence Space"; a 9-item industry list; FAQ timelines identical to Tab 3. |
+| `.../power-bi-dashboard-development-extracted.txt` (live: `/services/power-bi-dashboard-development/`) | 356-795 | Secondary. The most technically specific HLB HAMT copy available. It adds six dashboard services (KPI-centric semantic modelling with DAX and reusable layers; drill-through, cross-filtering, slicers and bookmarks; ETL/ELT integration; scheduled and incremental refresh with near-real-time where needed; performance tuning through query reduction, aggregation tables and efficient DAX; security and governance through RLS, workspace governance and access controls). It also adds a 5-step dashboard delivery approach, the positioning line "model-first, not visual-first", a slow-dashboard FAQ ("performance depends more on implementation quality than the tool itself"), cost components and a PoC qualifier ("as little as 7 days for defined use cases"). Eyebrow reads "Microsoft Certified" (see 12.11, R2-2). |
+| `inputs/competitor-content/{zenzero,ranosys,dsp,bcn}.txt` | zenzero 843-1207; ranosys 224-422; dsp 305-492; bcn 200-755 | Tertiary. For gaps and positioning only (12.8). Yes Dynamic was not fetched (bot check), so the Section 5 note on it stands as is. |
+| `brief.md` Sections 1-10, `draft/draft-v4.md` | all | Baseline and branding audit (12.3c) |
+
+The primary source, `inputs/extracted/hlb-data-viz-v4 (1).html.md` (Bala's Tab 3), **stays the spine**. The sibling pages add detail and HLB HAMT-owned proof. The competitor pages only show gaps.
+
+**How much sibling copy may be reused (duplicate-content guard):** the revision notes allow sibling-page detail, credentials and positioning language to be "drawn from directly". Build may reuse, word for word, **facts, figures, service names, technical terms and short HLB HAMT positioning phrases of 8 words or fewer** (e.g. "model-first, not visual-first", "Finance + Technology under one roof", "self-service BI ecosystems"). Build must **not paste whole sentences or paragraphs** from the sibling pages. They are live on hlbhamt.com, and pasted copy creates same-domain duplicate content that competes with this page for "Power BI service" queries. That competition is already Open Question 3. This limit lifts if the Content Writer confirms the source sibling page will be 301-redirected to this page (R2-1).
+
+### 12.1 What the new sourcing added, corrected or strengthened
+
+| # | Finding | Source | Effect on the brief |
+|---|---|---|---|
+| N1 | 33x is published on a live HLB HAMT page with the same "in a recent engagement" qualifier and the same pipeline/model/semantic-layer context | data-visualization-uae | CS2 footnote upgraded from "internal" to the live URL (12.7). Wording and single-slot rule unchanged. |
+| N2 | The 7-day PoC appears on 3 sibling pages. The dashboard page qualifies it as "for defined use cases" | all 3 Power BI siblings | Add the qualifier to the S9 (was S10) intro. Footnote cites the live partner page. |
+| N3 | Implementation timelines (2-4 weeks / 6-10 weeks / 3-6 months / prototype in 2 weeks) are identical on the partner page and the data-viz page | partner, data-viz | Confirmed. FAQ timeline answer unchanged; footnote may cite the live partner page. |
+| N4 | Tableau to Power BI migration is a named, live HLB HAMT service, and Qlik migration is also offered | data-viz | Migration moves from a passing mention to a substantive part of S7 item 05. It is still named only as a migration source, with no price comparison. |
+| N5 | HLB HAMT has its own technical service detail (semantic modelling, drill-through, bookmarks, incremental refresh, aggregation tables, RLS, workspace governance) | dashboard-development | S7 Services restructured to carry this detail (12.5). A new FAQ on slow dashboards is added. |
+| N6 | HLB HAMT's own 5-step **full-implementation** approach (Context and KPI definition → Data modelling → Report architecture and UX → Validation and performance tuning → Deployment and adoption) | dashboard-development | Summarised in S4 card 3 "How we deliver". It is distinct from the 5 PoC steps in S9 and must not duplicate them. |
+| N7 | **HLB HAMT established in the UAE in 1999** (as HAMT & Associates) and joined HLB International in 2007 | HLB HAMT press release (12.7, CS5) | New HLB HAMT-owned credential for the S2 strip, replacing the unnumbered "Finance + technology" item. The finance-plus-technology message moves into that item's description. |
+| N8 | Security and governance (RLS, workspace governance, access controls) is a named HLB HAMT service | dashboard-development | Becomes part of the new S7 item 04. S10 Support tab gains an access-review item. |
+| N9 | Consulting-page positioning: strategy and planning around business goals, data needs and reporting expectations; end-to-end service; track record through HLB International | consulting | Feeds S7 item 01, S4 and S11. |
+| N10 | Cost framing: the total cost is licensing **plus** implementation/dashboard development **plus** data integration and modelling, and depends on scope | dashboard-development | FAQ 2 (licensing) now covers the full cost picture, not only Microsoft list prices. |
+| N11 | The data visualisation page is **live**, and a dedicated Power BI dashboard development page exists | sibling URLs | P1 is no longer a placeholder, and new link L6 is added (12.9). |
+| C1 | Sibling pages still say "14+ Yrs Gartner #1" / "Ranked #1 by Gartner for 14+ consecutive years", "~$15/user/month", "Q&A (ask in English or Arabic)", mobile on "Windows", "Salesforce (60+ modules)" and "ISO 27001/SOC 2 compliant" | partner, data-viz | **No change to the brief.** The Section 10 #7 corrections still apply, and Build must not reintroduce any of these from the sibling pages. The live pages need fixing too (12.12). |
+
+### 12.2 Content change 1: AI Insights removed
+
+**Removed entirely:** original S6 (`#aiinsights`): the eyebrow, H2 "Ask Your Data a Question and Act on the Answer", the lede, the Answers/Explains/Alerts points and the anchor-nav item "AI Insights". **Do not rebuild it as a smaller block elsewhere.** No section may present Key influencers, the Decomposition tree, the narrative visual or anomaly detection as a feature list.
+
+**What happens to its parts:**
+
+| Item that lived in S6 | Revision 2 decision |
+|---|---|
+| Stat S2 [5]: 73.3% UAE generative-AI use vs 18.8% worldwide | **Retired, with a reason.** Its only slot is gone. It measures general generative-AI use, not BI, so no remaining section can carry it honestly. Moving it into the Copilot FAQ would bring back the AI-promotion angle the Content Writer removed and push that answer past 90 words. The source stays valid, so the stat is **kept on reserve**, not deleted. |
+| L4 "Power BI automation with Power Automate" | **Moves to FAQ "Excel reports" (new S14 Q4)**, on the sentence about Power Automate alerts. Anchor and target unchanged. |
+| P2 "advanced analytics services" placeholder | **Moves to S6 Use cases card 6 (Chief Analytics Officer), back text**, on forecasting and next-best-action models. |
+| F4 Copilot facts | Still used in FAQ 6 (cross-geo default) and FAQ 8 (capacity, admin enablement, English prompts). The Q&A-retirement and no-Arabic-Copilot corrections still apply. |
+| Copilot as a topic | Appears **only** in FAQ 6 and FAQ 8. It is not added to the hero, strip, S5 or S7. |
+
+**Renumbering (old → new).** Build and Test use the new numbers from here on:
+
+| Old | New | Section |
+|---|---|---|
+| S0-S5 | S0-S5 | Breadcrumb, Hero, Strip + S2b, Anchor nav, Why HLB HAMT, The Platform (was "Why Power BI") |
+| S6 | removed | AI Insights |
+| S7 | **S6** | Use cases by role and sector (`#usecases`) |
+| S8 | **S7** | Services (`#services`) |
+| S9 | **S8** | Mid-page CTA 1 |
+| S10 | **S9** | 5-step proof of concept (`#methodology`) |
+| S11 | **S10** | Engagement models + PowerUP! (`#packages`) |
+| S12 | **S11** | Why UAE businesses choose HLB HAMT |
+| S13 | **S12** | See it in action |
+| S14 | **S13** | Mid-page CTA 2 |
+| S15 | **S14** | FAQ (`#faq`) |
+| S16 | **S15** | Final contact CTA + form (`#contact`) |
+| S17 | **S16** | Footer |
+
+**New anchor nav (S3), in DOM order:** Why HLB HAMT · The Platform · Use Cases · Services · Proof of Concept · Engagement Models · FAQ. Anchor IDs are unchanged (`#explorepowerbi` is kept for S5 so no links break).
+
+### 12.3 Content change 2: HLB HAMT-led branding
+
+**Principle:** HLB HAMT is the provider and the actor. Power BI (and Fabric) is the technology HLB HAMT delivers on. The page must read as "HLB HAMT designs, builds, runs and supports Power BI for you". It must not read as a Microsoft product page with HLB HAMT attached. Microsoft facts stay (Gartner recognition, connector library, UAE regions, licence prices, Copilot requirements, ISO/SOC scope), correctly attributed, and they appear as **evidence inside HLB HAMT's story**, not as the lead.
+
+#### 12.3a Rules Build must follow (Test checks B1-B7)
+
+- **B1. H1 names HLB HAMT.** New H1: **"HLB HAMT: Your Power BI Service Partner for Smarter Decisions in the UAE"**. The primary keyword and the compound-noun exception still apply (Section 2b), and "UAE" appears once as before. Build may adjust the words around the keyword, but "HLB HAMT" must open the H1.
+- **B2. Openings are HLB HAMT-led.** The **first sentence** of the hero lede and of every section intro or lede in S4, S5, S6, S7, S9, S10 and S11 must have HLB HAMT, "we", "our team" or "our [consultants/engineers/accountants]" as its grammatical subject. Microsoft, Power BI, Fabric, Copilot, "the platform" or "data" must **not** be the subject of those opening sentences.
+- **B3. Every FAQ answer includes at least one sentence with HLB HAMT or "we" as the subject.** Factual definitions (FAQ 1 on Desktop vs the service, FAQ 7 on Fabric) may open with the product as subject, but must then say what HLB HAMT does.
+- **B4. "HLB HAMT" on-page count: 10-16.** Count it using the Section 2a rules: headings, body, cards and FAQ count; eyebrows, buttons, nav, meta, alt text and schema do not. Below 10 fails. Above 16 is flagged as brand stuffing.
+- **B5. "Microsoft" on-page cap: 12 or fewer.** Product names such as "Microsoft Fabric" count. Footnotes, button labels and schema do not. After the first mention in a section, write "Fabric", not "Microsoft Fabric".
+- **B6. Retired Microsoft-led framings. None of these may appear:** the eyebrow "Microsoft Power BI"; the H2 "Why Power BI: From Raw Data to Boardroom Decisions"; the sentence opener "Power BI is Microsoft's business intelligence platform"; "Microsoft supplies a capable platform"; the offer title "Microsoft Power BI PowerUP!" (see 12.5 S10 and R2-3); a bare "Microsoft: named a Leader..." recognition line with no HLB HAMT lead-in.
+- **B7. Attribution stays honest.** HLB HAMT must never appear to own a Microsoft achievement or feature. The Gartner recognition is Microsoft's. "200+" is Power BI's connector library, not connectors HLB HAMT built. The UAE regions are Microsoft's data centres. "Microsoft Power BI partner in the UAE" stays uncertified (Section 10 #1).
+
+#### 12.3b Voice
+
+- **Verbs belong to HLB HAMT:** we design, model, build, connect, secure, tune, migrate, embed, train, support. Power BI is the object or the instrument: "we build your reports in Power BI Desktop", not "Power BI Desktop lets users...".
+- **HLB HAMT-owned proof:** 33x (HLB HAMT's engagement), since 1999 (HLB HAMT's history), finance plus technology under one roof, Arabic/RTL designed from the first mockup, in-region team, fixed-price PowerUP!, the 7-day PoC.
+- **Possessives:** "HLB HAMT's Power BI Services", "our Power BI team", "your Power BI service, run by HLB HAMT".
+- **What stays the same:** British spelling, zero em dashes, no competitor names, a positive (not pain-led) opening, footnote markers.
+
+#### 12.3c Audit of the delivered v1 (draft-v4): Microsoft-led instances and required fixes
+
+| v4 location | Problem | Required fix (new section numbers) |
+|---|---|---|
+| S1 eyebrow "Microsoft Power BI" | Microsoft brand leads | Eyebrow becomes **"HLB HAMT POWER BI SERVICES"** (not counted). |
+| S1 H1 | HLB HAMT absent | B1 H1. |
+| S1 deployment line "Data can stay in-country in Microsoft's..." | Data/Microsoft is the subject | "We set up your environment so data can stay in-country, in Microsoft's UAE North (Dubai) or UAE Central (Abu Dhabi) cloud region..." Keep the F3 fact that UAE North has full Fabric and UAE Central has Power BI only. |
+| S2 item 1 "Data connectors in Power BI..." | Platform stat with no HLB HAMT role | 12.5 S2 item 1 wording. |
+| S2b "Microsoft: named a Leader..." | Microsoft recognition standing alone | HLB HAMT lead-in (12.5 S2b). |
+| S4 lede "Microsoft supplies a capable platform." | Microsoft is the subject of the first sentence | Open with HLB HAMT (12.5 S4). |
+| S5 eyebrow "WHY POWER BI", H2 "Why Power BI...", intro "Power BI is Microsoft's...", every row opener ("Business users build", "It is the cloud side", "Native, certified and custom connectors cover", "Power BI Mobile puts", "Fabric brings Power BI together") | The whole section reads as a product page | Reframe as "The Platform We Deliver" (12.5 S5). Every row description opens with an HLB HAMT action, then names the component and the client benefit. |
+| S6 AI Insights | Microsoft AI features as the lead | Removed (12.2). |
+| S10 (old S11) featured H3 "Microsoft Power BI PowerUP!" | Microsoft brand on HLB HAMT's own offer | 12.5 S10. |
+| S12 (old S13) H2 "Inside a Live Power BI Dashboard" | Product-led | "Inside an HLB HAMT Power BI Dashboard" or similar. |
+| FAQ Q3 "Which data sources can Power BI connect to...", Q4 "Can Power BI replace...", A2 opening "At the time of writing, Microsoft lists...", A7 opening | Product as the actor | Reworded questions and HLB HAMT-first answers (12.5 S14). |
+
+### 12.4 Revised skeleton and budgets (replaces the Section 3b table for Build)
+
+The word count stays **3,100-3,500, target about 3,300**. Test fails the page below 2,900 or above 3,750, and the count rule is unchanged. The ~150-190 words freed by removing AI Insights are reallocated to the sibling-sourced detail in S4, S6, S7, S11 and the FAQ. **Do not pad back to 3,300.** If the page lands at 3,150 with all required content, that passes.
+
+| # | Section (anchor) | Heading level | Budget (words) | Change vs original |
+|---|---|---|---|---|
+| S0 | Breadcrumb | none | excluded | unchanged |
+| S1 | Hero + "one version of the numbers" sub-block + deployment line | H1 + H3 cards | 150-190 | H1, eyebrow and deployment line reframed |
+| S2 | Dark stats strip (4) + S2b recognition bar | none | 45-70 | item 1 reworded; item 3 becomes "Since 1999"; S2b lead-in |
+| S3 | Sticky anchor nav | none | excluded | 7 items |
+| S4 | Why HLB HAMT (`#whyhlbhamt`) | H2 + 4 x H3 | 260-310 | HLB HAMT-first lede; card 3 uses N6 |
+| S5 | The Platform We Deliver (`#explorepowerbi`) | H2 + 4 x H3 + platform-layer H3 | 380-440 | reframed throughout |
+| S6 | Use cases by role and sector (`#usecases`) | H2 + 6 x H3 + pill row | 340-410 | L7 and P2 links; 2 pills added |
+| S7 | HLB HAMT's Power BI Services (`#services`) | H2 + 6 x H3 | 380-440 | restructured items with N5/N8/N9/N4 |
+| S8 | Mid-page CTA 1 | H2 | 20-30 | unchanged |
+| S9 | 5-step proof of concept (`#methodology`) | H2 + 5 x H3 | 150-190 | "defined use case" qualifier |
+| S10 | Engagement models + PowerUP! (`#packages`) | H2 + featured H3 + 4 tabs | 360-420 | offer title; Support tab items |
+| S11 | Why UAE businesses choose HLB HAMT | H2 + 6 x H3 | 150-190 | tile 5 update |
+| S12 | See it in action | H2 | 30-45 | H2 reframed |
+| S13 | Mid-page CTA 2 | H2 | 20-30 | unchanged |
+| S14 | FAQ (`#faq`) | H2 + **10** x H3 | 780-920 | +1 Q (slow dashboards); reworded Qs; L4 moved here |
+| S15 | Final contact CTA + form | H2 | 20-30 | unchanged |
+| S16 | Footer | none | no new copy | unchanged |
+
+Minimum total ≈ 3,085; maximum ≈ 3,715. The target of about 3,300 sits comfortably inside that span.
+
+### 12.5 Revised section-by-section changes (apply on top of Section 4; new numbering)
+
+Anything not mentioned for a section stays exactly as Section 4 specifies: sources, keyword slots, stat slots, "do not restate" rules and accuracy corrections.
+
+**S1 Hero.** Eyebrow "HLB HAMT POWER BI SERVICES". H1 per B1. Lede sentence 1 keeps HLB HAMT as subject and primary keyword #2 ("HLB HAMT designs, builds and runs your Power BI service..."). Sentence 2 may draw on the partner page's positioning ("local expertise, industry knowledge") in original wording. The sub-block and 3 cards are unchanged. Deployment line per 12.3c. Buttons unchanged.
+
+**S2 Strip + S2b.**
+1. **200+** [1]: the description must attribute the 200+ to Power BI's connector library and give HLB HAMT the action, e.g. "Power BI connectors to draw on; our engineers configure them and build custom ones where none exist." (8-16 words). It must **not** say or imply HLB HAMT built 200+ connectors.
+2. **33x** [2]: unchanged wording ("...in one recent HLB HAMT engagement"). The footnote now cites the live data-viz page (12.7).
+3. **Since 1999** [12] (new, replaces "Finance + technology"): "A licensed UAE audit, tax and advisory firm that also builds your data platform." This keeps the finance-plus-technology message. Do **not** write "25 years": that figure was 2024's and is now out of date, while "Since 1999" does not age. Do **not** add staff, client or office counts (they date from January 2024).
+4. **Arabic and English**: unchanged.
+- **S2b** (still Microsoft's recognition, now with an HLB HAMT lead-in, 25-35 words): e.g. "We build on Microsoft Power BI and Fabric. Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year." [3] Button "Read Microsoft's announcement" unchanged. The Gartner disclaimer rule is unchanged. No "#1", "ranked" or "14+".
+
+**S4 Why HLB HAMT.** H2 may stay ("Great Dashboards Start With the Numbers Behind Them"). **The lede opens with HLB HAMT as subject**, e.g. HLB HAMT is a Power BI consulting company (keyword #1) and a licensed audit, tax and advisory firm, a member of HLB International. The platform point comes second and is framed as "Power BI gives us the platform; our accountants and engineers make the numbers reconcile." L1 is unchanged. Cards:
+- Card 1 "What we do": unchanged scope, including primary keyword #4. Keep it short because S7 now carries the detail.
+- Card 3 "How we deliver" (45-55 words): start with a demo or [proof of concept](#methodology), then run full implementations through HLB HAMT's five stages (define KPIs and metric logic → model the data → design the report architecture and UX → validate accuracy and tune performance → deploy and drive adoption) (N6). **Do not number them or give them H3s** (S9 owns the numbered steps). No durations and no "7 days".
+- Card 4 "Support after go-live": unchanged, including "Monday to Friday" (FAQ 21).
+
+**S5 The Platform We Deliver** (was "Why Power BI"). Eyebrow "THE PLATFORM WE DELIVER". **Suggested H2: "What HLB HAMT Builds for You on Power BI"** (Build may refine it, but it must be HLB HAMT-led). Intro (45-60 words), first sentence HLB HAMT-led: HLB HAMT delivers your reporting on Power BI because it works natively with Excel, Teams, SharePoint, Outlook, Azure and Dynamics 365, so teams on Microsoft adopt it with little friction. No singular primary keyword in the intro. The 4 rows keep Bala's 4 pillars and the same bullets. **Each description opens with what HLB HAMT does, then names the component and the benefit:**
+1. H3 suggestion **"Self-service reporting your teams run themselves"**: we build models in Power BI Desktop, with DAX measures for YTD, YoY and running totals, so business users explore without joining an IT queue. Dashboard page detail may be added: standardised metric definitions, reusable data layers.
+2. H3 **"The Power BI service"** (primary #3, keep exact): we set up, govern and run the cloud service where reports are published as apps, refreshed on schedule and secured [F1]; dashboards serve leadership, reports serve analysts.
+3. H3 suggestion **"Connected to the systems you run"**: we connect native, certified and custom connectors to SAP, Oracle, NetSuite and the rest, and install the on-premises data gateway. The Section 4 connector caveat stays. Do not restate 200+.
+4. H3 suggestion **"On every device, and inside your own portals"**: we design mobile layouts for iOS and Android with alerts, and embed branded dashboards in portals through Power BI Embedded on capacity-based licensing.
+- **Platform layer** H3 suggestion **"Fabric readiness and a medallion lakehouse"**: open with "We assess Fabric readiness and build Bronze, Silver and Gold lakehouses..."; then the Fabric definition; then the attributed stat "Microsoft reports more than 40,000 paid Fabric customers, up more than 60% year on year" [4]. Bullets unchanged.
+
+**S6 Use cases** (was S7). Intro opens with "We" (e.g. we start every engagement from the KPIs a role or sector runs on). Add **L7 "data visualisation services"** in the intro, pointing to the live data-viz page (12.9). Six cards unchanged in scope, with these additions:
+- Card 1 (CFO) may add cash flow and **budget variance and forecasting** (dashboard page, "Financial Reporting & Forecasting").
+- Card 6 (CAO) carries **P2 "advanced analytics services"** (placeholder, relocated) on forecasting and next-best-action models.
+- Pill row: add **Manufacturing** and **Wholesale Distribution** (data-viz industry list; both are also HLB HAMT industries) → 12 pills.
+- Drop nothing, and do **not** add cards from the data-viz 9-industry list or the dashboard page's "Top 5". Those pages own that content (hub-and-spoke; see L6/L7).
+
+**S7 HLB HAMT's Power BI Services** (was S8). Eyebrow "WHAT WE DO". **H2 "HLB HAMT's Power BI Services"** (plural keyword #1, now possessive-branded). Intro (30-40 words) opens with HLB HAMT/we. **6 items, 55-65 words each, no more than 2 titles containing "Power BI". No 33x. No sentence copied from a sibling page:**
+- **01 Strategy, discovery and licence planning**: goals, data needs and reporting expectations (consulting page); map objectives to KPIs and metric logic, find reporting gaps by role (dashboard page step 01); assess BI readiness and design a scalable architecture (Bala portfolio 1); licence mix (Pro, PPU, capacity).
+- **02 Data integration and preparation**: ETL/ELT pipelines in Azure Data Factory; data marts and warehouse layers; certified and custom connectors; gateway configuration; scheduled and **incremental refresh**, near-real-time where required; a lakehouse when scale calls for it (Bala portfolio 2; engagement model 3; dashboard page).
+- **03 KPI-centric modelling and dashboard development**: semantic models with standardised metric definitions and tested DAX; "model-first, not visual-first" (an HLB HAMT phrase that may be quoted); drill-through, cross-filtering, slicers and bookmarks; executive dashboards and analyst reports; mobile layouts; Arabic RTL. Link **L6 "Power BI dashboard development"** here.
+- **04 Performance tuning, security and governance** (new, N5/N8): tuning across pipeline, data model and semantic layers; query reduction, aggregation tables, efficient DAX patterns; row-level security, workspace governance and access controls. Do not restate 33x (S2 owns it).
+- **05 Migration, embedded analytics and Fabric readiness**: Tableau to Power BI and Qlik to Power BI migration, preserving business logic and redesigning visuals for the new platform (N4; **do not** write "zero business logic loss", which is the data-viz page's absolute claim); moving off spreadsheets; Power BI Embedded for portals; Fabric readiness and staged migration.
+- **06 Training and continuous support**: unchanged (three tracks, on-site in Dubai, remote or hybrid, Arabic-language delivery, contextual documentation). The training tracks still appear only here.
+
+**S8 Mid-page CTA 1**: unchanged.
+
+**S9 Proof of concept** (was S10). H2 unchanged, and it is still the only place "7 days" appears [6]. The **intro's first sentence is HLB HAMT-led and adds the qualifier "for a defined use case"** (N2), e.g. we prove the value on your own data for a defined use case, against agreed success criteria, before any larger investment. The 5 steps are unchanged (the live partner page confirms them word for word).
+
+**S10 Engagement models + PowerUP!** (was S11). The intro opens with "We". **Featured card H3: "PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator"** (replaces "Microsoft Power BI PowerUP!"; see R2-3). Price line, 5 terms, 6 deliverables, badge and button are unchanged. Tabs:
+- Explore, Implement, Extend: unchanged. Extend keeps "Power BI solutions expert" #2.
+- **Support: 4-5 items.** Performance monitoring and troubleshooting now names refresh failures, gateway connectivity and slow pages (an item-level gap competitors cover in detail, 12.8). Quarterly health checks. New dashboards as needs change. Licence advisory and Fabric migration (optional primary #7). Optional 5th item **Security and access reviews** (RLS and workspace permissions checked as teams change; N8). Stay inside the 360-420 budget.
+
+**S11 Why UAE businesses choose HLB HAMT** (was S12). H2 unchanged (plural #2). The intro opens with HLB HAMT/we. Tile changes:
+- **Tile 1** stays **"Microsoft Power BI partner in the UAE"**, not certified (Section 10 #1 stands; see R2-2).
+- **Tile 5 "Global network"**: "An HLB International member since 2007..." is allowed. It is a different fact from S2's "Since 1999", so no stat repeats. Still no "150+/157 countries".
+- The other tiles are unchanged. Tile 2 may now use "finance and technology under one roof" as a phrase, because S2 no longer carries "Finance + technology" as its stat line.
+
+**S12 See it in action** (was S13). **H2 "Inside an HLB HAMT Power BI Dashboard"**. Body: what we build (executive view in Arabic and English, group-to-entity drill). Static-asset default unchanged.
+
+**S13 CTA 2** (was S14): unchanged (keyword "Power BI solutions expert" #1).
+
+**S14 FAQ** (was S15). Keep the H2 ("Questions UAE Teams Ask Before Choosing a Power BI Partner"). **10 Q&As, 65-90 words each, and B3 applies to every answer.** Order:
+1. **What is the Power BI service, and how is it different from Power BI Desktop?** Unchanged (primary #5, optional #6). End on what HLB HAMT sets up.
+2. **How is Power BI licensed, and what will it cost?** Open with the total cost picture (N10): licences plus implementation plus data integration and modelling, scoped by complexity. Then the list prices "at the time of writing" (US$14 Pro / US$24 PPU) [F2], then capacity for large deployments, embedding and Copilot. Then HLB HAMT's licence advisory, plus a pointer to the fixed-price starter engagement (`#packages`, **no "$4,500"**).
+3. **Which of your systems can we connect to Power BI, and do we need a data warehouse first?** (Reworded so the reader and HLB HAMT are the actors.) Content unchanged, and the connector caveat stands. "Custom connectors for legacy systems" (dashboard page) may be added.
+4. **Can you replace our manual Excel reports with Power BI?** Content unchanged, and it stays qualitative with no hours figure. **Place L4 "Power BI automation with Power Automate"** on the Power Automate alert sentence.
+5. **Do you build Arabic and right-to-left dashboards?** Unchanged. Urdu and Persian as examples. **Do not add Hebrew** from the sibling pages: the approved v1 omitted it, and adding it now would be a new decision the Content Writer has not made.
+6. **Is our data secure, and can it stay in the UAE?** Unchanged: F5 "in scope of" wording (**not** the sibling pages' "compliant"), L5 and the Copilot cross-geo sentence. Open with what HLB HAMT configures.
+7. **What is Microsoft Fabric, and should we plan for it?** Unchanged. Its second half is HLB HAMT's readiness assessment.
+8. **What do we need to use Copilot in Power BI?** Unchanged [F4]. This and FAQ 6 are now the only Copilot mentions on the page.
+9. **Why are some Power BI dashboards slow, and can you fix ours?** (**New, from N5**): the usual causes are weak data modelling, inefficient DAX or queries, large unoptimised datasets, and missing aggregations or indexing; performance depends more on how a report is built than on the tool; we tune across pipeline, model and semantic layers. **No 33x** (S2 owns it). Write this answer originally; do not copy the dashboard page's FAQ.
+10. **How long does a Power BI implementation take?** Unchanged timelines. Optionally say HLB HAMT confirms timelines after discovery.
+- The "Deliberately not carried over" list in Section 4 S15 still applies. "AI features" is now covered by nothing, and that is intentional.
+
+**S15 Contact**: unchanged (optional plural #3). **S16 Footer**: unchanged.
+
+### 12.6 Keyword placement: renumbered (substance unchanged) + branding counts
+
+| Keyword | Count (unchanged) | Placements (new numbering) |
+|---|---|---|
+| **Power BI service** (singular, `\bPower BI service\b(?!s)`) | **5-7**, hard max 8 | (1) H1 (new B1 wording); (2) hero lede sentence 1; (3) S5 row 2 H3 "The Power BI service"; (4) S4 card 1; (5) S14 FAQ 1 question; (6, optional) FAQ 1 answer once; (7, optional) S10 Support tab. |
+| **Power BI Services** (plural) | **2-3** | (1) **S7 H2 "HLB HAMT's Power BI Services"**; (2) S11 H2; (3, optional) S15 body. Never in a section that has a singular instance. |
+| **Power BI consulting company** | **1-2** | (1) S4 lede; (2, optional) S11 intro. |
+| **Power BI solutions expert** | **1-2** | (1) S13 CTA body; (2, optional) S10 Extend tab. |
+| **Certified Power BI Partner in UAE** | **0: not placed** (Section 10 #1) | S11 tile 1 reads "Microsoft Power BI partner in the UAE". See R2-2. |
+
+The stuffing caps are unchanged: "Power BI" 75 or fewer (flag above 85), "UAE" 12 or fewer. At most 2 of the 6 S7 titles and at most 1 of the 5 S9 step titles may contain "Power BI". **New for Test:** B4 "HLB HAMT" 10-16 and B5 "Microsoft" 12 or fewer (12.3a).
+
+**Meta title and description (Section 7): unchanged.** Both already lead with the keyword and name HLB HAMT ("... | HLB HAMT"; "Power BI service from HLB HAMT: ..."). The meta description's "7-day proof of concept" stays, because meta is outside the on-page single-slot rule.
+
+### 12.7 Stats re-verification and revised stat list (2026-09-29)
+
+**Re-verified where the new sources give a different or more specific figure:**
+
+| Stat | New-source variant | Re-verification | Decision |
+|---|---|---|---|
+| S-3 Gartner [3] | Partner page FAQ: "Ranked #1 by Gartner for 14+ consecutive years"; data-viz hero: "14+ Yrs Gartner #1" | Search results on 29 Sep 2026 again show Microsoft named a Leader in the **2026** MQ for Analytics and BI Platforms for the **19th consecutive year** (Microsoft Fabric Community announcement URL as in Section 6b; also reported by bismart.com and joulyan.com). Gartner does not rank vendors "#1". | **Keep S-3 as is.** The sibling variants are inaccurate and must not be used. |
+| F2 Pro/PPU price [8] | Partner page: "~$15/user/month" | Search on 29 Sep 2026: Pro **US$14**, PPU **US$24** per user per month, list prices since 1 April 2025 and still current. | **Keep F2.** "~$15" is not used. |
+| CS1 200+ [1] | Partner and data-viz pages: 200+ (consistent). BCN: "150+ data sources" | The Microsoft Learn connector list (updated 18 Sep 2026) was counted at ~210-220 on 28 Sep. BCN's figure is older and lower. | **Keep 200+**, attributed to Power BI's library (S2 item 1 wording, 12.5). |
+| CS2 33x [2] | data-viz page: "In a recent engagement, we achieved a 33x improvement in report load times and interactivity" | The same claim is now **published on a live HLB HAMT page**, with the same single-engagement qualifier. Still no client name or date. | **Keep.** Footnote upgrade: "HLB HAMT, Data Visualization Services: https://hlbhamt.com/services/data-visualization-uae/". The "one recent engagement" qualifier stays mandatory. |
+| CS3 7 days [6] | dashboard page: "in as little as 7 days for defined use cases" | Consistent across 3 live pages. | **Keep**, adding the "defined use case" qualifier in the S9 intro. Footnote: "HLB HAMT service commitment: https://hlbhamt.com/services/power-bi-partner-in-dubai-uae/". |
+| Timelines (FAQ 10) | Identical on the partner and data-viz pages | Consistent | **Keep.** It may footnote the live partner page. |
+| F5 ISO/SOC [11] | data-viz: "Power BI is ISO 27001 and SOC 2 compliant" | The Section 6c wording ("in scope of Microsoft's ISO/IEC 27001 certification and SOC 2 reports") is the accurate form. | **Keep the F5 wording.** |
+| S2 73.3% [5] | none | Still valid (source unchanged) | **Retired from the page** (12.2 reason); kept on reserve. |
+
+**New stat or fact added:**
+
+| # | Figure | Context | Source | Age | Where |
+|---|---|---|---|---|---|
+| **CS5 [12]** | **Since 1999** (founded as HAMT & Associates in 1999; joined HLB International in 2007) | HLB HAMT's own track record in the UAE, an HLB HAMT-owned credential for the strip | HLB HAMT press release "HLB HAMT Celebrates 25 Years of Unwavering Excellence": https://hlbhamt.com/press-room/hlb-hamt-celebrates-25-years-of-unwavering-excellence/ (also https://hlbhamt.com/about-us/25-years-of-excellence/). **Self-published by HLB HAMT. WebFetch returned empty pages (client-side rendering), so the 1999 and 2007 dates were confirmed through two independent search-result summaries of these HLB HAMT pages and the HLB HAMT Academy page.** Deliver should click through before publishing. | Historical fact (anniversary event January 2024) | S2 item 3 ("Since 1999"); optionally "since 2007" in S11 tile 5 |
+
+**Revised single-slot map (every stat or fact appears once, in the section named):** 200+ → S2 · 33x → S2 · Since 1999 → S2 · Gartner 2026 / 19th year → S2b · 40,000+ Fabric customers → S5 platform layer · 7 days → S9 H2 · $4,500 → S10 featured card · timelines → S14 FAQ 10 · list prices → S14 FAQ 2 · HLB International since 2007 → S11 tile 5 (optional). **No FAQ restates 200+, 33x, 1999, 19th year, 40,000, 7 days or $4,500.** Facts F1-F5 stay where Section 6c places them, renumbered (F4 is no longer in the removed S6).
+
+**Explicitly not used (new sources):** the consulting page's 90%, 1.6x and 60% results and its testimonials (theme demo placeholders, not HLB HAMT data); BCN's "up to 57%" HR admin time and "up to 80%" reporting-time savings (competitor marketing claims with no source); Ranosys's "2-6 weeks" and "24/7 support" (a competitor's service claims); HLB HAMT's "3,000+ clients / 230+ staff / 9 offices" (dated January 2024 and likely stale; use only if the Content Writer supplies current figures).
+
+**Footnotes:** [5] is retired and [12] is new. Deliver still renumbers in order of appearance (judgment call (h)).
+
+### 12.8 Competitive analysis: updates from the full competitor text
+
+**For direction only. Nothing from these pages may be copied or closely paraphrased.** The Section 5 takeaways stand, with these additions and corrections:
+
+- **The competitors write in a provider-led voice, and that is the model for 12.3.** BCN ("BCN's Power BI services", "our BCN data experts"), DSP ("DSP's multi-disciplinary Power BI services") and Zenzero ("Zenzero's expert Power BI support services") make themselves the actor and Power BI the tool. HLB HAMT v1 did the reverse. The branding shift closes that gap. The UAE, finance-literate and Arabic/RTL angle (Section 5, bullet 1) is still uncontested: none of the four mentions Arabic, UAE hosting, Corporate Tax/VAT or PDPL.
+- **BCN's "Power BI Kickstarter" is the closest rival to HLB HAMT's fast start.** It offers 7 days and up to 3 dashboards, with no published price and "subject to an initial review" of the data estate. BCN also runs a free 60-minute data assessment, a separate governance service (risk assessment, disaster recovery, compliance), a demo video and named case studies. **Angle:** HLB HAMT publishes its price and full scope (PowerUP!) *and* names security and governance as a delivered service (S7 item 04), with no gating review.
+- **Zenzero's page (as fetched) is a Power BI support page, and its support catalogue is deep:** refresh failures, Power Query errors, gateway/service connectivity, security configuration, support tickets, and dedicated account managers. **Gap in v1:** HLB HAMT's Support tab was four short lines. **Angle:** name concrete support tasks in S10 Support and S4 card 4, including the single point of contact, in HLB HAMT's own words from source FAQ 21.
+- **DSP sells outsourcing economics:** no need to hire, train or manage an in-house BI team. HLB HAMT's "Augmented expertise" (S10 Extend) covers this. Keep it capability-led and do not copy DSP's cost framing.
+- **Ranosys still says "Gold Partner" (a retired Microsoft label), uses logo walls and lists product components.** It offers no UAE specifics and no price. This confirms the original angle: precise partner wording, no retired terminology.
+- **Case studies:** BCN and DSP show named Power BI case studies. HLB HAMT has none it can publish (the consulting page's are placeholders). This is a known gap, not a blocker. See R2-4.
+- **Revised positioning line (replaces Section 5's last bullet):** "HLB HAMT delivers Power BI and gets the numbers right: auditor-grade financial logic and in-house engineering, in Arabic and English, hosted in-country."
+
+### 12.9 Internal links (replaces Section 8's tables for Build; new numbering)
+
+| # | Anchor text | Target | Placement | Change |
+|---|---|---|---|---|
+| L1 | digital transformation and analytics services | https://hlbhamt.com/services/digital-transformation-uae/ | S4 lede | unchanged |
+| L2 | SugarAI CRM | https://hlbhamt.com/sugarai-crm-2/ | S11 tile 4 | renumbered |
+| L3 | UAE Corporate Tax advisory | https://hlbhamt.com/services/corporate-tax-advisory-services-in-uae/ | S6 card 2 | renumbered |
+| L4 | Power BI automation with Power Automate | https://hlbhamt.com/insights/unlocking-power-bi-automation-with-power-automate/ | **S14 FAQ 4** | **moved** from the removed S6 |
+| L5 | data protection advisory | https://hlbhamt.com/services/data-privacy-and-security-uae/ | S14 FAQ 6 | renumbered |
+| **L6** | Power BI dashboard development | https://hlbhamt.com/services/power-bi-dashboard-development/ | **S7 item 03** | **new** (live sibling page) |
+| **L7** | data visualisation services | https://hlbhamt.com/services/data-visualization-uae/ | **S6 intro** | **was placeholder P1, now live.** It moves from S8 item 03 to avoid two links in S7 item 03. The anchor keeps British spelling; the URL is the live one. |
+| P2 | advanced analytics services | `PLACEHOLDER:/services/advanced-analytics-services/` | **S6 card 6 (CAO)** | **moved** from the removed S6; still a placeholder |
+
+**Do not link** to `/services/power-bi-partner-in-dubai-uae/` or `/services/microsoft-power-bi-consulting-in-dubai-uae/`. Both are candidates in Open Question 3: either could become this page's URL or be redirected to it, so linking now risks a self-link or a redirect chain. The reverse link from the SugarAI page and the breadcrumb links are unchanged (Section 8).
+
+### 12.10 Unchanged from the approved brief (confirmed)
+
+The keyword set, regexes and counts (12.6 only renumbers them). The word count range and count rule. The SugarAI structural mapping (Section 3a) apart from dropping AI Insights. Meta title and description (Section 7). Tone rules (British spelling, zero em dashes, no competitor names, positive opening). Schema (Service, FAQPage with now **10** Q&As, BreadcrumbList). All Section 10 decisions and the Section 10 #7 accuracy corrections.
+
+### 12.11 Open questions for Revision 2 (each has a default; none blocks Build)
+
+- **R2-1. Duplicate content with the live partner page.** `/services/power-bi-partner-in-dubai-uae/` is Bala's Tab 3 almost word for word, so this new page overlaps it heavily (PowerUP!, PoC steps, CxO lists, FAQs). That makes Open Question 3 (final URL and redirects) more pressing before go-live. **Default:** Build applies the reuse limit in 12.0 (facts, names and short phrases only; original sentences). If you confirm the partner page will be 301-redirected to this page, Build may reuse sibling sentences more freely.
+- **R2-2. "Certified" claims on the live sibling pages.** The dashboard page's eyebrow reads "Microsoft Certified", the consulting page's breadcrumb reads "Certified Microsoft Power BI Consultant", and the partner page says "a leading Microsoft partner in UAE". A web search on 29 Sep 2026 found only HLB HAMT's own claim, and no Microsoft designation name or partner-directory listing. **Default:** Section 10 #1 stands. Tile 1 reads "Microsoft Power BI partner in the UAE", the keyword is not placed, and "certified" and "leading" are not used. If you supply the designation (e.g. "Solutions Partner for Data & AI (Azure)") or staff certifications, Build switches to the conditional plan in Section 2c.
+- **R2-3. Offer name.** The live pages call the offer "Microsoft Power BI PowerUP!", though the site's buttons already say "$4,500 PowerUP! Offer". **Is "Microsoft" part of a required name (e.g. a Microsoft-funded partner offer)?** **Default:** no. The H3 becomes "PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator".
+- **R2-4. Case study.** There is no publishable HLB HAMT Power BI case study (the consulting page's are placeholders). **Default:** no case-study block; 33x stays the only engagement result. If a client-approved story exists, it could replace the S12 "See it in action" copy in a later revision.
+
+### 12.12 Non-blocking notes for the Content Writer (live-site issues found while sourcing)
+
+These are outside this page's scope and go in the Deliver handoff notes.
+1. **`/services/microsoft-power-bi-consulting-in-dubai-uae/` shows theme demo content as if it were real:** testimonials from "Execor" / "Kate Smith, Swirl" / "Carlos Martines, MEX" and "success stories" with 90%, 1.6x and 60%. This sits on the nav's live Power BI page and should be removed.
+2. **Outdated or inaccurate claims on live sibling pages** that this page corrects: "Ranked #1 by Gartner for 14+ consecutive years" / "14+ Yrs Gartner #1"; "~$15/user/month" and "Tableau ~$75"; "Q&A (ask in English or Arabic)"; mobile on "Windows"; "ISO 27001/SOC 2 compliant"; "zero business logic loss". Once this page is live, the sibling pages will contradict it unless they are updated.
+3. **"Celebrating 25 Years" in the site nav** is from 2024 (founded 1999). This page uses "Since 1999" to avoid the dated figure.
