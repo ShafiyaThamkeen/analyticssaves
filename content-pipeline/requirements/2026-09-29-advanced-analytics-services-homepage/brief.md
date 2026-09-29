@@ -455,9 +455,19 @@ It contains **no service detail, credential or example that is not already in Ta
 
 ---
 
-## 10. Content Writer decisions
+## 10. Content Writer decisions (2026-09-29)
 
-*(Placeholder. To be completed when the Content Writer reviews this brief. Record each OQ1-OQ7 decision here, together with any instruction that overrides Sections 1-9. Build applies Sections 1-9 plus this section, and this section wins where they conflict.)*
+1. **OQ1 (URL):** **Confirmed — replace in place.** The new page publishes at the existing `/services/advanced-data-analytics-uae/` URL. No redirect needed. This also resolves OQ2 (the Softcrylic-derived copy comes off the live site as part of this replacement).
+2. **OQ3 (platform names):** **Confirmed — none.** Stays fully generic, consistent with the Power BI page's final revision. "Microsoft" appears 0 times; "Power BI" only as the sibling-service name (S11 tile 5, FAQ 9, max 4), as already planned.
+3. **OQ4 (link targets):** **Confirmed — both defaults.** (a) Power BI homepage: pending-URL placeholder (L2), filled in once that page's final URL is decided. (b) Data Visualisation: placeholder (L3), on the assumption a new Data Visualisation homepage will eventually replace the live `/services/data-visualization-uae/` page.
+4. **OQ5 (methodology, engagement models, support) — expanded instruction, not a plain "proceed as planned":** *"Take the required content from competitors pages, but no plagiarism."* This means: for S9 (Delivery method), S10 (Engagement models), and the support/after-go-live angle (S4 card 4, S10 Extend tab), **Build should draw the actual substantive content — the methodology stages, engagement-model structure, and support offerings — from the 6 reference competitor pages** (Section 5), not rely solely on Plan's own inferred defaults. Read each competitor page's methodology/process, engagement-tier and support sections, identify the common, credible patterns across them, and write **entirely original HLB HAMT sentences** describing a comparable, genuine-sounding delivery approach.
+   - **This is a real content-sourcing instruction, not just "gap analysis"** — the standing rule in Section 5 (competitor content for positioning/gaps only, nothing copied or paraphrased) still applies to the *wording*: no sentence, heading, or distinctive phrase may be copied or closely paraphrased from any competitor page. What changes is that competitor pages may now inform the *substance and structure* of these specific under-sourced sections (how many stages, what each stage covers, what the engagement tiers are called and cover, what post-go-live support typically includes), the same way Bala's content source informs other sections.
+   - **Still no fabricated specific commitments.** Do not invent exact durations, prices, or SLA terms that aren't confirmed for HLB HAMT — describing methodology stages, engagement-model categories, and general support offerings (e.g. "pipeline monitoring", "model retraining", "periodic model review") in qualitative terms is fine and expected; stating a specific number of weeks, a specific price, or a specific uptime/response-time SLA is not, since none of that is confirmed. If a competitor page states a specific commitment (e.g. "4-week pilot"), that number itself must not be copied onto this page as if it were HLB HAMT's own commitment.
+   - Test should check that S9/S10/support-angle content is original (not echoing any specific competitor page's wording) while assessing whether it now reads more substantive/credible than a purely self-derived version would.
+5. **OQ6 (PowerUP!):** **Confirmed — not featured.** No mention on this page, not even a one-line reference. Readers reach it via L2 (the Power BI sibling link) as already planned.
+6. **OQ7 (S12 asset):** **Confirmed — default.** Static forecast-dashboard screenshot/GIF placeholder, copy not dependent on a specific asset.
+
+**Status: brief APPROVED. Ready for Build**, incorporating the expanded OQ5 instruction above (Sections 9-10's S9/S10/support content should be enriched from real competitor substance, not just Plan's own derivation, while remaining 100% original prose).
 
 1. OQ1 (existing page, URL and redirect):
 2. OQ2 (competitor-derived Tab 2 copy):
