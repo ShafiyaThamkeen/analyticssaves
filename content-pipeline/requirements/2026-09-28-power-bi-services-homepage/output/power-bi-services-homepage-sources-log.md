@@ -1,87 +1,96 @@
-# Sources log: Microsoft Power BI Services homepage
+# Sources log: Power BI Services homepage
 
-- Page: `power-bi-services-homepage` (`.docx`, `.html` and `.pdf` in this folder). This is a working file name only. The final URL is still undecided (brief Section 10, point 3).
-- Content version: `draft/draft-v4.md` (approved; R1-R5 from `draft/test-report-v3.md` applied).
-- Compiled from: the "Stats used" table and "Sources" footnote list in draft-v4. Nothing was added or dropped. The only change is the footnote numbering (see below).
+- **Page:** `power-bi-services-homepage` (`.docx`, `.html` and `.pdf` in this folder, plus `power-bi-services-homepage-insurance-format.docx`). This is a working file name only; the final URL is still undecided (brief Section 10, point 3).
+- **Content version:** `draft/draft-v7.md` (Test PASS in `draft/test-report-v7.md`; Revision 2 plus Revision 3). This log replaces the 28 September log, which was built from draft-v4.
+- **Compiled from:** the "Stats used" table and the "Sources" list in draft-v7. Nothing was added or dropped. The only change is the footnote numbering (see below).
+- **Link text rule:** every source link in this log and in the page files shows the source's own description as its visible text. The raw URL is used only as the link target. Microsoft page titles are never used as link text.
 
-## Verification status
+## Footnote renumbering (draft IDs to page numbers)
 
-**Every URL in this log needs a human click-check before publication.** WebFetch was blocked for this whole pipeline run, so no agent has opened these pages in this session:
+The draft keeps the brief's source IDs. The rendered page numbers footnotes **by order of first appearance**, and the `.html`, `.docx` and `.pdf` all use the same numbers.
 
-- The Plan agent got HTTP 403 from `community.fabric.microsoft.com` and `powerbi.microsoft.com`. It confirmed the Gartner 2026 claim through search results and a verbatim repost on mwpro.co.uk.
-- The Plan agent reports that it opened the Microsoft investor, Microsoft Learn and Microsoft On the Issues pages directly.
-- The Test agent re-confirmed [4], [6] and [7] through search in loop 3.
+| Draft ref | Brief ID | Page footnote | First appears in |
+|:-|:-|:-|:-|
+| [9] | F3 | **1** | S1 deployment line |
+| [1] | CS1 | **2** | S2 strip, item 1 |
+| [2] | CS2 | **3** | S2 strip, item 2 |
+| [12] | CS5 | **4** | S2 strip, item 3 |
+| [3] | S-3 | **5** | S2b recognition bar |
+| [7] | F1 | **6** | S5 row 2 |
+| [6] | CS3 | **7** | S9 H2 |
+| [8] | F2 | **8** | S14 FAQ 2 |
+| [11] | F5 | **9** | S14 FAQ 6 |
+| [10] | F4 | **10** | S14 FAQ 6 |
 
-| Source | Status |
-|:-|:-|
-| Microsoft Learn pages (footnotes 1, 2, 5, 8, 11) | Read by the Plan agent. Needs a click-check to confirm the pages still resolve and still say the same thing. |
-| Gartner 2026 announcement (footnote 4) | **Not opened directly** (403). Confirmed through search results and the mwpro.co.uk repost. Click-check required. |
-| Microsoft FY26 Q4 earnings call (footnote 6) | Read by the Plan agent. Re-confirmed by the Test agent through search. |
-| Microsoft On the Issues, AI diffusion (footnote 7) | Read by the Plan agent. Re-confirmed by the Test agent through search. |
-| Microsoft pricing blog and pricing page (footnote 10) | **Not opened directly**, because `powerbi.microsoft.com` returned 403. Click-check the US$14 / US$24 list prices. |
-| HLB HAMT internal claims (footnotes 3 and 9, plus the PowerUP! and timeline facts) | No public source. Approved for publication by the Content Writer (brief Section 10, point 4). |
+**Retired and absent from every output file:**
+- **Draft [4]:** the platform-adoption customer figure. It was retired in Revision 3 because it cannot be stated without naming a non-Power BI product, and no substitute figure was added.
+- **Draft [5]:** the UAE generative-AI usage statistic, retired in Revision 2.
 
-## Footnote renumbering (test-report-v3, carry item (h))
-
-The brief and draft numbered footnotes 1-11 by source type. The rendered page now numbers them **by order of first appearance**. The same numbers are used in the `.html`, `.docx` and `.pdf`.
-
-| Draft / brief ref | Page footnote | First appears in |
-|:-|:-|:-|
-| [9] (F3) | **1** | S1 deployment line |
-| [1] (CS1) | **2** | S2 strip, item 1 |
-| [2] (CS2) | **3** | S2 strip, item 2 |
-| [3] (S-3) | **4** | S2b recognition bar |
-| [7] (F1) | **5** | S5 row 2 |
-| [4] (S1) | **6** | S5 platform layer |
-| [5] (S2) | **7** | S6 lede |
-| [10] (F4) | **8** | S6 point 1 ("Answers") |
-| [6] (CS3) | **9** | S10 H2 |
-| [8] (F2) | **10** | FAQ 2 |
-| [11] (F5) | **11** | FAQ 6 |
+Page order of markers: 1 (S1), 2, 3, 4 (S2), 5 (S2b), 6 (S5 row 2), 7 (S9), 4 (S11 tile 5), 6 (FAQ 1), 8 (FAQ 2), 9, 1, 10 (FAQ 6), 10 (FAQ 8).
 
 ## Stats and verified facts (in page footnote order)
 
-| Page fn | Draft ref / brief ID | Stat or fact exactly as it appears on the page | Section | Source URL |
+| Page fn | Draft ref / brief ID | Stat or fact exactly as it appears in the content | Section | Source |
 |:-|:-|:-|:-|:-|
-| 1 | [9] / F3 | S1: "Data can stay in-country in Microsoft's UAE North (Dubai) or UAE Central (Abu Dhabi) cloud regions. The Dubai region runs the full Fabric platform; the Abu Dhabi region supports Power BI only." FAQ 6: "Your data can be hosted in Microsoft's Dubai or Abu Dhabi cloud regions" | S1 deployment line; S15 FAQ 6 | https://learn.microsoft.com/en-us/fabric/admin/region-availability |
-| 2 | [1] / CS1 | `200+` / "Data connectors in Power BI, from ERP and CRM to cloud databases." | S2 strip, item 1 only | https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources |
-| 3 | [2] / CS2 | `33x` / "Faster report load times in one recent HLB HAMT engagement." | S2 strip, item 2 only | None. HLB HAMT internal engagement, per HLB HAMT's prepared content. On-page source note reads "HLB HAMT client engagement (internal). No public source." |
-| 4 | [3] / S-3 | "Microsoft: named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year." | S2b recognition bar only | https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403 (repost confirming the text: https://mwpro.co.uk/blog/2026/07/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms/) |
-| 5 | [7] / F1 | S5 row 2: "It is the cloud side of the platform, where finished reports are published, bundled into apps, refreshed on schedule and secured." FAQ 1: "Power BI Desktop is Microsoft's free Windows application for connecting to data, building the semantic model and designing reports." | S5 row 2; S15 FAQ 1 | https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop |
-| 6 | [4] / S1 | "Microsoft reports more than 40,000 paid Fabric customers, up more than 60% year on year." | S5 platform layer only | https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4 |
-| 7 | [5] / S2 | "in Q2 2026, 73.3% of the UAE's working-age population used generative AI tools, against 18.8% worldwide." | S6 lede only | https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/ |
-| 8 | [10] / F4 | S6 point 1: "Copilot answers questions about an open report, summarises what each page shows and drafts DAX measures and new report pages..." FAQ 6: "Outside the US and EU data boundaries, Copilot is off by default unless an admin allows cross-region processing..." FAQ 8: "Fabric F2 or higher, or Premium P1 or higher, because Pro or Premium Per User licences alone do not include it" and "Microsoft officially supports English prompts only at present" | S6 point 1; S15 FAQ 6; S15 FAQ 8 | https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction (Q&A retirement context, not stated on the page: https://learn.microsoft.com/en-us/power-bi/natural-language/q-and-a-limitations) |
-| 9 | [6] / CS3 | "A Working Power BI Dashboard on Your Data in 7 Days" | S10 H2 only | None (HLB HAMT service commitment) |
-| 10 | [8] / F2 | "At the time of writing, Microsoft lists Power BI Pro at US$14 and Premium Per User at US$24 per user per month, the list prices since 1 April 2025." | S15 FAQ 2 only | https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/ ; https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing |
-| 11 | [11] / F5 | "the platform sits within the scope of Microsoft's ISO/IEC 27001 certification and SOC 2 reports" | S15 FAQ 6 only | https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001 ; https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2 |
+| 1 | [9] / F3 | S1: "in Microsoft's UAE North (Dubai) or UAE Central (Abu Dhabi) cloud region. Dubai runs every data workload; Abu Dhabi supports Power BI only." FAQ 6: "Data can be kept in-country in the Dubai or Abu Dhabi cloud region" | S1 deployment line; S14 FAQ 6 | [Microsoft Learn, cloud region availability for Power BI and Microsoft's data platform](https://learn.microsoft.com/en-us/fabric/admin/region-availability) |
+| 2 | [1] / CS1 | `200+` / "Power BI connectors; we configure yours and build missing ones." | S2 strip, item 1 only | [Microsoft Learn, "Data sources in Power BI Desktop"](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources) |
+| 3 | [2] / CS2 | `33x` / "Faster report load times in one recent HLB HAMT engagement." | S2 strip, item 2 only | [HLB HAMT, Data Visualization Services](https://hlbhamt.com/services/data-visualization-uae/) ("In a recent engagement, we achieved a 33x improvement in report load times and interactivity") |
+| 4 | [12] / CS5 | `Since 1999` / "A licensed UAE audit, tax and advisory firm that also builds your data platform." | S2 strip, item 3 | [HLB HAMT press release, "HLB HAMT Celebrates 25 Years of Unwavering Excellence"](https://hlbhamt.com/press-room/hlb-hamt-celebrates-25-years-of-unwavering-excellence/); also [HLB HAMT, 25 Years of Excellence](https://hlbhamt.com/about-us/25-years-of-excellence/) (founded as HAMT & Associates in 1999; joined HLB International in 2007) |
+| 4 | [12] / CS5 (optional) | "An HLB International member since 2007, bringing the standards and reach of a global advisory network." | S11 tile 5 | Same source as the row above (same source, different fact) |
+| 5 | [3] / S-3 | "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year." | S2b recognition bar only | [Microsoft, "Microsoft named a Leader in the 2026 Gartner Magic Quadrant for Analytics and BI Platforms" (Power BI Updates Blog)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403); [verbatim repost](https://mwpro.co.uk/blog/2026/07/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms/) |
+| 6 | [7] / F1 | S5 row 2: "the cloud service where your reports are published as apps, refreshed on schedule and secured by role." FAQ 1: "Power BI Desktop is a free, installable application for connecting to data, modelling it and designing reports." | S5 row 2; S14 FAQ 1 | [Microsoft Learn, Power BI service vs Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop) |
+| 7 | [6] / CS3 | H2 "A Working Power BI Dashboard on Your Data in 7 Days"; intro qualifier "for a defined use case" | S9 only | [HLB HAMT service commitment](https://hlbhamt.com/services/power-bi-dashboard-development/) ("a Power BI proof of concept can be delivered in as little as 7 days for defined use cases") |
+| 8 | [8] / F2 | "At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025." | S14 FAQ 2 only | Microsoft Power BI [pricing update](https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/) and [pricing page](https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing) |
+| 9 | [11] / F5 | "Power BI falls within the scope of Microsoft's ISO/IEC 27001 and SOC 2 audits." | S14 FAQ 6 only | Microsoft Learn, [ISO/IEC 27001](https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001) and [SOC 2](https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2) offerings |
+| 10 | [10] / F4 | FAQ 6: "Outside the US and EU data boundaries, Power BI's AI assistant stays off unless an admin allows cross-region processing". FAQ 8: "It runs only on paid capacity, a higher-tier licence bought for the whole organisation; Pro and Premium Per User on their own are not enough" and "Prompts are officially supported in English only for now" | S14 FAQ 6; S14 FAQ 8 | [Microsoft Learn, overview of the generative AI assistant in Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) |
 
-### Gartner disclaimer (footnote 4)
+### Gartner disclaimer (footnote 5)
 
-This text is rendered in the page's Sources note directly under footnote 4, in all three formats:
+This text appears in the page's Sources note directly under footnote 5, in the `.html`, `.docx`, `.pdf` and the Insurance-format `.docx`:
 
 > Gartner does not endorse any vendor, product or service depicted in its research publications. GARTNER and MAGIC QUADRANT are registered trademarks of Gartner, Inc. and/or its affiliates.
 
 ## HLB HAMT commercial facts (no footnote)
 
-| Fact | Exact wording on the page | Section | Source |
+| Fact | Exact wording in the content | Section | Source |
 |:-|:-|:-|:-|
-| PowerUP! price, 5 terms and 6 deliverables | "$4,500 fixed-price accelerator", plus the terms and deliverables as listed | S11 featured card only | HLB HAMT prepared content. Confirmed current, in USD (brief Section 10, point 4). |
-| Implementation timelines | "two to four weeks" / "six to ten weeks" / "three to six months" / "a working prototype arrives within two weeks" | S15 FAQ 9 only | HLB HAMT prepared content. Confirmed by the brief (Section 10, point 4). |
+| PowerUP! price, 5 terms and 6 deliverables | "$4,500 fixed-price accelerator", plus the terms and deliverables as listed | S10 featured card only | HLB HAMT prepared content. Confirmed current, in USD (brief Section 10, point 4). |
+| Implementation timelines | "two to four weeks" / "six to ten weeks" / "three to six months" / "a working prototype inside the first two weeks" | S14 FAQ 10 only | HLB HAMT prepared content (brief Section 10, point 4). No footnote. |
 
-No stat appears in more than one section. No FAQ restates 200+, 33x, 19th year, 40,000, 73.3% or 7 days. The meta description's "7-day" is meta copy, not on-page copy.
+No stat appears in more than one section. Footnotes 1, 4, 6 and 10 are each cited in two places, but they support a different fact or a factual explanation each time, as listed above. No FAQ restates 200+, 33x, 1999, the 19th year, 7 days or $4,500. The meta description's "7-day" is meta copy, not on-page copy.
 
-## Internal links (also to be click-checked before publication)
+## Verification status
 
-| Anchor text | Target | Location | Status |
+- **Re-checked live by the Test agent on 2026-09-29** (test-report-v7, item 6):
+  - Footnote 1: region availability page, ms.date 25 Sep 2026.
+  - Footnote 10: AI-assistant overview, ms.date 24 Aug 2026.
+  - Footnote 8: pricing page. Pro "$14.00 user/month" and PPU "$24.00 user/month".
+  - Footnote 5: the verbatim repost of the announcement.
+- **Confirmed by Test against the brief and earlier loops, and unchanged:** footnotes 2, 3, 4, 6, 7 and 9.
+- **Not independently re-fetched by Deliver.** Click-check every link once before publication. In earlier runs the announcement's host (footnote 5) and the pricing-update blog (footnote 8) returned HTTP 403 to automated fetches.
+
+## Internal links (click-check before publication)
+
+| Ref | Anchor text | Target | Location |
 |:-|:-|:-|:-|
-| digital transformation and analytics services | https://hlbhamt.com/services/digital-transformation-uae/ | S4 lede | Live (from the site nav) |
-| Power BI automation with Power Automate | https://hlbhamt.com/insights/unlocking-power-bi-automation-with-power-automate/ | S6 point 3 ("Alerts") | Live (existing insight) |
-| UAE Corporate Tax advisory | https://hlbhamt.com/services/corporate-tax-advisory-services-in-uae/ | S7 card 2 (back) | Live |
-| SugarAI CRM | https://hlbhamt.com/sugarai-crm-2/ | S12 tile 4 ("Dual intelligence") | Live (brief Section 10, point 6) |
-| data protection advisory | https://hlbhamt.com/services/data-privacy-and-security-uae/ | S15 FAQ 6 | Live |
-| advanced analytics services | `/services/advanced-analytics-services/` | S6 lede | **PLACEHOLDER. The sibling page is not built yet.** Confirm the slug before go-live. |
-| data visualisation services | `/services/data-visualisation-services/` | S8 item 03 | **PLACEHOLDER. The sibling page is not built yet.** Confirm the slug before go-live. |
-| Breadcrumb: Home / Technology Consulting Services / Digital Transformation & Analytics | https://hlbhamt.com/ ; https://hlbhamt.com/services/technology-consulting-services-dubai-uae/ ; https://hlbhamt.com/services/digital-transformation-uae/ | S0 | Live (from the site nav) |
-| Read Microsoft's announcement (button) | The footnote 4 URL above | S2b | External, returned 403 to the Plan agent |
+| L1 | digital transformation and analytics services | https://hlbhamt.com/services/digital-transformation-uae/ | S4 lede |
+| L2 | SugarAI CRM | https://hlbhamt.com/sugarai-crm-2/ | S11 tile 4 |
+| L3 | UAE Corporate Tax advisory | https://hlbhamt.com/services/corporate-tax-advisory-services-in-uae/ | S6 card 2 (back) |
+| L4 | Power BI automation | [HLB HAMT insight on Power BI automation](https://hlbhamt.com/insights/unlocking-power-bi-automation-with-power-automate/) | S14 FAQ 4 |
+| L5 | data protection advisory | https://hlbhamt.com/services/data-privacy-and-security-uae/ | S14 FAQ 6 |
+| L6 | Power BI dashboard development | https://hlbhamt.com/services/power-bi-dashboard-development/ | S7 item 03 |
+| L7 | data visualisation services | https://hlbhamt.com/services/data-visualization-uae/ | S6 intro |
+| P2 | advanced analytics services | `/services/advanced-analytics-services/` | S6 card 6 (back). **Placeholder: the page is not built yet.** Confirm the slug before go-live. |
+| S0 | Breadcrumb: Home / Technology Consulting Services / Digital Transformation & Analytics | https://hlbhamt.com/ ; https://hlbhamt.com/services/technology-consulting-services-dubai-uae/ ; https://hlbhamt.com/services/digital-transformation-uae/ | S0 |
+| S2b | Read Microsoft's announcement (button) | Same target as footnote 5 | S2b |
 
-**Reverse link (manual edit to the LIVE SugarAI CRM page; not part of these files):** on https://hlbhamt.com/sugarai-crm-2/, "Why UAE Businesses Choose HLB HAMT for SugarAI" grid, tile "Dual AI intelligence" ("SugarAI prediction plus Power BI analytics, from one partner."), link the words "Power BI analytics" to this page's final URL once it is decided. Optionally, also link "dashboards" in the Packages › Integration tab item "Data & Analytics Integrations" ("Consolidate customer and business data for reporting, dashboards, and informed decision-making.").
+**Not linked anywhere, per brief 12.9:** the partner and consulting redirect-candidate pages.
+
+## Carry-forward notes (outside these files)
+
+- **Reverse link, a manual edit to the live SugarAI CRM page:** on https://hlbhamt.com/sugarai-crm-2/, in the "Why UAE Businesses Choose HLB HAMT for SugarAI" grid, the "Dual AI intelligence" tile, link the words "Power BI analytics" to this page's final URL once it is decided.
+- **Brief 12.12 live-site issues:**
+  - The consulting page shows theme demo testimonials and demo "success story" percentages, none of them HLB HAMT results.
+  - Sibling pages still carry outdated claims ("14+ Yrs Gartner #1", "~$15/user/month", an English-or-Arabic question feature, "ISO 27001/SOC 2 compliant", and a competitor price comparison). They will contradict this page once it is live.
+  - The site nav still says "Celebrating 25 Years".
+- **Final URL and redirects** (brief Section 10, point 3, and Section 13, point 1): still open. This blocks go-live, not delivery.
