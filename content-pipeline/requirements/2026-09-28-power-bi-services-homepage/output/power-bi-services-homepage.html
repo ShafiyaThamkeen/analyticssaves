@@ -7,13 +7,13 @@
 <meta name="description" content="Power BI service from HLB HAMT: consulting, data preparation, Arabic-ready dashboards, training and a 7-day proof of concept for businesses in the UAE and GCC.">
 <!-- Canonical URL intentionally omitted: the final page URL is still undecided (brief Section 10, point 3).
      Add <link rel="canonical" href="..."> once the URL and redirect plan for the overlapping Power BI pages are confirmed.
-     "power-bi-services-homepage" is a working file name only. -->
+     "power-bi-services-homepage" is a working file name only. Built from draft-v7.md (Test PASS, test-report-v7.md). -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Microsoft Power BI consulting and implementation",
-  "serviceType": "Microsoft Power BI consulting and implementation",
+  "name": "HLB HAMT Power BI Services",
+  "serviceType": "Power BI consulting, implementation and support",
   "description": "Power BI service from HLB HAMT: consulting, data preparation, Arabic-ready dashboards, training and a 7-day proof of concept for businesses in the UAE and GCC.",
   "provider": {
     "@type": "Organization",
@@ -54,7 +54,7 @@
   ],
   "offers": {
     "@type": "Offer",
-    "name": "Microsoft Power BI PowerUP!",
+    "name": "PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator",
     "description": "$4,500 fixed-price accelerator",
     "price": "4500",
     "priceCurrency": "USD"
@@ -71,7 +71,7 @@
       "name": "What is the Power BI service, and how is it different from Power BI Desktop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Power BI Desktop is Microsoft's free Windows application for connecting to data, building the semantic model and designing reports. The Power BI service is the browser-based cloud platform where those reports go live: they are shared as apps, refreshed automatically and protected by access rules. Authors tend to work in Desktop, while everyone else reads and interacts with reports online. We set up both, including a workspace structure that keeps the right numbers in front of the right people."
+        "text": "Power BI Desktop is a free, installable application for connecting to data, modelling it and designing reports. The Power BI service runs in the browser: access rules decide who sees each published report, data refreshes on its own schedule, and related reports are grouped into apps for each audience. Report authors mostly work in Desktop; everyone else uses the cloud. We set up both, with a workspace structure matched to how your organisation shares information."
       }
     },
     {
@@ -79,23 +79,23 @@
       "name": "How is Power BI licensed, and what will it cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "At the time of writing, Microsoft lists Power BI Pro at US$14 and Premium Per User at US$24 per user per month, the list prices since 1 April 2025. Per-user licences suit teams where most people both view and share reports. Larger deployments, embedding for external audiences and Copilot run on Fabric capacity, which is priced separately. Our licence advisory works out which mix fits your user base, so you aren't paying for seats or capacity nobody uses."
+        "text": "Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025. Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and PowerUP! gives you a fixed-price way to start."
       }
     },
     {
       "@type": "Question",
-      "name": "Which data sources can Power BI connect to, and do we need a data warehouse first?",
+      "name": "Which of our systems can you connect to Power BI, and do we need a warehouse first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most business systems are within reach. Microsoft's own connectors, partner-built connectors and custom builds cover sources such as SAP, Oracle, NetSuite, Dynamics 365, Salesforce, SugarCRM, Tally, QuickBooks, SQL Server, Snowflake, Google BigQuery and REST APIs. A warehouse is not always the first step. For a smaller scope with a handful of sources, connecting directly works well. Once data is spread across five or more systems, a lakehouse is usually worth it: every report reconciles to the same cleaned tables."
+        "text": "Most of them. Where a standard or partner-built connector exists, we use it, and we write custom connectors for legacy systems that have none. That covers accounting packages, ERP and CRM platforms, on-premises databases, cloud warehouses and REST APIs. A warehouse is not always step one. For a handful of sources, direct connection is fine. Once data spreads across five or more systems, we recommend a lakehouse so every report works from the same cleaned tables."
       }
     },
     {
       "@type": "Question",
-      "name": "Can Power BI replace our manual Excel reports?",
+      "name": "Can you replace our manual spreadsheet reports with Power BI?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, and it is often the first job we take on. Instead of someone rebuilding spreadsheets every Monday, data refreshes on a schedule and dashboards always show current figures. Power Automate can email whoever owns a figure the moment it moves outside its agreed range. For clients in the Emirates, that Monday routine used to cost hours; now it largely runs itself. Excel stays available for anyone who still prefers to analyse there."
+        "text": "Yes. It is often the first thing clients ask us to fix. Rather than a team member copying figures between workbooks every week, data refreshes on a schedule and dashboards stay current. Through Power BI automation, we set alerts that email a KPI's owner the moment it moves outside its agreed range. Clients in the Emirates have taken hours of weekly manual reporting off their teams. Spreadsheets stay available for anyone who prefers to analyse there."
       }
     },
     {
@@ -103,7 +103,7 @@
       "name": "Do you build Arabic and right-to-left dashboards?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We plan right-to-left layouts before the first visual is placed, instead of mirroring an English report at the end. Labels, filters, slicers and KPI descriptions appear in Arabic, and page layouts, visual order and navigation read right to left. The same approach works for other right-to-left languages such as Urdu and Persian. Where you need Arabic and English versions of the same report, both sit on one model and the numbers always match."
+        "text": "Yes. We design right-to-left from the first wireframe rather than mirroring a finished English report. Labels, filters, slicers and KPI descriptions appear in Arabic, while page layout, visual order and navigation all run right to left. We apply the same method to other right-to-left languages, such as Urdu and Persian. When you need Arabic and English editions of one report, both run on a single model, so their totals always agree."
       }
     },
     {
@@ -111,23 +111,31 @@
       "name": "Is our data secure, and can it stay in the UAE?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Row-level security limits each user to the rows they are entitled to see, data is encrypted, and the platform sits within the scope of Microsoft's ISO/IEC 27001 certification and SOC 2 reports. Your data can be hosted in Microsoft's Dubai or Abu Dhabi cloud regions, and our data protection advisory team helps set each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Copilot is off by default unless an admin allows cross-region processing. We make that call with you."
+        "text": "We configure row-level security so people see only the records they are entitled to, and data is encrypted. Power BI falls within the scope of Microsoft's ISO/IEC 27001 and SOC 2 audits. Data can be kept in-country in the Dubai or Abu Dhabi cloud region, and our data protection advisory team sets each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Power BI's AI assistant stays off unless an admin allows cross-region processing; we make that call with you."
       }
     },
     {
       "@type": "Question",
-      "name": "What is Microsoft Fabric, and should we plan for it?",
+      "name": "Do we need a data platform beyond Power BI, and when?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fabric is the larger Microsoft service that Power BI now belongs to. Its other workloads (real-time analytics, data engineering and warehousing) share one pool of capacity. Fabric pays off when reporting depends on several large or fast-moving sources, when engineers and analysts should query a single copy of the data, or when your per-user licence costs are climbing. For a single team reporting from a couple of systems, it can wait. Our readiness assessment tells you which situation you are in and plans any migration in stages."
+        "text": "Not always. Power BI handles most departmental reporting on its own. Microsoft's wider data platform, which adds data engineering, warehousing and real-time analytics on a common pool of capacity, becomes worth planning for once you feed reports from large or fast-changing sources, once engineering and analyst teams want to work off a shared copy of the data, or once per-user licence spend outgrows capacity pricing. Our readiness assessment tells you where you stand, and if the move makes sense, we plan it in stages."
       }
     },
     {
       "@type": "Question",
-      "name": "What do we need to use Copilot in Power BI?",
+      "name": "Does Power BI include AI features, and what do we need to use them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three things. First, paid capacity: Fabric F2 or higher, or Premium P1 or higher, because Pro or Premium Per User licences alone do not include it. Second, an administrator has to enable Copilot in the tenant settings. Third, a well-prepared semantic model, with clear table names, descriptions and tested measures; that groundwork makes Copilot's answers reliable. Microsoft officially supports English prompts only at present, so we design Arabic into the reports themselves rather than into the questions."
+        "text": "Yes. Power BI includes a generative AI assistant that answers plain-language questions and drafts written summaries of report pages. It runs only on paid capacity, a higher-tier licence bought for the whole organisation; Pro and Premium Per User on their own are not enough. A tenant administrator must also switch it on, and the semantic model needs clear table names, descriptions and tested measures, which we prepare. Prompts are officially supported in English only for now, so we put Arabic into report design instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are some Power BI dashboards slow, and can you fix ours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, yes. The tool is rarely the problem; how the report was built almost always is. Typical causes are a weak data model, inefficient DAX or queries, large datasets nobody has optimised, and missing aggregations or indexing. We work through the pipeline, the model and the semantic layer: trimming what each visual asks for, adding aggregation tables and rewriting heavy measures. Every fix is retested at realistic data volumes before the report goes back to your users."
       }
     },
     {
@@ -135,7 +143,7 @@
       "name": "How long does a Power BI implementation take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on scope. A single-department rollout usually takes two to four weeks. A multi-department programme runs six to ten weeks, and an enterprise build with a data lakehouse takes three to six months. Whatever the size, a working prototype arrives within two weeks, early enough for your feedback to shape the build. Timelines are confirmed once discovery has shown the state of your data and the number of sources involved."
+        "text": "Scope drives the timeline. Expect two to four weeks for a single department, six to ten weeks for a multi-department programme, and three to six months for an enterprise build on a data lakehouse. In every case you get a working prototype inside the first two weeks, so your feedback steers the rest of the build. HLB HAMT confirms the timeline after discovery, once we know the condition of your data and how many sources are involved."
       }
     }
   ]
@@ -493,9 +501,9 @@ sup.fn a{text-decoration:none;font-weight:700}
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow eyebrow-gold">Microsoft Power BI</p>
-        <h1 id="hero-title">Power BI Service Partner for Smarter Decisions Across the UAE</h1>
-        <p class="hero-lede">HLB HAMT designs, builds and runs your Power BI service, turning ERP, CRM, finance and spreadsheet data into dashboards your leadership team trusts. Our accountants and data engineers work on the same team, so reports built for organisations across the Emirates and the wider GCC follow the accounting logic their auditors apply.</p>
+        <p class="eyebrow eyebrow-gold">HLB HAMT POWER BI SERVICES</p>
+        <h1 id="hero-title">HLB HAMT: Your Power BI Service Partner for Smarter Decisions in the UAE</h1>
+        <p class="hero-lede">HLB HAMT designs, builds and runs your Power BI service, turning ERP, CRM, finance and spreadsheet data into dashboards your leadership team can take straight into the boardroom. Our chartered accountants work beside our data engineers, so the measures behind each report follow the rules your auditors test, whether you operate in one emirate or across the GCC.</p>
         <div class="btn-row">
           <a class="btn btn-gold" href="#contact">Book a Power BI consultation</a>
           <a class="btn btn-outline-light" href="#packages">See the PowerUP! offer</a>
@@ -503,25 +511,25 @@ sup.fn a{text-decoration:none;font-weight:700}
       </div>
       <div class="hero-panel">
         <p class="subblock-title">One semantic model, one version of the numbers</p>
-        <p class="subblock-line">A revenue figure means the same thing in every meeting, whether a director, an analyst or someone out in the field is reading it.</p>
+        <p class="subblock-line">We define each measure once, so gross margin reads the same on the executive dashboard, in an analyst's drill-down and on a sales manager's phone.</p>
         <div class="aud-cards">
-          <div class="aud-card"><span class="aud-num" aria-hidden="true">01</span><h3>Leadership</h3><p>A single-page dashboard holding the handful of KPIs your executives check before the first meeting of the day.</p></div>
-          <div class="aud-card"><span class="aud-num" aria-hidden="true">02</span><h3>Analysts</h3><p>Multi-page reports with filters and drill-downs that explain why a number moved, not only that it did.</p></div>
-          <div class="aud-card"><span class="aud-num" aria-hidden="true">03</span><h3>Teams on the move</h3><p>A regional manager reviews yesterday's figures and any alerts on iOS or Android between site visits.</p></div>
+          <div class="aud-card"><span class="aud-num" aria-hidden="true">01</span><h3>Leadership</h3><p>A one-page view of the KPIs your executives check first thing, refreshed before they log in.</p></div>
+          <div class="aud-card"><span class="aud-num" aria-hidden="true">02</span><h3>Analysts</h3><p>Multi-page reports with filters and drill-downs that trace why a number moved, down to transactions.</p></div>
+          <div class="aud-card"><span class="aud-num" aria-hidden="true">03</span><h3>Teams on the move</h3><p>Area managers open the same reports, with alerts, on their phones between site visits.</p></div>
         </div>
       </div>
     </div>
-    <p class="deploy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span>Data can stay in-country in Microsoft's UAE North (Dubai) or UAE Central (Abu Dhabi) cloud regions. The Dubai region runs the full Fabric platform; the Abu Dhabi region supports Power BI only.<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup></span></p>
+    <p class="deploy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span>We set up your environment so data can stay in-country, in Microsoft's UAE North (Dubai) or UAE Central (Abu Dhabi) cloud region. Dubai runs every data workload; Abu Dhabi supports Power BI only.<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup></span></p>
   </div>
 </section>
 
 <!-- S2 Dark stats strip (no heading tags) -->
 <div class="hlb-strip">
   <div class="wrap hlb-strip-in" role="list">
-    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">200+</p><p class="hlb-strip-desc">Data connectors in Power BI, from ERP and CRM to cloud databases.<sup class="fn"><a href="#src-2" aria-label="Source 2">2</a></sup></p></div>
+    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">200+</p><p class="hlb-strip-desc">Power BI connectors; we configure yours and build missing ones.<sup class="fn"><a href="#src-2" aria-label="Source 2">2</a></sup></p></div>
     <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">33x</p><p class="hlb-strip-desc">Faster report load times in one recent HLB HAMT engagement.<sup class="fn"><a href="#src-3" aria-label="Source 3">3</a></sup></p></div>
-    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Finance + technology</p><p class="hlb-strip-desc">Licensed audit, tax and advisory firm building data platforms.</p></div>
-    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Arabic and English</p><p class="hlb-strip-desc">Right-to-left dashboards designed from the first mockup.</p></div>
+    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Since 1999</p><p class="hlb-strip-desc">A licensed UAE audit, tax and advisory firm that also builds your data platform.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p></div>
+    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Arabic and English</p><p class="hlb-strip-desc">Right-to-left dashboards planned from the first mockup, not retrofitted.</p></div>
   </div>
 </div>
 
@@ -529,7 +537,7 @@ sup.fn a{text-decoration:none;font-weight:700}
 <div class="recog">
   <div class="wrap recog-in">
     <span class="recog-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg></span>
-    <p class="recog-text">Microsoft: named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p>
+    <p class="recog-text">HLB HAMT builds on Power BI. Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup></p>
     <a class="btn btn-outline" href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">Read Microsoft's announcement</a>
   </div>
 </div>
@@ -538,8 +546,7 @@ sup.fn a{text-decoration:none;font-weight:700}
 <nav class="anchor-nav" aria-label="On this page">
   <div class="wrap"><ul>
     <li><a href="#whyhlbhamt">Why HLB HAMT</a></li>
-    <li><a href="#explorepowerbi">Why Power BI</a></li>
-    <li><a href="#aiinsights">AI Insights</a></li>
+    <li><a href="#explorepowerbi">The Platform</a></li>
     <li><a href="#usecases">Use Cases</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#methodology">Proof of Concept</a></li>
@@ -554,188 +561,172 @@ sup.fn a{text-decoration:none;font-weight:700}
     <div class="sec-head">
       <p class="eyebrow">WHY HLB HAMT</p>
       <h2 id="whyhlbhamt-h">Great Dashboards Start With the Numbers Behind Them</h2>
-      <p class="lede">Microsoft supplies a capable platform. Whether people act on what it shows depends on the logic underneath. HLB HAMT is a Power BI consulting company that is also a licensed audit, tax and advisory firm and a member of the HLB International network, so our <a href="https://hlbhamt.com/services/digital-transformation-uae/">digital transformation and analytics services</a> team builds self-service BI on figures that reconcile to your ledgers.</p>
+      <p class="lede">HLB HAMT is a Power BI consulting company that is also a licensed audit, tax and advisory firm, and a member of the HLB International network. Power BI gives us the platform; our accountants and engineers make the numbers reconcile. That combination anchors our <a href="https://hlbhamt.com/services/digital-transformation-uae/">digital transformation and analytics services</a>, where we build self-service BI ecosystems on figures your finance team has already approved.</p>
     </div>
     <div class="grid grid-4">
-      <article class="card"><span class="card-num" aria-hidden="true">01</span><h3>What we do</h3><p>Discovery and data preparation come first, followed by modelling, DAX and report design. We then set up and govern your Power BI service: workspaces and apps, row-level security, scheduled refresh. Training and ongoing support continue after your teams start using it.</p></article>
-      <article class="card"><span class="card-num" aria-hidden="true">02</span><h3>Who we work with</h3><p>A finance team piloting its first dashboard, or a multi-entity group consolidating reports across companies and currencies. Clients operate in all seven emirates as well as Saudi Arabia, Oman, Bahrain, Kuwait and Qatar, and the HLB International network extends our reach beyond the Gulf.</p></article>
-      <article class="card"><span class="card-num" aria-hidden="true">03</span><h3>How we deliver</h3><p>Start with a live demo or a <a href="#methodology">proof of concept</a> on your own data, then scale in phases. Before any build, we write down the scope and the success criteria both sides will judge it by. Flexible engagement models let you add depth once phase one proves its value.</p></article>
-      <article class="card"><span class="card-num" aria-hidden="true">04</span><h3>Support after go-live</h3><p>A UAE-based team answers in your time zone, Monday to Friday, through a single point of contact. When a report slows down or the board asks for a new view of the numbers, that contact owns the request until it is resolved.</p></article>
+      <article class="card"><span class="card-num" aria-hidden="true">01</span><h3>What we do</h3><p>Discovery, data preparation, modelling and DAX, and report design all sit with us. So does setting up and governing your Power BI service: workspaces and apps, row-level security and scheduled refresh. Training and support carry on after launch, for as long as you need them.</p></article>
+      <article class="card"><span class="card-num" aria-hidden="true">02</span><h3>Who we work with</h3><p>Clients range from a finance department piloting its first dashboard to multi-entity groups reporting across several companies and currencies. We deliver in all seven emirates and in Saudi Arabia, Oman, Bahrain, Kuwait and Qatar, with HLB International member firms extending our reach beyond the Gulf.</p></article>
+      <article class="card"><span class="card-num" aria-hidden="true">03</span><h3>How we deliver</h3><p>Most clients start with a live demo or a <a href="#methodology">proof of concept</a>. Full implementations then move through five stages: we define the KPIs and their metric logic, model the data, design the report architecture and user experience, validate accuracy and tune performance, then deploy and drive adoption across your teams.</p></article>
+      <article class="card"><span class="card-num" aria-hidden="true">04</span><h3>Support after go-live</h3><p>Once reports are live, a single point of contact in our UAE-based team handles your requests in your time zone, Monday to Friday. That person knows your model, tracks each one through to a fix and brings in the right specialist when the board asks for something new.</p></article>
     </div>
   </div>
 </section>
 
-<!-- S5 Why Power BI / Explore -->
+<!-- S5 The Platform We Deliver -->
 <section id="explorepowerbi" class="sec sec-wash" aria-labelledby="explorepowerbi-h">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">WHY POWER BI</p>
-      <h2 id="explorepowerbi-h">Why Power BI: From Raw Data to Boardroom Decisions</h2>
-      <p class="lede">Power BI is Microsoft's business intelligence platform, and it sits naturally beside the tools your teams open every day: Excel, Teams, SharePoint, Outlook, Azure and Dynamics 365. For organisations already running on Microsoft, that native fit means people adopt it with very little friction. Four capabilities do most of the work.</p>
+      <p class="eyebrow">THE PLATFORM WE DELIVER</p>
+      <h2 id="explorepowerbi-h">What HLB HAMT Builds for You on Power BI</h2>
+      <p class="lede">HLB HAMT delivers your reporting on Power BI because it works natively with the Microsoft productivity and business apps your staff already rely on. People who live in those tools pick it up with very little friction, which shortens the gap between go-live and everyday use. Below is what we build on each part of the platform.</p>
     </div>
     <div class="module-table">
       <article class="module-row">
-        <div class="module-title"><p class="module-label">Capability</p><h3>Self-service analytics, built in Power BI Desktop</h3></div>
-        <p class="module-desc">Business users build and explore their own visuals without joining an IT queue. Underneath, DAX measures calculate the KPIs finance reports on, such as year-over-year growth, running totals and year-to-date revenue. Every page then works from one agreed definition.</p>
-        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Interactive visuals</li><li>DAX measures for custom KPIs</li><li>Power Query data shaping</li><li>Reusable report themes</li><li>Arabic and English layouts</li></ul></div>
+        <div class="module-title"><p class="module-label">Capability</p><h3>Self-service reporting your teams run themselves</h3></div>
+        <p class="module-desc">We build semantic models in Power BI Desktop with standardised metric definitions and reusable data layers, then write the DAX measures behind YTD revenue, year-over-year growth and running totals. Business users can explore those numbers on their own, without raising a ticket with IT.</p>
+        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Interactive visuals</li><li>DAX measures for custom KPIs</li><li>Data shaping and cleansing</li><li>Reusable report themes</li><li>Arabic and English layouts</li></ul></div>
       </article>
       <article class="module-row">
         <div class="module-title"><p class="module-label">Capability</p><h3>The Power BI service</h3></div>
-        <p class="module-desc">It is the cloud side of the platform, where finished reports are published, bundled into apps, refreshed on schedule and secured.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup> Dashboards serve leadership and reports serve analysts. Both draw on the same data, which puts every part of the business in view from one place.</p>
+        <p class="module-desc">We set up, govern and run the cloud service where your reports are published as apps, refreshed on schedule and secured by role.<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup> Leadership reads dashboards, analysts work in reports, and our administrators keep both healthy as usage grows.</p>
         <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Workspaces and apps</li><li>Scheduled refresh</li><li>Row-level security</li><li>Subscriptions and sharing</li><li>Usage monitoring</li></ul></div>
       </article>
       <article class="module-row">
-        <div class="module-title"><p class="module-label">Capability</p><h3>Connected to your ecosystem</h3></div>
-        <p class="module-desc">Native, certified and custom connectors cover systems such as SAP, Oracle, NetSuite, Dynamics 365, Salesforce, SugarCRM, Excel, SharePoint, Snowflake, Google BigQuery and REST APIs. For servers inside your own network, the on-premises data gateway keeps scheduled refresh running without moving the source.</p>
-        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Certified connectors</li><li>Custom connector builds</li><li>On-premises data gateway</li><li>ERP and CRM integration</li><li>Excel and SharePoint sources</li></ul></div>
+        <div class="module-title"><p class="module-label">Capability</p><h3>Connected to the systems you run</h3></div>
+        <p class="module-desc">Our engineers reach your ERP, CRM, accounting and finance systems, cloud warehouses, spreadsheets, file shares and REST APIs through native, partner-built and custom connectors. For servers inside your network, we install the on-premises data gateway so scheduled refresh keeps running.</p>
+        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Native and partner connectors</li><li>Custom connector builds</li><li>On-premises data gateway</li><li>ERP and CRM integration</li><li>Spreadsheet and file sources</li></ul></div>
       </article>
       <article class="module-row">
-        <div class="module-title"><p class="module-label">Capability</p><h3>Decisions on the go, and inside your own portals</h3></div>
-        <p class="module-desc">Power BI Mobile puts reports on iOS and Android, with alerts, annotation and sharing from the phone. Power BI Embedded goes further: investor portals, client platforms and your web apps can carry branded dashboards on capacity-based licensing, without the expense of building reporting from scratch.</p>
-        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>iOS and Android apps</li><li>Data-driven alerts</li><li>Mobile-optimised layouts</li><li>Embedded analytics</li><li>Capacity-based licensing</li></ul></div>
+        <div class="module-title"><p class="module-label">Capability</p><h3>On every device, and inside your own portals</h3></div>
+        <p class="module-desc">We design mobile layouts so reports, alerts and annotations work properly on phones and tablets. Where customers or investors need access, we embed branded dashboards in your web apps and portals through Power BI Embedded, on capacity-based licensing that keeps external distribution affordable.</p>
+        <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Power BI mobile apps</li><li>Data-driven alerts</li><li>Mobile-optimised layouts</li><li>Embedded analytics</li><li>Capacity-based licensing</li></ul></div>
       </article>
     </div>
     <article class="layer">
       <div class="layer-copy">
         <p class="module-label module-label-light">Platform layer</p>
-        <h3>Microsoft Fabric and a medallion data lakehouse</h3>
-        <p>Fabric brings Power BI together with data engineering, warehousing and real-time analytics on one platform. Microsoft reports more than 40,000 paid Fabric customers, up more than 60% year on year.<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup> When your data lives in five or more systems, we build a Bronze, Silver and Gold lakehouse fed by Azure Data Factory pipelines, giving every report one source of truth.</p>
+        <h3>Data platform readiness and a medallion lakehouse</h3>
+        <p>We assess whether you are ready for a unified data platform, one that brings data preparation, storage and reporting into a single environment. When your data sits in five or more systems, we build a lakehouse fed by automated data pipelines, refining records through Bronze, Silver and Gold layers so every dashboard reads from one trusted set of tables.</p>
       </div>
-      <div class="layer-caps"><p class="caps-label">Key capabilities</p><ul class="ticks ticks-light"><li>Fabric readiness assessment</li><li>Azure Data Factory pipelines</li><li>Bronze, Silver and Gold layers</li><li>Migration planning</li></ul></div>
+      <div class="layer-caps"><p class="caps-label">Key capabilities</p><ul class="ticks ticks-light"><li>Data platform readiness assessment</li><li>Automated data pipelines</li><li>Bronze, Silver and Gold layers</li><li>Migration planning</li></ul></div>
     </article>
   </div>
 </section>
 
-<!-- S6 AI insights -->
-<section id="aiinsights" class="sec" aria-labelledby="aiinsights-h">
-  <div class="wrap">
-    <div class="sec-head">
-      <p class="eyebrow">AI INSIGHTS</p>
-      <h2 id="aiinsights-h">Ask Your Data a Question and Act on the Answer</h2>
-      <p class="lede">Copilot and the AI visuals built into Power BI move a team from asking what happened to deciding what to do next, without anyone writing a query. The appetite is already there: in Q2 2026, 73.3% of the UAE's working-age population used generative AI tools, against 18.8% worldwide.<sup class="fn"><a href="#src-7" aria-label="Source 7">7</a></sup> Forecasting and scoring models, built on Azure Machine Learning, are part of our <!-- PLACEHOLDER LINK: sibling page not yet built; confirm slug before go-live --><a href="/services/advanced-analytics-services/" data-placeholder-link="true">advanced analytics services</a>.</p>
-    </div>
-    <div class="grid grid-3">
-      <article class="card card-accent"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></span><h3>Answers</h3><p>Copilot answers questions about an open report, summarises what each page shows and drafts DAX measures and new report pages for your authors to refine.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup></p></article>
-      <article class="card card-accent"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Explains</h3><p>Key influencers and the decomposition tree show what is pushing a number up or down, and the narrative visual describes the change in words.</p></article>
-      <article class="card card-accent"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><h3>Alerts</h3><p>Anomaly detection flags unusual movements. Data alerts, extended through <a href="https://hlbhamt.com/insights/unlocking-power-bi-automation-with-power-automate/">Power BI automation with Power Automate</a>, email the owner when a KPI crosses its threshold.</p></article>
-    </div>
-  </div>
-</section>
-
-<!-- S7 Use cases (flip cards) -->
-<section id="usecases" class="sec sec-wash" aria-labelledby="usecases-h">
+<!-- S6 Use cases (flip cards) -->
+<section id="usecases" class="sec" aria-labelledby="usecases-h">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">USE CASES</p>
       <h2 id="usecases-h">Dashboards Shaped Around the Decisions You Make</h2>
-      <p class="lede">Every engagement starts from the KPIs a role or sector runs on. We shape the model, measures and page layout around the decisions those KPIs support, instead of adapting a generic template.</p>
+      <p class="lede">Our consultants begin with the KPIs a role or sector is judged on, then design the model, measures and page layout around those numbers. The same KPI-first thinking runs through our wider <a href="https://hlbhamt.com/services/data-visualization-uae/">data visualisation services</a>.</p>
     </div>
     <div class="grid grid-3 flip-grid">
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Group finance and CFOs</h3><p class="flip-tag">Consolidation across entities and currencies, without the spreadsheets</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>Every entity rolls up into one group P&amp;L, balance sheet and cash flow, whatever currency it reports in, from AED and SAR to USD and EUR. With audit in mind, chartered accountants design the intercompany eliminations, currency translation and IFRS segment views.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss group reporting</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Group finance and CFOs</h3><p class="flip-tag">Group consolidation and variance without spreadsheet stitching</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>Group P&amp;L, balance sheet and cash flow roll up from every entity, across AED, USD, SAR, EUR and more, with budget variance and forecasts next to actuals. Our chartered accountants design intercompany eliminations, FX conversion and IFRS segment views so they stand up to audit.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss group reporting</a></div>
         </div>
       </article>
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Corporate Tax and VAT</h3><p class="flip-tag">Tax positions tracked month by month, not at year end</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>Taxable income, IAS 12 deferred tax, transfer pricing and VAT return figures sit together, with free zone results kept apart from mainland ones. Because our <a href="https://hlbhamt.com/services/corporate-tax-advisory-services-in-uae/">UAE Corporate Tax advisory</a> practice sits in the same firm, the dashboards are built audit-ready from the start.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss tax dashboards</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Corporate Tax and VAT</h3><p class="flip-tag">Tax exposure tracked monthly, long before the return is due</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>We track taxable income, IAS 12 deferred tax, transfer pricing and VAT returns, with free zone and mainland results kept apart. With our <a href="https://hlbhamt.com/services/corporate-tax-advisory-services-in-uae/">UAE Corporate Tax advisory</a> practice in the same firm, tax specialists set the logic behind every figure.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss tax dashboards</a></div>
         </div>
       </article>
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Real estate and development</h3><p class="flip-tag">Sales velocity, inventory and broker results, side by side</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>Follow each unit from first expression of interest to signed deal, with lead conversion, live availability, payment plans, broker performance and DLD compliance reported alongside. CRM and ERP records are matched unit by unit in a lakehouse.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss property analytics</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Real estate and development</h3><p class="flip-tag">Units, brokers and collections tracked from EOI onwards</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>Dashboards cover expressions of interest, deal pipeline, lead conversion, unit availability, payment plans, broker performance and DLD compliance. We land CRM and ERP data in a lakehouse first and match them unit by unit, so a sold unit counts once, whichever team reports it.</p><a class="btn btn-gold btn-sm" href="#contact">Discuss property analytics</a></div>
         </div>
       </article>
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Data Officer</h3><p class="flip-tag">Governance that makes the data worth trusting</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>Governance frameworks, clearer ownership and better capture at source, with accountability and compliance built in. We help set a data roadmap tied to business strategy, build a culture that asks for evidence, and digitise processes at a scale the organisation can sustain.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Data Officer</h3><p class="flip-tag">Clear ownership of data, from capture to boardroom</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>We help put governance frameworks, accountability, compliance controls and better data capture in place, activate data across channels and business units, and shape a roadmap tied to strategy. That builds a data-driven culture and lets you digitise processes at a scale the organisation can sustain.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
         </div>
       </article>
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Marketing Officer</h3><p class="flip-tag">Campaign spend traced through to customer behaviour</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>A unified 360-degree customer view, omnichannel campaign results and buying behaviour by cohort. Segment and target with more precision, read behaviour from digital and e-commerce channels, and compare spend performance across DSPs, SSPs and ad channels.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Marketing Officer</h3><p class="flip-tag">Channel spend linked to what customers actually buy</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>CRM, e-commerce and campaign data meet in a 360-degree customer view, from which we report omnichannel performance, cohort buying behaviour and segment response. Media teams compare DSPs, SSPs and ad channels on shared revenue measures, which sharpens targeting for the next campaign.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
         </div>
       </article>
       <article class="flip" tabindex="0">
         <div class="flip-inner">
-          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Analytics Officer</h3><p class="flip-tag">Where analytics strategy meets commercial return</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>Line up business objectives with what the technology can deliver, then turn raw data into action. Dashboards help spot untapped, blue-ocean market opportunities, feed competitive intelligence and data monetisation plans, and support next-best-action frameworks for frontline decisions.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
+          <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Analytics Officer</h3><p class="flip-tag">Analytics strategy tied to commercial return</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="flip-face flip-back"><p>We align business objectives with what the technology can deliver, then turn raw enterprise data into action: spotting blue-ocean market opportunities and feeding competitive intelligence and data monetisation plans. Forecasting and next-best-action models come through our <!-- PLACEHOLDER LINK: sibling page not yet built; confirm slug before go-live --><a href="/services/advanced-analytics-services/" data-placeholder-link="true">advanced analytics services</a>.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
         </div>
       </article>
     </div>
-    <div class="pills"><p class="pills-label">Sectors we also work with:</p><ul><li>Real Estate</li><li>Construction</li><li>Hospitality</li><li>Trading</li><li>Financial Services</li><li>Healthcare</li><li>Retail</li><li>Logistics</li><li>Government</li><li>Education</li></ul></div>
+    <div class="pills"><p class="pills-label">Sectors we also work with:</p><ul><li>Real Estate</li><li>Construction</li><li>Hospitality</li><li>Trading</li><li>Financial Services</li><li>Healthcare</li><li>Retail</li><li>Logistics</li><li>Manufacturing</li><li>Wholesale Distribution</li><li>Government</li><li>Education</li></ul></div>
   </div>
 </section>
 
-<!-- S8 Our Power BI Services -->
-<section id="services" class="sec" aria-labelledby="services-h">
+<!-- S7 HLB HAMT's Power BI Services -->
+<section id="services" class="sec sec-wash" aria-labelledby="services-h">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">WHAT WE DO</p>
-      <h2 id="services-h">Our Power BI Services</h2>
-      <p class="lede">From the first whiteboard session to the support that follows launch, the work falls into the service lines below. The engagement model you agree with us sets how many you need and when each begins.</p>
+      <h2 id="services-h">HLB HAMT's Power BI Services</h2>
+      <p class="lede">We handle every stage of a Power BI programme ourselves, from strategy through to post-launch support, and most clients use several of the services below. Your engagement model, covered further down, decides the mix.</p>
     </div>
     <div class="grid grid-3">
-      <article class="svc-card"><span class="svc-num">01</span><h3>Consulting and discovery workshops</h3><p>We map your source systems, test how ready your people and data are for self-service reporting, and sketch an architecture that fits your plans for growth. Licence planning is part of the work: which users need Pro, who needs Premium Per User, and whether capacity makes more sense at your scale.</p><span class="svc-bg" aria-hidden="true">01</span></article>
-      <article class="svc-card"><span class="svc-num">02</span><h3>Data preparation and ETL kickstart</h3><p>Dependable data comes first; the charts come later. We consolidate sources into data marts and warehouse layers, then automate loads with Azure Data Factory pipelines. When volume and system count call for it, we step up to a full lakehouse rather than stretching a smaller design.</p><span class="svc-bg" aria-hidden="true">02</span></article>
-      <article class="svc-card"><span class="svc-num">03</span><h3>Dashboard and report development</h3><p>Executive dashboards and analyst reports built on optimised DAX, with mobile layouts and Arabic right-to-left design where you need it. When an existing report drags, we tune it across the pipeline, data model and semantic layers. Related design work is covered by our <!-- PLACEHOLDER LINK: sibling page not yet built; confirm slug before go-live --><a href="/services/data-visualisation-services/" data-placeholder-link="true">data visualisation services</a>.</p><span class="svc-bg" aria-hidden="true">03</span></article>
-      <article class="svc-card"><span class="svc-num">04</span><h3>Connectors and system integration</h3><p>We set up certified connectors, write custom connectors for sources without an off-the-shelf option, and bring ERP, CRM and finance systems together in one governed reporting layer. We also install and configure the on-premises data gateway, then test refresh for every source behind your firewall.</p><span class="svc-bg" aria-hidden="true">04</span></article>
-      <article class="svc-card"><span class="svc-num">05</span><h3>Migration, embedded analytics and Fabric readiness</h3><p>Move reporting off spreadsheets or another BI tool such as Tableau or Qlik, without losing the logic your teams rely on. We embed dashboards in customer and investor portals with Power BI Embedded, and assess whether Microsoft Fabric is the right next step ahead of planning a migration.</p><span class="svc-bg" aria-hidden="true">05</span></article>
-      <article class="svc-card"><span class="svc-num">06</span><h3>Training and continuous support</h3><p>Three tracks: Executive, for reading and questioning dashboards; Business User, for building reports; and Developer, for data modelling and advanced DAX. Sessions run on-site in Dubai, remotely or in a hybrid format, with Arabic-language delivery available. Documentation and ongoing support keep the platform healthy after handover.</p><span class="svc-bg" aria-hidden="true">06</span></article>
+      <article class="svc-card"><span class="svc-num">01</span><h3>Strategy, discovery and licence planning</h3><p>We start from your business goals, data needs and reporting expectations, then translate objectives into KPIs with agreed calculation rules and spot where each role lacks information. Our consultants assess BI readiness and design a scalable architecture. As a Power BI reselling partner, we also recommend and supply the right licence mix: Pro, Premium Per User or capacity.</p><span class="svc-bg" aria-hidden="true">01</span></article>
+      <article class="svc-card"><span class="svc-num">02</span><h3>Data integration and preparation</h3><p>Our engineers build automated ETL and ELT data pipelines, shape data marts and warehouse layers, and configure connectors and the on-premises gateway, writing custom connectors for legacy systems. We configure scheduled and incremental refresh, add near-real-time feeds where a process needs them, and move to a lakehouse once volume and system count call for it.</p><span class="svc-bg" aria-hidden="true">02</span></article>
+      <article class="svc-card"><span class="svc-num">03</span><h3>KPI-centric modelling and dashboard development</h3><p>We work model-first, not visual-first: semantic models with consistent KPI definitions and tested DAX come ahead of the first chart. On that base we build executive dashboards and analyst reports with drill-through, cross-filtering, slicers and bookmarks, plus mobile layouts and Arabic right-to-left design. See <a href="https://hlbhamt.com/services/power-bi-dashboard-development/">Power BI dashboard development</a> for the full scope of this work.</p><span class="svc-bg" aria-hidden="true">03</span></article>
+      <article class="svc-card"><span class="svc-num">04</span><h3>Performance tuning, security and governance</h3><p>When reports drag, we tune across the pipeline, data model and semantic layers, cutting query load, adding aggregation tables over large fact tables and replacing heavy measures with efficient DAX patterns. On the governance side, we implement row-level security, workspace governance and access controls, so each person sees only the data their role allows and publishing stays controlled.</p><span class="svc-bg" aria-hidden="true">04</span></article>
+      <article class="svc-card"><span class="svc-num">05</span><h3>Migration, embedded analytics and data platform readiness</h3><p>We migrate reports from other BI tools to Power BI, carrying your business logic across and redesigning each visual for the new platform instead of copying screens one for one. We also move reporting off spreadsheets, embed dashboards in customer and investor portals with Power BI Embedded, and assess readiness for a unified data platform so any move happens in planned stages.</p><span class="svc-bg" aria-hidden="true">05</span></article>
+      <article class="svc-card"><span class="svc-num">06</span><h3>Training and continuous support</h3><p>We train in three tracks: Executive, for reading and questioning dashboards; Business User, for building reports; and Developer, for data modelling and advanced DAX. Sessions run on-site in Dubai, remotely or in a hybrid format, and can be delivered in Arabic. Contextual documentation written around your own reports, plus ongoing support, keeps your team self-sufficient after handover.</p><span class="svc-bg" aria-hidden="true">06</span></article>
     </div>
   </div>
 </section>
 
-<!-- S9 Mid-page CTA 1 -->
+<!-- S8 Mid-page CTA 1 -->
 <section class="cta-band" aria-labelledby="cta1-h">
   <div class="wrap cta-in">
-    <div><h2 id="cta1-h">See Your Own Data in Power BI Before You Commit</h2><p>Send a file from your systems or use our demo figures, then tell us what to click next.</p></div>
+    <div><h2 id="cta1-h">See Your Own Data in Power BI Before You Commit</h2><p>Watch us work through sample figures or an extract from your own systems in a live session.</p></div>
     <a class="btn btn-gold" href="#contact">Schedule a live demo</a>
   </div>
 </section>
 
-<!-- S10 5-step proof of concept (highlighted band) -->
+<!-- S9 5-step proof of concept (highlighted band) -->
 <section id="methodology" class="sec band-teal" aria-labelledby="methodology-h">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow eyebrow-gold">HOW WE DELIVER</p>
-      <h2 id="methodology-h">A Working Power BI Dashboard on Your Data in 7 Days<sup class="fn"><a href="#src-9" aria-label="Source 9">9</a></sup></h2>
-      <p class="lede">A proof of concept shows the value on your own data, measured against success criteria agreed at the start, well before any larger investment is on the table. The next decision is then made on working evidence, not on a slide deck.</p>
+      <h2 id="methodology-h">A Working Power BI Dashboard on Your Data in 7 Days<sup class="fn"><a href="#src-7" aria-label="Source 7">7</a></sup></h2>
+      <p class="lede">We prove the value on your own data for a defined use case, measured against success criteria agreed at the outset, while the investment is still small. Your next decision then rests on pages your team has clicked through itself.</p>
     </div>
     <ol class="steps">
-      <li class="step"><span class="step-node">1</span><h3>Requirements</h3><p>A structured workshop pins down your objectives, the KPIs that matter, the data sources involved and how success will be judged.</p></li>
-      <li class="step"><span class="step-node">2</span><h3>Data preparation</h3><p>Your raw extracts are loaded, cleaned and reshaped until they can be trusted, then modelled for fast reporting.</p></li>
-      <li class="step"><span class="step-node">3</span><h3>Design and mockup</h3><p>Wireframes and visual mockups go to your stakeholders, and nothing is built until they approve the design.</p></li>
-      <li class="step"><span class="step-node">4</span><h3>Development</h3><p>Our developers build the interactive pages exactly as signed off, on top of the models from step two.</p></li>
-      <li class="step"><span class="step-node">5</span><h3>Delivery and review</h3><p>Users get hands-on training and give feedback, one revision round follows, and the finished app goes live in your tenant.</p></li>
+      <li class="step"><span class="step-node">1</span><h3>Requirements</h3><p>A structured workshop fixes your objectives, the KPIs that matter most, the data sources involved and how success will be measured.</p></li>
+      <li class="step"><span class="step-node">2</span><h3>Data preparation</h3><p>We ingest, cleanse and transform your extracts, then build optimised data models ready for fast reporting.</p></li>
+      <li class="step"><span class="step-node">3</span><h3>Design and mockup</h3><p>Stakeholders review wireframes and visual mockups, and development starts only when they have approved the design.</p></li>
+      <li class="step"><span class="step-node">4</span><h3>Development</h3><p>Our developers build the interactive reports, dashboards and visuals to the approved design, on the step-two models.</p></li>
+      <li class="step"><span class="step-node">5</span><h3>Delivery and review</h3><p>Users get hands-on training and give feedback, one revision round follows, and we publish the finished Power BI app to your tenant.</p></li>
     </ol>
     <div class="band-cta"><a class="btn btn-gold" href="#contact">Request your proof of concept</a></div>
   </div>
 </section>
 
-<!-- S11 Engagement models + PowerUP! -->
+<!-- S10 Engagement models + PowerUP! -->
 <section id="packages" class="sec" aria-labelledby="packages-h">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">ENGAGEMENT MODELS</p>
       <h2 id="packages-h">Engagement Models That Match Where You Are Today</h2>
-      <p class="lede">Some teams want a quick, fixed-scope win. Others need a phased rollout across departments, or specialist expertise added to an in-house BI team. Pick the model that fits your starting point and change it as you grow.</p>
+      <p class="lede">We offer four ways in: explore before you spend, implement in phases, extend your own team, or hand us the ongoing care. You can switch models as your needs change.</p>
     </div>
     <article class="featured">
       <div class="featured-main">
         <span class="badge">Limited offer</span>
-        <h3>Microsoft Power BI PowerUP!</h3>
+        <h3>PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator</h3>
         <p class="price">$4,500 fixed-price accelerator</p>
-        <p>PowerUP! is for teams with questions they can't yet answer from data they already own. From workshop to go-live, we wire in your spreadsheets and exports, then sit down with you to choose the KPIs that answer those questions first. Scope is capped, which is what keeps the price fixed.</p>
+        <p>PowerUP! is for organisations sitting on useful data that nobody has yet turned into answers. We connect your files, chart the KPIs your stakeholders care about most, and guide your team towards early results against objectives agreed on day one. Because the scope is capped, the fee does not move.</p>
         <a class="btn btn-gold" href="#contact">Enquire about PowerUP!</a>
       </div>
       <div class="featured-lists">
-        <div><p class="caps-label">What's in scope</p><ul class="ticks ticks-light"><li>A requirements workshop to capture a clear use case</li><li>File-based data sources supplied by you</li><li>Up to 5 report tabs</li><li>Up to 2 consumer personas</li><li>Design approved at mockup, plus 1 revision round after functional delivery</li></ul></div>
+        <div><p class="caps-label">What's in scope</p><ul class="ticks ticks-light"><li>A requirements workshop that pins down a clear use case</li><li>File-based data sources supplied by you</li><li>Up to 5 report tabs</li><li>Up to 2 distinct consumer personas</li><li>Mockup approval, then 1 revision round after functional delivery</li></ul></div>
         <div><p class="caps-label">What you receive</p><ul class="ticks ticks-light"><li>Requirements workshop documentation</li><li>Data transformation scripts</li><li>Data model diagram</li><li>Data dictionary</li><li>Completed reports and dashboards</li><li>A published Power BI app</li></ul></div>
       </div>
     </article>
@@ -748,73 +739,74 @@ sup.fn a{text-decoration:none;font-weight:700}
       </div>
       <div class="tabpanel" role="tabpanel" id="panel-explore" aria-labelledby="tab-explore">
         <p class="tab-name">Explore</p>
-        <p class="tab-tagline">See it working before you spend on a full build.</p>
+        <p class="tab-tagline">Proof on real numbers first, a bigger build later.</p>
         <div class="grid grid-2">
-          <div class="tab-item"><h3>Live demo</h3><p>A consultant-led session exploring dashboards built on sample data or extracts you share.</p></div>
+          <div class="tab-item"><h3>Live demo</h3><p>A consultant-led session, at no cost, on sample data or a dataset of your choosing.</p></div>
           <div class="tab-item"><h3>Proof of concept</h3><p>A scoped build on your data and KPIs, following the five steps <a href="#methodology">above</a>.</p></div>
         </div>
       </div>
       <div class="tabpanel" role="tabpanel" id="panel-implement" aria-labelledby="tab-implement">
         <p class="tab-name">Implement</p>
-        <p class="tab-tagline">Rollouts scoped to one team, several, or the enterprise.</p>
+        <p class="tab-tagline">Rollouts sized to one department, several, or the whole group.</p>
         <div class="grid grid-3">
           <div class="tab-item"><h3>Single-department rollout</h3><p>Models, dashboards and access rules for one function, such as finance or sales.</p></div>
-          <div class="tab-item"><h3>Multi-department programme</h3><p>Shared semantic models and a workspace structure that several departments can build on together.</p></div>
-          <div class="tab-item"><h3>Enterprise platform with a data lakehouse</h3><p>Group-wide reporting on a medallion lakehouse, governed centrally and delivered in phases.</p></div>
+          <div class="tab-item"><h3>Multi-department programme</h3><p>Shared semantic models and a workspace structure that several departments build on together.</p></div>
+          <div class="tab-item"><h3>Enterprise platform with a data lakehouse</h3><p>Group reporting on a medallion lakehouse, delivered in phases under central governance.</p></div>
         </div>
       </div>
       <div class="tabpanel" role="tabpanel" id="panel-extend" aria-labelledby="tab-extend">
         <p class="tab-name">Extend</p>
-        <p class="tab-tagline">Specialist help for the parts your team hasn't covered yet.</p>
+        <p class="tab-tagline">Extra hands for the parts your team hasn't covered yet.</p>
         <div class="grid grid-2">
-          <div class="tab-item"><h3>Connector help</h3><p>Existing connectors configured, or custom ones written, for sources your reports depend on.</p></div>
-          <div class="tab-item"><h3>Augmented expertise</h3><p>A Power BI solutions expert working inside your team, on short-term contract or long-term retainer.</p></div>
+          <div class="tab-item"><h3>Connector help</h3><p>Setup for sources your reports can't currently reach, from standard connectors to custom builds.</p></div>
+          <div class="tab-item"><h3>Augmented expertise</h3><p>A Power BI solutions expert working inside your team, on a short-term contract or retainer.</p></div>
         </div>
       </div>
       <div class="tabpanel" role="tabpanel" id="panel-support" aria-labelledby="tab-support">
         <p class="tab-name">Support</p>
-        <p class="tab-tagline">Ongoing care once your dashboards are part of daily work.</p>
-        <div class="grid grid-2">
-          <div class="tab-item"><h3>Performance monitoring and troubleshooting</h3><p>Refresh failures, slow pages and data issues investigated and fixed by consultants who know your model.</p></div>
-          <div class="tab-item"><h3>Quarterly health checks</h3><p>A review every quarter of models, refresh schedules, capacity use and security settings.</p></div>
-          <div class="tab-item"><h3>New dashboards as needs change</h3><p>Extra pages, measures and reports added when the business starts asking different questions.</p></div>
-          <div class="tab-item"><h3>Licence advisory and Fabric migration</h3><p>Help administering the platform, right-sizing licences and planning a move to Fabric.</p></div>
+        <p class="tab-tagline">Keeping live reports fast, accurate and secure.</p>
+        <div class="grid grid-3">
+          <div class="tab-item"><h3>Performance monitoring and troubleshooting</h3><p>We investigate refresh failures, gateway connectivity problems and slow pages, then fix the root cause.</p></div>
+          <div class="tab-item"><h3>Quarterly health checks</h3><p>A review every three months of models, refresh schedules, capacity use and security settings.</p></div>
+          <div class="tab-item"><h3>New dashboards as needs change</h3><p>Extra pages, measures and reports as the business starts asking different questions.</p></div>
+          <div class="tab-item"><h3>Licence advisory and data platform migration</h3><p>Right-sizing licences, administering your tenant and planning a staged move to a unified data platform.</p></div>
+          <div class="tab-item"><h3>Security and access reviews</h3><p>Row-level security and workspace permissions rechecked as people join, move or leave.</p></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- S12 Why UAE businesses choose HLB HAMT -->
+<!-- S11 Why UAE businesses choose HLB HAMT -->
 <section id="advantage" class="sec sec-wash" aria-labelledby="advantage-h">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">HLB HAMT ADVANTAGE</p>
       <h2 id="advantage-h">Why UAE Businesses Choose HLB HAMT for Power BI Services</h2>
-      <p class="lede">Picking a Power BI consulting company is really a decision about whose numbers you will trust in the boardroom.</p>
+      <p class="lede">We expect to be judged the way any Power BI consulting company should be: on whether your board acts on the figures we deliver.</p>
     </div>
     <div class="grid grid-3">
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Microsoft Power BI partner in the UAE</h3><p>Our own staff handle everything from data engineering to aftercare; nothing is subcontracted.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Audit-ready financial logic</h3><p>Corporate Tax, VAT, IFRS and PDPL expertise built into the data model, not bolted on afterwards.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Low-risk start</h3><p>Prove the value on your own data, or through the fixed-price PowerUP!, then decide how far to go.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Dual intelligence</h3><p>Power BI tracks booked revenue; <a href="https://hlbhamt.com/sugarai-crm-2/">SugarAI CRM</a> scores the deals still open. We deliver and maintain both.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Global network</h3><p>Part of the HLB International network, with access to member firms when your group operates abroad.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>In-region team</h3><p>Your project team is based in the Emirates and works Gulf business hours, so questions don't wait overnight.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Power BI reselling partner in the UAE</h3><p>We supply your licences, and our own staff handle everything from data engineering to aftercare.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Audit-ready financial logic</h3><p>Finance and technology under one roof, with Corporate Tax, VAT, IFRS and PDPL expertise inside the model.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Low-risk start</h3><p>Begin with the fixed-price PowerUP! or a working dashboard on your data, then scale once it proves itself.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Dual intelligence</h3><p>Booked revenue in Power BI, open-deal scoring in <a href="https://hlbhamt.com/sugarai-crm-2/">SugarAI CRM</a>, both configured and maintained by our team.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Global network</h3><p>An HLB International member since 2007, bringing the standards and reach of a global advisory network.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>In-region team</h3><p>Consultants based in the Emirates, on Gulf working hours, and on-site whenever a workshop calls for it.</p></div></article>
     </div>
   </div>
 </section>
 
-<!-- S13 See it in action (static visual; no video supplied) -->
+<!-- S12 See it in action (static visual; no video supplied) -->
 <section id="demo" class="sec" aria-labelledby="demo-h">
   <div class="wrap action-grid">
     <div>
       <p class="eyebrow">See it in action</p>
-      <h2 id="demo-h">Inside a Live Power BI Dashboard</h2>
-      <p class="lede">An example of the executive views we build, in Arabic and English, drilling from the group total down to each entity with every figure reconciling along the way.</p>
+      <h2 id="demo-h">Inside an HLB HAMT Power BI Dashboard</h2>
+      <p class="lede">A sample of the executive views we build, in Arabic and English, drilling from the group total to each entity with every subtotal adding up on the way down.</p>
       <a class="btn btn-primary" href="#contact">Book a live demo</a>
     </div>
     <!-- ASSET PLACEHOLDER: replace this figure with a static Power BI dashboard screenshot or GIF (brief Section 10, point 5). -->
-    <figure class="asset-ph" role="img" aria-label="Placeholder for an executive Power BI dashboard screenshot">
+    <figure class="asset-ph" role="img" aria-label="Placeholder for an executive HLB HAMT Power BI dashboard screenshot">
       <div class="mock">
         <div class="mock-bar"><span></span><span></span><span></span></div>
         <div class="mock-kpis"><i></i><i></i><i></i><i></i></div>
@@ -825,15 +817,15 @@ sup.fn a{text-decoration:none;font-weight:700}
   </div>
 </section>
 
-<!-- S14 Mid-page CTA 2 -->
+<!-- S13 Mid-page CTA 2 -->
 <section class="cta-band cta-band-alt" aria-labelledby="cta2-h">
   <div class="wrap cta-in">
-    <div><h2 id="cta2-h">Talk Through Your Roadmap With a Specialist</h2><p>Share your reporting wish list, and a Power BI solutions expert will map it to sources, licences and phases, free of charge.</p></div>
+    <div><h2 id="cta2-h">Map Out Your Reporting Roadmap, Free of Charge</h2><p>Share what you need to report on, and a Power BI solutions expert will scope sources, licences and phasing with you.</p></div>
     <a class="btn btn-gold" href="#contact">Talk to our Power BI team</a>
   </div>
 </section>
 
-<!-- S15 FAQ (single accordion, first item open) -->
+<!-- S14 FAQ (single accordion, first item open) -->
 <section id="faq" class="sec sec-wash" aria-labelledby="faq-h">
   <div class="wrap faq-grid">
     <div class="sec-head faq-head">
@@ -843,66 +835,69 @@ sup.fn a{text-decoration:none;font-weight:700}
     <div class="faq-list">
       <details class="faq" name="faq" open>
         <summary><h3>What is the Power BI service, and how is it different from Power BI Desktop?</h3></summary>
-        <div class="faq-a"><p>Power BI Desktop is Microsoft's free Windows application for connecting to data, building the semantic model and designing reports.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup> The Power BI service is the browser-based cloud platform where those reports go live: they are shared as apps, refreshed automatically and protected by access rules. Authors tend to work in Desktop, while everyone else reads and interacts with reports online. We set up both, including a workspace structure that keeps the right numbers in front of the right people.</p></div>
+        <div class="faq-a"><p>Power BI Desktop is a free, installable application for connecting to data, modelling it and designing reports.<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup> The Power BI service runs in the browser: access rules decide who sees each published report, data refreshes on its own schedule, and related reports are grouped into apps for each audience. Report authors mostly work in Desktop; everyone else uses the cloud. We set up both, with a workspace structure matched to how your organisation shares information.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>How is Power BI licensed, and what will it cost?</h3></summary>
-        <div class="faq-a"><p>At the time of writing, Microsoft lists Power BI Pro at US$14 and Premium Per User at US$24 per user per month, the list prices since 1 April 2025.<sup class="fn"><a href="#src-10" aria-label="Source 10">10</a></sup> Per-user licences suit teams where most people both view and share reports. Larger deployments, embedding for external audiences and Copilot run on Fabric capacity, which is priced separately. Our licence advisory works out which mix fits your user base, so you aren't paying for seats or capacity nobody uses.</p></div>
+        <div class="faq-a"><p>Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup> Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and <a href="#packages">PowerUP!</a> gives you a fixed-price way to start.</p></div>
       </details>
       <details class="faq" name="faq">
-        <summary><h3>Which data sources can Power BI connect to, and do we need a data warehouse first?</h3></summary>
-        <div class="faq-a"><p>Most business systems are within reach. Microsoft's own connectors, partner-built connectors and custom builds cover sources such as SAP, Oracle, NetSuite, Dynamics 365, Salesforce, SugarCRM, Tally, QuickBooks, SQL Server, Snowflake, Google BigQuery and REST APIs. A warehouse is not always the first step. For a smaller scope with a handful of sources, connecting directly works well. Once data is spread across five or more systems, a lakehouse is usually worth it: every report reconciles to the same cleaned tables.</p></div>
+        <summary><h3>Which of our systems can you connect to Power BI, and do we need a warehouse first?</h3></summary>
+        <div class="faq-a"><p>Most of them. Where a standard or partner-built connector exists, we use it, and we write custom connectors for legacy systems that have none. That covers accounting packages, ERP and CRM platforms, on-premises databases, cloud warehouses and REST APIs. A warehouse is not always step one. For a handful of sources, direct connection is fine. Once data spreads across five or more systems, we recommend a lakehouse so every report works from the same cleaned tables.</p></div>
       </details>
       <details class="faq" name="faq">
-        <summary><h3>Can Power BI replace our manual Excel reports?</h3></summary>
-        <div class="faq-a"><p>Yes, and it is often the first job we take on. Instead of someone rebuilding spreadsheets every Monday, data refreshes on a schedule and dashboards always show current figures. Power Automate can email whoever owns a figure the moment it moves outside its agreed range. For clients in the Emirates, that Monday routine used to cost hours; now it largely runs itself. Excel stays available for anyone who still prefers to analyse there.</p></div>
+        <summary><h3>Can you replace our manual spreadsheet reports with Power BI?</h3></summary>
+        <div class="faq-a"><p>Yes. It is often the first thing clients ask us to fix. Rather than a team member copying figures between workbooks every week, data refreshes on a schedule and dashboards stay current. Through <a href="https://hlbhamt.com/insights/unlocking-power-bi-automation-with-power-automate/">Power BI automation</a>, we set alerts that email a KPI's owner the moment it moves outside its agreed range. Clients in the Emirates have taken hours of weekly manual reporting off their teams. Spreadsheets stay available for anyone who prefers to analyse there.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>Do you build Arabic and right-to-left dashboards?</h3></summary>
-        <div class="faq-a"><p>Yes. We plan right-to-left layouts before the first visual is placed, instead of mirroring an English report at the end. Labels, filters, slicers and KPI descriptions appear in Arabic, and page layouts, visual order and navigation read right to left. The same approach works for other right-to-left languages such as Urdu and Persian. Where you need Arabic and English versions of the same report, both sit on one model and the numbers always match.</p></div>
+        <div class="faq-a"><p>Yes. We design right-to-left from the first wireframe rather than mirroring a finished English report. Labels, filters, slicers and KPI descriptions appear in Arabic, while page layout, visual order and navigation all run right to left. We apply the same method to other right-to-left languages, such as Urdu and Persian. When you need Arabic and English editions of one report, both run on a single model, so their totals always agree.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>Is our data secure, and can it stay in the UAE?</h3></summary>
-        <div class="faq-a"><p>Yes. Row-level security limits each user to the rows they are entitled to see, data is encrypted, and the platform sits within the scope of Microsoft's ISO/IEC 27001 certification and SOC 2 reports.<sup class="fn"><a href="#src-11" aria-label="Source 11">11</a></sup> Your data can be hosted in Microsoft's Dubai or Abu Dhabi cloud regions<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup>, and our <a href="https://hlbhamt.com/services/data-privacy-and-security-uae/">data protection advisory</a> team helps set each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Copilot is off by default unless an admin allows cross-region processing. We make that call with you.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup></p></div>
+        <div class="faq-a"><p>We configure row-level security so people see only the records they are entitled to, and data is encrypted. Power BI falls within the scope of Microsoft's ISO/IEC 27001 and SOC 2 audits.<sup class="fn"><a href="#src-9" aria-label="Source 9">9</a></sup> Data can be kept in-country in the Dubai or Abu Dhabi cloud region<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup>, and our <a href="https://hlbhamt.com/services/data-privacy-and-security-uae/">data protection advisory</a> team sets each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Power BI's AI assistant stays off unless an admin allows cross-region processing; we make that call with you.<sup class="fn"><a href="#src-10" aria-label="Source 10">10</a></sup></p></div>
       </details>
       <details class="faq" name="faq">
-        <summary><h3>What is Microsoft Fabric, and should we plan for it?</h3></summary>
-        <div class="faq-a"><p>Fabric is the larger Microsoft service that Power BI now belongs to. Its other workloads (real-time analytics, data engineering and warehousing) share one pool of capacity. Fabric pays off when reporting depends on several large or fast-moving sources, when engineers and analysts should query a single copy of the data, or when your per-user licence costs are climbing. For a single team reporting from a couple of systems, it can wait. Our readiness assessment tells you which situation you are in and plans any migration in stages.</p></div>
+        <summary><h3>Do we need a data platform beyond Power BI, and when?</h3></summary>
+        <div class="faq-a"><p>Not always. Power BI handles most departmental reporting on its own. Microsoft's wider data platform, which adds data engineering, warehousing and real-time analytics on a common pool of capacity, becomes worth planning for once you feed reports from large or fast-changing sources, once engineering and analyst teams want to work off a shared copy of the data, or once per-user licence spend outgrows capacity pricing. Our readiness assessment tells you where you stand, and if the move makes sense, we plan it in stages.</p></div>
       </details>
       <details class="faq" name="faq">
-        <summary><h3>What do we need to use Copilot in Power BI?</h3></summary>
-        <div class="faq-a"><p>Three things. First, paid capacity: Fabric F2 or higher, or Premium P1 or higher, because Pro or Premium Per User licences alone do not include it. Second, an administrator has to enable Copilot in the tenant settings. Third, a well-prepared semantic model, with clear table names, descriptions and tested measures; that groundwork makes Copilot's answers reliable. Microsoft officially supports English prompts only at present, so we design Arabic into the reports themselves rather than into the questions.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup></p></div>
+        <summary><h3>Does Power BI include AI features, and what do we need to use them?</h3></summary>
+        <div class="faq-a"><p>Yes. Power BI includes a generative AI assistant that answers plain-language questions and drafts written summaries of report pages. It runs only on paid capacity, a higher-tier licence bought for the whole organisation; Pro and Premium Per User on their own are not enough. A tenant administrator must also switch it on, and the semantic model needs clear table names, descriptions and tested measures, which we prepare. Prompts are officially supported in English only for now, so we put Arabic into report design instead.<sup class="fn"><a href="#src-10" aria-label="Source 10">10</a></sup></p></div>
+      </details>
+      <details class="faq" name="faq">
+        <summary><h3>Why are some Power BI dashboards slow, and can you fix ours?</h3></summary>
+        <div class="faq-a"><p>Usually, yes. The tool is rarely the problem; how the report was built almost always is. Typical causes are a weak data model, inefficient DAX or queries, large datasets nobody has optimised, and missing aggregations or indexing. We work through the pipeline, the model and the semantic layer: trimming what each visual asks for, adding aggregation tables and rewriting heavy measures. Every fix is retested at realistic data volumes before the report goes back to your users.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>How long does a Power BI implementation take?</h3></summary>
-        <div class="faq-a"><p>It depends on scope. A single-department rollout usually takes two to four weeks. A multi-department programme runs six to ten weeks, and an enterprise build with a data lakehouse takes three to six months. Whatever the size, a working prototype arrives within two weeks, early enough for your feedback to shape the build. Timelines are confirmed once discovery has shown the state of your data and the number of sources involved.</p></div>
+        <div class="faq-a"><p>Scope drives the timeline. Expect two to four weeks for a single department, six to ten weeks for a multi-department programme, and three to six months for an enterprise build on a data lakehouse. In every case you get a working prototype inside the first two weeks, so your feedback steers the rest of the build. HLB HAMT confirms the timeline after discovery, once we know the condition of your data and how many sources are involved.</p></div>
       </details>
       <aside class="src-note" aria-label="Sources">
         <p class="src-h">Sources</p>
         <ol>
-          <li id="src-1">Microsoft Learn, &quot;Fabric region availability&quot; (UAE North and UAE Central). <a href="https://learn.microsoft.com/en-us/fabric/admin/region-availability" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/fabric/admin/region-availability</a></li>
-          <li id="src-2">Microsoft Learn, &quot;Data sources in Power BI Desktop&quot;. <a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources</a></li>
-          <li id="src-3">HLB HAMT client engagement (internal). No public source.</li>
-          <li id="src-4">Microsoft, &quot;Microsoft named a Leader in the 2026 Gartner Magic Quadrant for Analytics and BI Platforms&quot; (Power BI Updates Blog). <a href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403</a><br><span class="disclaimer">Gartner does not endorse any vendor, product or service depicted in its research publications. GARTNER and MAGIC QUADRANT are registered trademarks of Gartner, Inc. and/or its affiliates.</span></li>
-          <li id="src-5">Microsoft Learn, &quot;Power BI service vs Power BI Desktop&quot;. <a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop</a></li>
-          <li id="src-6">Microsoft FY26 Q4 earnings call, 29 July 2026. <a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4" target="_blank" rel="noopener">https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4</a></li>
-          <li id="src-7">Microsoft On the Issues (Microsoft AI Economy Institute), &quot;The continued state of global AI diffusion in 2026&quot;, 21 September 2026. <a href="https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/" target="_blank" rel="noopener">https://blogs.microsoft.com/on-the-issues/2026/09/21/the-continued-state-of-global-ai-diffusion-in-2026/</a></li>
-          <li id="src-8">Microsoft Learn, &quot;Copilot for Power BI&quot; overview. <a href="https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction</a></li>
-          <li id="src-9">HLB HAMT service commitment.</li>
-          <li id="src-10">Microsoft Power BI pricing update and pricing page. <a href="https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/" target="_blank" rel="noopener">https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/</a> ; <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing" target="_blank" rel="noopener">https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing</a></li>
-          <li id="src-11">Microsoft Learn, ISO/IEC 27001 and SOC 2 compliance offerings. <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001</a> ; <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2" target="_blank" rel="noopener">https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2</a></li>
+          <li id="src-1"><a href="https://learn.microsoft.com/en-us/fabric/admin/region-availability" target="_blank" rel="noopener">Microsoft Learn, cloud region availability for Power BI and Microsoft's data platform</a>.</li>
+          <li id="src-2"><a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources" target="_blank" rel="noopener">Microsoft Learn, &quot;Data sources in Power BI Desktop&quot;</a>.</li>
+          <li id="src-3"><a href="https://hlbhamt.com/services/data-visualization-uae/" target="_blank" rel="noopener">HLB HAMT, Data Visualization Services</a> (&quot;In a recent engagement, we achieved a 33x improvement in report load times and interactivity&quot;).</li>
+          <li id="src-4"><a href="https://hlbhamt.com/press-room/hlb-hamt-celebrates-25-years-of-unwavering-excellence/" target="_blank" rel="noopener">HLB HAMT press release, &quot;HLB HAMT Celebrates 25 Years of Unwavering Excellence&quot;</a>; also <a href="https://hlbhamt.com/about-us/25-years-of-excellence/" target="_blank" rel="noopener">HLB HAMT, 25 Years of Excellence</a> (founded as HAMT &amp; Associates in 1999; joined HLB International in 2007).</li>
+          <li id="src-5"><a href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">Microsoft, &quot;Microsoft named a Leader in the 2026 Gartner Magic Quadrant for Analytics and BI Platforms&quot; (Power BI Updates Blog)</a>; <a href="https://mwpro.co.uk/blog/2026/07/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms/" target="_blank" rel="noopener">verbatim repost</a>.<br><span class="disclaimer">Gartner does not endorse any vendor, product or service depicted in its research publications. GARTNER and MAGIC QUADRANT are registered trademarks of Gartner, Inc. and/or its affiliates.</span></li>
+          <li id="src-6"><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop" target="_blank" rel="noopener">Microsoft Learn, Power BI service vs Power BI Desktop</a>.</li>
+          <li id="src-7"><a href="https://hlbhamt.com/services/power-bi-dashboard-development/" target="_blank" rel="noopener">HLB HAMT service commitment</a> (&quot;a Power BI proof of concept can be delivered in as little as 7 days for defined use cases&quot;).</li>
+          <li id="src-8">Microsoft Power BI <a href="https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/" target="_blank" rel="noopener">pricing update</a> and <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing" target="_blank" rel="noopener">pricing page</a>.</li>
+          <li id="src-9">Microsoft Learn, <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001" target="_blank" rel="noopener">ISO/IEC 27001</a> and <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2" target="_blank" rel="noopener">SOC 2</a> offerings.</li>
+          <li id="src-10"><a href="https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction" target="_blank" rel="noopener">Microsoft Learn, overview of the generative AI assistant in Power BI</a>.</li>
         </ol>
       </aside>
     </div>
   </div>
 </section>
 
-<!-- S16 Final contact CTA + form -->
+<!-- S15 Final contact CTA + form -->
 <section id="contact" class="sec contact" aria-labelledby="contact-h">
   <div class="wrap contact-grid">
     <div>
       <h2 id="contact-h">Book Your Free Consultation</h2>
-      <p class="lede">Tell us what you report on today and what you want to see instead. Our Power BI Services team replies within one business day.</p>
+      <p class="lede">Describe the reports you run today and the ones you wish you had. Our Power BI Services team replies within one business day.</p>
     </div>
     <!-- Stand-in for the site-standard "Let's Connect" form component. Replace with the live component on publish;
          keep "Select your Services" defaulting to "Technology Consulting". -->
@@ -934,7 +929,7 @@ sup.fn a{text-decoration:none;font-weight:700}
 
 </main>
 
-<!-- S17 Global footer (site-standard; no new copy) -->
+<!-- S16 Global footer (site-standard; no new copy) -->
 <footer class="site-foot">
   <div class="wrap foot-in">
     <p><strong>HLB HAMT</strong><br>Level 18, City Tower-2, Sheikh Zayed Road, PO Box 32665, Dubai, UAE.<br>+971 4 327 7775</p>
