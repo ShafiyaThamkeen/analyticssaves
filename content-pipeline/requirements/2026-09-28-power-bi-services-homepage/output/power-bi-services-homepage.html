@@ -7,7 +7,7 @@
 <meta name="description" content="Power BI service from HLB HAMT: consulting, data preparation, Arabic-ready dashboards, training and a 7-day proof of concept for businesses in the UAE and GCC.">
 <!-- Canonical URL intentionally omitted: the final page URL is still undecided (brief Section 10, point 3).
      Add <link rel="canonical" href="..."> once the URL and redirect plan for the overlapping Power BI pages are confirmed.
-     "power-bi-services-homepage" is a working file name only. Built from draft-v7.md (Test PASS, test-report-v7.md). -->
+     "power-bi-services-homepage" is a working file name only. Built from draft-v8.md (Test PASS, test-report-v8.md; Revision 4). -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,14 +51,7 @@
       "name": "Qatar",
       "identifier": "QA"
     }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "name": "PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator",
-    "description": "$4,500 fixed-price accelerator",
-    "price": "4500",
-    "priceCurrency": "USD"
-  }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -79,7 +72,7 @@
       "name": "How is Power BI licensed, and what will it cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025. Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and PowerUP! gives you a fixed-price way to start."
+        "text": "Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025. Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and our engagement models let you start small."
       }
     },
     {
@@ -263,14 +256,13 @@ a{color:var(--teal);text-underline-offset:3px}
 
 /* S2 strip */
 .hlb-strip{background:var(--strip);color:#fff;padding:40px 0}
-.hlb-strip-in{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.hlb-strip-in{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .hlb-strip-item{padding:0 26px;border-left:1px solid rgba(255,255,255,.14)}
 .hlb-strip-item:first-child{border-left:none;padding-left:0}
 .hlb-strip-stat{font-size:1.6rem;font-weight:800;color:#fff;line-height:1.25;margin:0 0 6px;letter-spacing:-.01em}
 .hlb-strip-desc{font-size:.93rem;color:rgba(255,255,255,.85);line-height:1.45;margin:0}
 .hlb-strip a{color:#fff}
-@media(max-width:900px){.hlb-strip-in{grid-template-columns:1fr 1fr;gap:28px 0}.hlb-strip-item:nth-child(3){border-left:none;padding-left:0}}
-@media(max-width:520px){.hlb-strip-in{grid-template-columns:1fr}.hlb-strip-item{border-left:none;padding:0}}
+@media(max-width:760px){.hlb-strip-in{grid-template-columns:1fr;gap:24px 0}.hlb-strip-item{border-left:none;padding:0}}
 
 /* S2b recognition bar */
 .recog{background:#FFF8E1;border-bottom:1px solid #F5E3A6}
@@ -324,7 +316,7 @@ a{color:var(--teal);text-underline-offset:3px}
 .layer .caps-label{color:var(--gold)}
 @media(max-width:800px){.layer{grid-template-columns:1fr}}
 
-/* S7 flip cards */
+/* S6 flip cards */
 .flip{perspective:1400px;border-radius:var(--radius);outline-offset:4px}
 .flip-inner{display:grid;height:100%;transition:transform .6s cubic-bezier(.16,1,.3,1);transform-style:preserve-3d}
 .flip-face{grid-area:1/1;border-radius:var(--radius);padding:28px;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column}
@@ -353,7 +345,7 @@ a{color:var(--teal);text-underline-offset:3px}
 .pills ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
 .pills li{background:#fff;border:1px solid rgba(0,90,119,.25);color:var(--teal);font-weight:700;font-size:.85rem;padding:6px 14px;border-radius:999px}
 
-/* S8 service cards */
+/* S7 service cards */
 .svc-card{position:relative;overflow:hidden;background:#fff;border:1px solid rgba(0,90,119,.25);border-radius:var(--radius);padding:30px;transition:transform .3s,border-color .3s}
 .svc-card:hover{transform:translateY(-3px);border-color:var(--teal)}
 .svc-num{display:inline-block;font-weight:800;color:#fff;background:var(--teal);border-radius:8px;padding:3px 9px;font-size:.82rem;margin-bottom:16px}
@@ -369,7 +361,7 @@ a{color:var(--teal);text-underline-offset:3px}
 .cta-in{display:flex;align-items:center;justify-content:space-between;gap:32px}
 @media(max-width:800px){.cta-in{flex-direction:column;align-items:flex-start}}
 
-/* S10 highlighted band */
+/* S9 highlighted band */
 .band-teal{background:var(--teal);color:rgba(255,255,255,.88)}
 .band-teal h2{color:#fff}
 .band-teal .lede{color:rgba(255,255,255,.88)}
@@ -384,15 +376,7 @@ a{color:var(--teal);text-underline-offset:3px}
 @media(max-width:980px){.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}}
 @media(max-width:560px){.steps{grid-template-columns:1fr}}
 
-/* S11 featured card + tabs */
-.featured{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;background:var(--navy);color:rgba(255,255,255,.86);border-radius:var(--radius);padding:40px;margin-bottom:40px;position:relative;overflow:hidden}
-.featured::after{content:"";position:absolute;right:-120px;top:-120px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(251,186,0,.18),transparent 70%);pointer-events:none}
-.badge{display:inline-block;background:var(--gold);color:var(--ink);font-weight:800;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:16px}
-.featured h3{color:#fff;font-size:1.6rem;margin-bottom:8px}
-.price{font-size:1.35rem;font-weight:800;color:var(--gold);margin-bottom:16px}
-.featured-lists{display:grid;gap:24px}
-.featured .caps-label{color:var(--gold)}
-@media(max-width:860px){.featured{grid-template-columns:1fr;padding:30px}}
+/* S10 engagement model tabs */
 .tablist{display:flex;flex-wrap:wrap;gap:6px;border-bottom:2px solid var(--line);margin-bottom:28px}
 .tablist [role=tab]{font:700 .95rem var(--font);color:var(--grey);background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;padding:12px 20px;cursor:pointer}
 .tablist [role=tab]:hover{color:var(--teal)}
@@ -407,14 +391,14 @@ html:not(.js) .tablist{display:none}
 html:not(.js) .tab-name{display:block;font-weight:800;color:var(--teal);text-transform:uppercase;letter-spacing:.1em;font-size:.8rem;margin:24px 0 6px}
 .tabpanel[hidden]{display:none}
 
-/* S12 tiles */
+/* S11 tiles */
 .tile{display:flex;gap:16px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}
 .tile-icon{flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--gold)}
 .tile-icon svg{width:18px;height:18px;fill:none;stroke:var(--ink);stroke-width:2.4}
 .tile h3{font-size:1.02rem;margin-bottom:6px}
 .tile p{margin:0;font-size:.93rem}
 
-/* S13 action + asset placeholder */
+/* S12 action + asset placeholder */
 .action-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:center}
 .action-grid h2{margin-bottom:16px}
 .action-grid .lede{margin-bottom:26px}
@@ -429,7 +413,7 @@ html:not(.js) .tab-name{display:block;font-weight:800;color:var(--teal);text-tra
 .mock-chart b{flex:1;background:var(--teal);border-radius:4px 4px 0 0}.mock-chart b:nth-child(even){background:var(--gold)}
 .mock-side{display:grid;gap:8px}.mock-side i{border-radius:8px;background:var(--wash)}
 
-/* S15 FAQ */
+/* S14 FAQ */
 .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}
 .faq-head{position:sticky;top:90px}
 @media(max-width:900px){.faq-grid{grid-template-columns:1fr;gap:10px}.faq-head{position:static}}
@@ -452,7 +436,7 @@ html:not(.js) .tab-name{display:block;font-weight:800;color:var(--teal);text-tra
 sup.fn{font-size:.65em;line-height:0;margin-left:1px}
 sup.fn a{text-decoration:none;font-weight:700}
 
-/* S16 contact */
+/* S15 contact */
 .contact{background:linear-gradient(180deg,#fff,var(--wash))}
 .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
 .contact-grid h2{margin-bottom:14px}
@@ -465,11 +449,12 @@ sup.fn a{text-decoration:none;font-weight:700}
 @media(max-width:860px){.contact-grid{grid-template-columns:1fr}}
 @media(max-width:520px){.contact-form{grid-template-columns:1fr}}
 
-/* S17 footer */
+/* S16 footer */
 .site-foot{background:#1A1A1A;color:rgba(255,255,255,.7);padding:40px 0;font-size:.88rem}
 .foot-in{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 .site-foot strong{color:#fff}
 .foot-note{align-self:flex-end}
+
 
 </style>
 </head>
@@ -506,7 +491,7 @@ sup.fn a{text-decoration:none;font-weight:700}
         <p class="hero-lede">HLB HAMT designs, builds and runs your Power BI service, turning ERP, CRM, finance and spreadsheet data into dashboards your leadership team can take straight into the boardroom. Our chartered accountants work beside our data engineers, so the measures behind each report follow the rules your auditors test, whether you operate in one emirate or across the GCC.</p>
         <div class="btn-row">
           <a class="btn btn-gold" href="#contact">Book a Power BI consultation</a>
-          <a class="btn btn-outline-light" href="#packages">See the PowerUP! offer</a>
+          <a class="btn btn-outline-light" href="#packages">See our engagement models</a>
         </div>
       </div>
       <div class="hero-panel">
@@ -523,12 +508,11 @@ sup.fn a{text-decoration:none;font-weight:700}
   </div>
 </section>
 
-<!-- S2 Dark stats strip (no heading tags) -->
+<!-- S2 Dark stats strip (3 items, no heading tags) -->
 <div class="hlb-strip">
   <div class="wrap hlb-strip-in" role="list">
     <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">200+</p><p class="hlb-strip-desc">Power BI connectors; we configure yours and build missing ones.<sup class="fn"><a href="#src-2" aria-label="Source 2">2</a></sup></p></div>
-    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">33x</p><p class="hlb-strip-desc">Faster report load times in one recent HLB HAMT engagement.<sup class="fn"><a href="#src-3" aria-label="Source 3">3</a></sup></p></div>
-    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Since 1999</p><p class="hlb-strip-desc">A licensed UAE audit, tax and advisory firm that also builds your data platform.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p></div>
+    <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Since 1999</p><p class="hlb-strip-desc">A licensed UAE audit, tax and advisory firm that also builds your data platform.<sup class="fn"><a href="#src-3" aria-label="Source 3">3</a></sup></p></div>
     <div class="hlb-strip-item" role="listitem"><p class="hlb-strip-stat">Arabic and English</p><p class="hlb-strip-desc">Right-to-left dashboards planned from the first mockup, not retrofitted.</p></div>
   </div>
 </div>
@@ -537,7 +521,7 @@ sup.fn a{text-decoration:none;font-weight:700}
 <div class="recog">
   <div class="wrap recog-in">
     <span class="recog-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></svg></span>
-    <p class="recog-text">HLB HAMT builds on Power BI. Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup></p>
+    <p class="recog-text">HLB HAMT builds on Power BI. Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Analytics and BI Platforms for the 19th consecutive year.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p>
     <a class="btn btn-outline" href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">Read Microsoft's announcement</a>
   </div>
 </div>
@@ -588,7 +572,7 @@ sup.fn a{text-decoration:none;font-weight:700}
       </article>
       <article class="module-row">
         <div class="module-title"><p class="module-label">Capability</p><h3>The Power BI service</h3></div>
-        <p class="module-desc">We set up, govern and run the cloud service where your reports are published as apps, refreshed on schedule and secured by role.<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup> Leadership reads dashboards, analysts work in reports, and our administrators keep both healthy as usage grows.</p>
+        <p class="module-desc">We set up, govern and run the cloud service where your reports are published as apps, refreshed on schedule and secured by role.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup> Leadership reads dashboards, analysts work in reports, and our administrators keep both healthy as usage grows.</p>
         <div class="module-caps"><p class="caps-label">Key capabilities</p><ul class="ticks"><li>Workspaces and apps</li><li>Scheduled refresh</li><li>Row-level security</li><li>Subscriptions and sharing</li><li>Usage monitoring</li></ul></div>
       </article>
       <article class="module-row">
@@ -655,7 +639,7 @@ sup.fn a{text-decoration:none;font-weight:700}
       <article class="flip" tabindex="0">
         <div class="flip-inner">
           <div class="flip-face flip-front"><span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><h3>Chief Analytics Officer</h3><p class="flip-tag">Analytics strategy tied to commercial return</p><span class="flip-cue" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
-          <div class="flip-face flip-back"><p>We align business objectives with what the technology can deliver, then turn raw enterprise data into action: spotting blue-ocean market opportunities and feeding competitive intelligence and data monetisation plans. Forecasting and next-best-action models come through our <!-- PLACEHOLDER LINK: sibling page not yet built; confirm slug before go-live --><a href="/services/advanced-analytics-services/" data-placeholder-link="true">advanced analytics services</a>.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
+          <div class="flip-face flip-back"><p>We align business objectives with what the technology can deliver, then turn raw enterprise data into action: spotting blue-ocean market opportunities and feeding competitive intelligence and data monetisation plans. Forecasting and next-best-action models come through our <!-- PLACEHOLDER LINK: sibling page slug to be confirmed before go-live --><a href="/services/advanced-analytics-services/" data-placeholder-link="true">advanced analytics services</a>.</p><a class="btn btn-gold btn-sm" href="#contact">Talk to our team</a></div>
         </div>
       </article>
     </div>
@@ -695,7 +679,7 @@ sup.fn a{text-decoration:none;font-weight:700}
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow eyebrow-gold">HOW WE DELIVER</p>
-      <h2 id="methodology-h">A Working Power BI Dashboard on Your Data in 7 Days<sup class="fn"><a href="#src-7" aria-label="Source 7">7</a></sup></h2>
+      <h2 id="methodology-h">A Working Power BI Dashboard on Your Data in 7 Days<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup></h2>
       <p class="lede">We prove the value on your own data for a defined use case, measured against success criteria agreed at the outset, while the investment is still small. Your next decision then rests on pages your team has clicked through itself.</p>
     </div>
     <ol class="steps">
@@ -709,7 +693,7 @@ sup.fn a{text-decoration:none;font-weight:700}
   </div>
 </section>
 
-<!-- S10 Engagement models + PowerUP! -->
+<!-- S10 Engagement models (4-tab matrix only) -->
 <section id="packages" class="sec" aria-labelledby="packages-h">
   <div class="wrap">
     <div class="sec-head">
@@ -717,19 +701,6 @@ sup.fn a{text-decoration:none;font-weight:700}
       <h2 id="packages-h">Engagement Models That Match Where You Are Today</h2>
       <p class="lede">We offer four ways in: explore before you spend, implement in phases, extend your own team, or hand us the ongoing care. You can switch models as your needs change.</p>
     </div>
-    <article class="featured">
-      <div class="featured-main">
-        <span class="badge">Limited offer</span>
-        <h3>PowerUP!: HLB HAMT's Fixed-Price Power BI Accelerator</h3>
-        <p class="price">$4,500 fixed-price accelerator</p>
-        <p>PowerUP! is for organisations sitting on useful data that nobody has yet turned into answers. We connect your files, chart the KPIs your stakeholders care about most, and guide your team towards early results against objectives agreed on day one. Because the scope is capped, the fee does not move.</p>
-        <a class="btn btn-gold" href="#contact">Enquire about PowerUP!</a>
-      </div>
-      <div class="featured-lists">
-        <div><p class="caps-label">What's in scope</p><ul class="ticks ticks-light"><li>A requirements workshop that pins down a clear use case</li><li>File-based data sources supplied by you</li><li>Up to 5 report tabs</li><li>Up to 2 distinct consumer personas</li><li>Mockup approval, then 1 revision round after functional delivery</li></ul></div>
-        <div><p class="caps-label">What you receive</p><ul class="ticks ticks-light"><li>Requirements workshop documentation</li><li>Data transformation scripts</li><li>Data model diagram</li><li>Data dictionary</li><li>Completed reports and dashboards</li><li>A published Power BI app</li></ul></div>
-      </div>
-    </article>
     <div class="tabs" data-tabs>
       <div class="tablist" role="tablist" aria-label="Engagement models">
         <button type="button" role="tab" id="tab-explore" aria-controls="panel-explore" aria-selected="true">Explore</button>
@@ -788,9 +759,9 @@ sup.fn a{text-decoration:none;font-weight:700}
     <div class="grid grid-3">
       <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Power BI reselling partner in the UAE</h3><p>We supply your licences, and our own staff handle everything from data engineering to aftercare.</p></div></article>
       <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Audit-ready financial logic</h3><p>Finance and technology under one roof, with Corporate Tax, VAT, IFRS and PDPL expertise inside the model.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Low-risk start</h3><p>Begin with the fixed-price PowerUP! or a working dashboard on your data, then scale once it proves itself.</p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Low-risk start</h3><p>Begin with a working dashboard on your own data, then scale once it proves itself.</p></div></article>
       <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Dual intelligence</h3><p>Booked revenue in Power BI, open-deal scoring in <a href="https://hlbhamt.com/sugarai-crm-2/">SugarAI CRM</a>, both configured and maintained by our team.</p></div></article>
-      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Global network</h3><p>An HLB International member since 2007, bringing the standards and reach of a global advisory network.<sup class="fn"><a href="#src-4" aria-label="Source 4">4</a></sup></p></div></article>
+      <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>Global network</h3><p>An HLB International member since 2007, bringing the standards and reach of a global advisory network.<sup class="fn"><a href="#src-3" aria-label="Source 3">3</a></sup></p></div></article>
       <article class="tile"><span class="tile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><div><h3>In-region team</h3><p>Consultants based in the Emirates, on Gulf working hours, and on-site whenever a workshop calls for it.</p></div></article>
     </div>
   </div>
@@ -835,11 +806,11 @@ sup.fn a{text-decoration:none;font-weight:700}
     <div class="faq-list">
       <details class="faq" name="faq" open>
         <summary><h3>What is the Power BI service, and how is it different from Power BI Desktop?</h3></summary>
-        <div class="faq-a"><p>Power BI Desktop is a free, installable application for connecting to data, modelling it and designing reports.<sup class="fn"><a href="#src-6" aria-label="Source 6">6</a></sup> The Power BI service runs in the browser: access rules decide who sees each published report, data refreshes on its own schedule, and related reports are grouped into apps for each audience. Report authors mostly work in Desktop; everyone else uses the cloud. We set up both, with a workspace structure matched to how your organisation shares information.</p></div>
+        <div class="faq-a"><p>Power BI Desktop is a free, installable application for connecting to data, modelling it and designing reports.<sup class="fn"><a href="#src-5" aria-label="Source 5">5</a></sup> The Power BI service runs in the browser: access rules decide who sees each published report, data refreshes on its own schedule, and related reports are grouped into apps for each audience. Report authors mostly work in Desktop; everyone else uses the cloud. We set up both, with a workspace structure matched to how your organisation shares information.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>How is Power BI licensed, and what will it cost?</h3></summary>
-        <div class="faq-a"><p>Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup> Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and <a href="#packages">PowerUP!</a> gives you a fixed-price way to start.</p></div>
+        <div class="faq-a"><p>Your total cost has three parts: licences, implementation and dashboard development, and data integration and modelling, each scaled to your scope. At the time of writing, Microsoft's list prices are US$14 per user per month for Pro and US$24 for Premium Per User, unchanged since 1 April 2025.<sup class="fn"><a href="#src-7" aria-label="Source 7">7</a></sup> Large deployments and external embedding run on capacity-based licensing, priced separately. As a reselling partner, we advise on the right licence mix and supply it, and our <a href="#packages">engagement models</a> let you start small.</p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>Which of our systems can you connect to Power BI, and do we need a warehouse first?</h3></summary>
@@ -855,7 +826,7 @@ sup.fn a{text-decoration:none;font-weight:700}
       </details>
       <details class="faq" name="faq">
         <summary><h3>Is our data secure, and can it stay in the UAE?</h3></summary>
-        <div class="faq-a"><p>We configure row-level security so people see only the records they are entitled to, and data is encrypted. Power BI falls within the scope of Microsoft's ISO/IEC 27001 and SOC 2 audits.<sup class="fn"><a href="#src-9" aria-label="Source 9">9</a></sup> Data can be kept in-country in the Dubai or Abu Dhabi cloud region<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup>, and our <a href="https://hlbhamt.com/services/data-privacy-and-security-uae/">data protection advisory</a> team sets each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Power BI's AI assistant stays off unless an admin allows cross-region processing; we make that call with you.<sup class="fn"><a href="#src-10" aria-label="Source 10">10</a></sup></p></div>
+        <div class="faq-a"><p>We configure row-level security so people see only the records they are entitled to, and data is encrypted. Power BI falls within the scope of Microsoft's ISO/IEC 27001 and SOC 2 audits.<sup class="fn"><a href="#src-8" aria-label="Source 8">8</a></sup> Data can be kept in-country in the Dubai or Abu Dhabi cloud region<sup class="fn"><a href="#src-1" aria-label="Source 1">1</a></sup>, and our <a href="https://hlbhamt.com/services/data-privacy-and-security-uae/">data protection advisory</a> team sets each environment up in line with PDPL, DIFC and ADGM requirements. Outside the US and EU data boundaries, Power BI's AI assistant stays off unless an admin allows cross-region processing; we make that call with you.<sup class="fn"><a href="#src-9" aria-label="Source 9">9</a></sup></p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>Do we need a data platform beyond Power BI, and when?</h3></summary>
@@ -863,7 +834,7 @@ sup.fn a{text-decoration:none;font-weight:700}
       </details>
       <details class="faq" name="faq">
         <summary><h3>Does Power BI include AI features, and what do we need to use them?</h3></summary>
-        <div class="faq-a"><p>Yes. Power BI includes a generative AI assistant that answers plain-language questions and drafts written summaries of report pages. It runs only on paid capacity, a higher-tier licence bought for the whole organisation; Pro and Premium Per User on their own are not enough. A tenant administrator must also switch it on, and the semantic model needs clear table names, descriptions and tested measures, which we prepare. Prompts are officially supported in English only for now, so we put Arabic into report design instead.<sup class="fn"><a href="#src-10" aria-label="Source 10">10</a></sup></p></div>
+        <div class="faq-a"><p>Yes. Power BI includes a generative AI assistant that answers plain-language questions and drafts written summaries of report pages. It runs only on paid capacity, a higher-tier licence bought for the whole organisation; Pro and Premium Per User on their own are not enough. A tenant administrator must also switch it on, and the semantic model needs clear table names, descriptions and tested measures, which we prepare. Prompts are officially supported in English only for now, so we put Arabic into report design instead.<sup class="fn"><a href="#src-9" aria-label="Source 9">9</a></sup></p></div>
       </details>
       <details class="faq" name="faq">
         <summary><h3>Why are some Power BI dashboards slow, and can you fix ours?</h3></summary>
@@ -877,15 +848,14 @@ sup.fn a{text-decoration:none;font-weight:700}
         <p class="src-h">Sources</p>
         <ol>
           <li id="src-1"><a href="https://learn.microsoft.com/en-us/fabric/admin/region-availability" target="_blank" rel="noopener">Microsoft Learn, cloud region availability for Power BI and Microsoft's data platform</a>.</li>
-          <li id="src-2"><a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources" target="_blank" rel="noopener">Microsoft Learn, &quot;Data sources in Power BI Desktop&quot;</a>.</li>
-          <li id="src-3"><a href="https://hlbhamt.com/services/data-visualization-uae/" target="_blank" rel="noopener">HLB HAMT, Data Visualization Services</a> (&quot;In a recent engagement, we achieved a 33x improvement in report load times and interactivity&quot;).</li>
-          <li id="src-4"><a href="https://hlbhamt.com/press-room/hlb-hamt-celebrates-25-years-of-unwavering-excellence/" target="_blank" rel="noopener">HLB HAMT press release, &quot;HLB HAMT Celebrates 25 Years of Unwavering Excellence&quot;</a>; also <a href="https://hlbhamt.com/about-us/25-years-of-excellence/" target="_blank" rel="noopener">HLB HAMT, 25 Years of Excellence</a> (founded as HAMT &amp; Associates in 1999; joined HLB International in 2007).</li>
-          <li id="src-5"><a href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">Microsoft, &quot;Microsoft named a Leader in the 2026 Gartner Magic Quadrant for Analytics and BI Platforms&quot; (Power BI Updates Blog)</a>; <a href="https://mwpro.co.uk/blog/2026/07/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms/" target="_blank" rel="noopener">verbatim repost</a>.<br><span class="disclaimer">Gartner does not endorse any vendor, product or service depicted in its research publications. GARTNER and MAGIC QUADRANT are registered trademarks of Gartner, Inc. and/or its affiliates.</span></li>
-          <li id="src-6"><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop" target="_blank" rel="noopener">Microsoft Learn, Power BI service vs Power BI Desktop</a>.</li>
-          <li id="src-7"><a href="https://hlbhamt.com/services/power-bi-dashboard-development/" target="_blank" rel="noopener">HLB HAMT service commitment</a> (&quot;a Power BI proof of concept can be delivered in as little as 7 days for defined use cases&quot;).</li>
-          <li id="src-8">Microsoft Power BI <a href="https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/" target="_blank" rel="noopener">pricing update</a> and <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing" target="_blank" rel="noopener">pricing page</a>.</li>
-          <li id="src-9">Microsoft Learn, <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001" target="_blank" rel="noopener">ISO/IEC 27001</a> and <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2" target="_blank" rel="noopener">SOC 2</a> offerings.</li>
-          <li id="src-10"><a href="https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction" target="_blank" rel="noopener">Microsoft Learn, overview of the generative AI assistant in Power BI</a>.</li>
+          <li id="src-2"><a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources" target="_blank" rel="noopener">Microsoft Learn, "Data sources in Power BI Desktop"</a>.</li>
+          <li id="src-3"><a href="https://hlbhamt.com/press-room/hlb-hamt-celebrates-25-years-of-unwavering-excellence/" target="_blank" rel="noopener">HLB HAMT press release, "HLB HAMT Celebrates 25 Years of Unwavering Excellence"</a>; also <a href="https://hlbhamt.com/about-us/25-years-of-excellence/" target="_blank" rel="noopener">HLB HAMT About Us anniversary page</a> (founded as HAMT &amp; Associates in 1999; joined HLB International in 2007).</li>
+          <li id="src-4"><a href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403" target="_blank" rel="noopener">Microsoft, "Microsoft named a Leader in the 2026 Gartner Magic Quadrant for Analytics and BI Platforms" (Power BI Updates Blog)</a>; <a href="https://mwpro.co.uk/blog/2026/07/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-analytics-and-business-intelligence-platforms/" target="_blank" rel="noopener">verbatim repost</a>.<br><span class="disclaimer">Gartner does not endorse any vendor, product or service depicted in its research publications. GARTNER and MAGIC QUADRANT are registered trademarks of Gartner, Inc. and/or its affiliates.</span></li>
+          <li id="src-5"><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop" target="_blank" rel="noopener">Microsoft Learn, Power BI service vs Power BI Desktop</a>.</li>
+          <li id="src-6"><a href="https://hlbhamt.com/services/power-bi-dashboard-development/" target="_blank" rel="noopener">HLB HAMT service commitment</a> ("a Power BI proof of concept can be delivered in as little as 7 days for defined use cases").</li>
+          <li id="src-7">Microsoft Power BI <a href="https://powerbi.microsoft.com/en-us/blog/important-update-to-microsoft-power-bi-pricing/" target="_blank" rel="noopener">pricing update</a> and <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing" target="_blank" rel="noopener">pricing page</a>.</li>
+          <li id="src-8">Microsoft Learn, <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001" target="_blank" rel="noopener">ISO/IEC 27001</a> and <a href="https://learn.microsoft.com/en-us/compliance/regulatory/offering-soc-2" target="_blank" rel="noopener">SOC 2</a> offerings.</li>
+          <li id="src-9"><a href="https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction" target="_blank" rel="noopener">Microsoft Learn, overview of the generative AI assistant in Power BI</a>.</li>
         </ol>
       </aside>
     </div>
@@ -941,7 +911,7 @@ sup.fn a{text-decoration:none;font-weight:700}
 (function () {
   document.documentElement.classList.add('js');
 
-  // S11 tabs (WAI-ARIA tabs pattern; without JS every panel stays visible)
+  // S10 tabs (WAI-ARIA tabs pattern; without JS every panel stays visible)
   document.querySelectorAll('[data-tabs]').forEach(function (root) {
     var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
     function select(tab, focus) {
@@ -967,7 +937,7 @@ sup.fn a{text-decoration:none;font-weight:700}
     select(tabs[0], false);
   });
 
-  // S15 FAQ: single-open accordion (fallback for browsers without <details name>)
+  // S14 FAQ: single-open accordion (fallback for browsers without <details name>)
   var faqs = Array.prototype.slice.call(document.querySelectorAll('details.faq'));
   faqs.forEach(function (d) {
     d.addEventListener('toggle', function () {
@@ -975,7 +945,7 @@ sup.fn a{text-decoration:none;font-weight:700}
     });
   });
 
-  // S7 flip cards: tap/click or Enter/Space to flip on touch devices
+  // S6 flip cards: tap/click or Enter/Space to flip on touch devices
   document.querySelectorAll('.flip').forEach(function (card) {
     card.addEventListener('click', function (ev) {
       if (ev.target.closest('a')) return;
@@ -1002,6 +972,7 @@ sup.fn a{text-decoration:none;font-weight:700}
     Object.keys(map).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
   }
 })();
+
 
 </script>
 </body>
