@@ -499,16 +499,57 @@ Nothing on it is absent from Tab 1 and worth preserving. It already targets this
 
 ---
 
-## 10. Content Writer decisions
+## 10. Content Writer decisions (2026-09-30)
 
-_Pending. Record decisions here before Build starts._
+1. **OQ1 (replace in place):** **Confirmed.** Publishes at the existing
+   `https://hlbhamt.com/services/data-visualization-uae/`, replacing the current page. No
+   redirect needed. Deliver sets the canonical tag to this URL.
+   - **PB sibling link (L7):** already points here and needs no edit; it picks up the new content
+     automatically.
+   - **PB footnote 3:** **already resolved, separately from this requirement.** The 33x claim
+     this footnote supported has been removed from the delivered Power BI page entirely (an
+     urgent Revision 4 correction, made after Plan found the same Softcrylic match while
+     researching this page — see `content-pipeline/requirements/2026-09-28-power-bi-services-homepage/inputs/revision-4-notes.md`).
+     There is no remaining footnote pointing at this page for a claim it no longer supports.
+   - **AA sibling link (L3):** still needs the one-line manual edit noted in OQ1(b) — swap the
+     placeholder for the real URL once this page is delivered. Not done yet; handle at Deliver.
 
-1. OQ1 (replace in place; sibling link and footnote consequences):
-2. OQ2 (33x and PowerUP! provenance; PB page action):
-3. OQ3 ("Why AI Changes CRM" exclusion):
-4. OQ4 (4 CTAs; free review):
-5. OQ5 (keyword spelling; FAQ 4 timelines):
-6. OQ6 (case study):
+2. **OQ2 (33x / PowerUP! provenance):** **Resolved.** HLB HAMT did not need separate verification
+   — the Content Writer's instruction, given as soon as this was found, was to pull both from the
+   Power BI page immediately rather than wait for confirmation. That correction is complete
+   (Power BI Revision 4, delivered). This page was already built to exclude all of it; no change
+   needed here.
+
+3. **OQ3 ("Why AI Changes CRM" exclusion):** **Confirmed.** No equivalent section.
+
+4. **OQ4 (CTA count):** **Confirmed — 4 CTAs**, same placement pattern as Advanced Analytics
+   (hero, after S8, after S13, S15 contact). S8's dashboard review is not described as "free"
+   (default stands); S13 and S15 keep "free consultation".
+
+5. **OQ5 (spelling and timelines):**
+   - (a) Default confirmed: "Visualization" (z) in meta title and meta description only;
+     "visualisation" (British) everywhere on-page. Keyword counts use the `visuali[sz]ation`
+     regex per Section 2a.
+   - (b) **Confirmed — use Tab 1's dashboard timelines** in FAQ 4 (2-4 weeks / 6-10 weeks / 3-6
+     months / prototype within 2 weeks), without "7 days". These are the same HLB HAMT-confirmed
+     ranges already used on the Power BI page.
+
+6. **OQ6 (case study):** Default confirmed — no case study block; proof carried by the stat
+   strip, the method band, and S11 credentials.
+
+7. **OQ7 (post-launch support):** **Confirmed — yes**, same ongoing-support offering as
+   confirmed for the Advanced Analytics page (monitoring, fixes, tuning, new views, training;
+   no SLAs, hours, "24/7" or response-time commitments).
+
+8. **OQ8 (S12 asset):** Default confirmed — static executive-dashboard screenshot/GIF
+   placeholder.
+
+9. **OQ9 (minor items):** All defaults confirmed. The bare "Data Visualization Services" title
+   stays unresolved (not added to Section 5). No Arabic/RTL tile added (out of scope per Tab 3
+   exclusion). The live page's "CRM Training & Adoption" card and "customer intelligence"
+   subtitle are dropped with the replace-in-place, no action needed.
+
+**Status: brief APPROVED. Ready for Build.**
 7. OQ7 (post-launch support):
 8. OQ8 (S12 asset):
 9. OQ9 (unresolved reference; Arabic/RTL; live leftovers):
