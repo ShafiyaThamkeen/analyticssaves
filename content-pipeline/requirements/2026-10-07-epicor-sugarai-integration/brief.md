@@ -474,4 +474,35 @@ The breadcrumb already links Technology Consulting Services (https://hlbhamt.com
 
 ---
 
-Stopping here. No draft content has been written. Build starts after the Content Writer approves this brief and answers (or waives) the questions above.
+## 10. Content Writer decisions (2026-10-07)
+
+1. **Epicor relationship (OQ1):** **Confirmed — no Epicor certification claim.** HLB HAMT is
+   positioned as the SugarAI expert that integrates SugarAI with the client's existing Epicor
+   ERP, working alongside the client's own Epicor partner/in-house team — never claiming Epicor
+   certification or Epicor implementation. **Additional emphasis from the Content Writer:** the
+   page should clearly explain that **SugarAI can be integrated with a client's existing Epicor
+   ERP** — i.e. the framing is "bring your Epicor, we connect SugarAI to it," not "we are an
+   Epicor practice." Build should foreground this framing in the hero/lede and Block 3, not just
+   avoid the certification claim passively.
+2. **Integration method (OQ2):** **Confirmed — custom-built integration.** HLB HAMT builds a
+   bespoke connection for each client (not a resold marketplace connector, not claiming to use
+   TCP's or any other named third-party integration product). Copy may describe this as a
+   custom-built integration; the existing bans on "real-time," "pre-built," "no-code," and "out
+   of the box" claims stand unless a specific delivery detail is later confirmed.
+3. **Parent and breadcrumb (OQ3):** **Confirmed — switch to the hub.** Parent page is
+   `https://hlbhamt.com/sugarai-crm-2/`, per Plan's recommendation. Use Plan's suggested slug
+   structure (`/sugarai-crm/integrations/epicor-erp/` or equivalent sibling-page pattern) unless
+   Deliver finds a more consistent convention already in use across the other SugarAI subpages.
+4. **Images (OQ4):** **Confirmed — no real demo instance yet.** IMG-3 and IMG-4 (the
+   SugarAI+Epicor screenshot and the Outlook/mobile screenshot) are designer mock-ups; captions
+   include "Illustrative" as the brief's default already specifies. IMG-1 and IMG-2 (architecture
+   and workflow diagrams) proceed as reserved slots per the brief's spec.
+5. **Epicor product scope (OQ5):** **Confirmed — Epicor Kinetic and earlier Epicor ERP 10
+   estates only.** Prophet 21, Eclipse, and BisTrack are out of scope for this page.
+6. **Stats (OQ6):** **Confirmed — use the two new stats** (Nucleus Research: 7% better win
+   rates / ~50% shorter customisation timelines; Avasant: 2.3x customer-satisfaction gains), not
+   a reuse of the FSM page's Nucleus 8% recurring-revenue figure — these are more specific to
+   CRM+ERP integration and freshly verified. **SugarAI's "sales-i" ERP-analytics add-on is not
+   named** on this page, per the brief's default, to keep focus on the Epicor integration itself.
+
+**Status: brief APPROVED. Ready for Build.**
