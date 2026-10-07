@@ -78,15 +78,19 @@ Delivering for enterprise groups
 across multiple entities.
 
 18
-00:00:51,100 --> 00:00:54,900
-A certified SugarAI partner, backed by
-HLB International in 150+ countries.
+00:00:51,100 --> 00:00:52,900
+A certified SugarAI partner.
 
 19
+00:00:53,100 --> 00:00:54,900
+One team, from
+consulting to support.
+
+20
 00:00:55,200 --> 00:00:57,300
 Let the platform do the work.
 
-20
+21
 00:00:57,400 --> 00:00:59,800
 SugarAI by HLB HAMT,
 for enterprise.
