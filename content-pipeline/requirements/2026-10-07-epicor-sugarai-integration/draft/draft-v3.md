@@ -14,7 +14,7 @@ Structure follows the 12-block skeleton in brief Section 3b, in order. Labels in
 - **Breadcrumb text:** Home › Technology Consulting Services › CRM Solutions (SugarAI) › Epicor ERP Integration
 - **Breadcrumb links:** "Technology Consulting Services" → https://hlbhamt.com/services/technology-consulting-services-dubai-uae/ · "CRM Solutions (SugarAI)" → **https://hlbhamt.com/sugarai-crm-2/** (parent page, brief Section 10 point 3)
 - **Suggested slug:** `/sugarai-crm/integrations/epicor-erp/` (brief Section 10 point 3; Deliver may align with an existing sibling convention)
-- **Footer links (replace the template's industry links):** CRM Solutions (SugarAI) → https://hlbhamt.com/sugarai-crm-2/ · Manufacturing & distribution → https://hlbhamt.com/industries/manufacture-and-distribution/ · ERP integration & add-ons → https://hlbhamt.com/services/erp-integration-add-ons/
+- **Footer links (replace the template's industry links):** CRM Solutions (SugarAI) → https://hlbhamt.com/sugarai-crm-2/ · ERP integration & add-ons → https://hlbhamt.com/services/erp-integration-add-ons/ (2026-10-08 correction: the "Manufacturing & distribution" footer link is dropped — see Flag 16 — this page is general CRM integration, not industry-specific)
 
 ## Block 1: Hero (`header.hero`)
 
@@ -24,7 +24,7 @@ Structure follows the 12-block skeleton in brief Section 3b, in order. Labels in
 
 **H1:** SugarAI CRM Integration with Epicor ERP
 
-**Lede:** HLB HAMT connects SugarAI with Epicor ERP as you already run it, so sales and service teams see Epicor orders, prices, stock and invoices on their customer records. Epicor stays the system of record, while we design, build and support a custom connection for UAE and GCC manufacturers and distributors on cloud or on-premise Epicor.
+**Lede:** HLB HAMT connects SugarAI with Epicor ERP as you already run it, so sales and service teams see Epicor orders, prices, stock and invoices on their customer records. Epicor stays the system of record, while we design, build and support a custom connection for UAE and GCC businesses on cloud or on-premise Epicor.
 
 **Buttons:** Request a demo (btn-primary, #start) · Talk to our integration team (btn-ghost, #start)
 
@@ -32,7 +32,7 @@ Structure follows the 12-block skeleton in brief Section 3b, in order. Labels in
 
 **H3:** What changes once both systems are connected
 
-**Sub-line:** Set up for [manufacturers and distributors](https://hlbhamt.com/industries/manufacture-and-distribution/) running Epicor across the UAE and GCC.
+**Sub-line:** Set up for businesses running Epicor across the UAE and GCC.
 
 **Side row 1:** **Orders and invoices on the account**
 Open orders, invoice status and payment terms from Epicor, on the SugarAI account.
@@ -139,7 +139,7 @@ Agents see what each customer bought, and when, before replying to a case.
 **IMAGE SLOT IMG-3** (`figure.img-slot`, `data-slot="IMG-3"`, right column)
 - **Placeholder label:** Image placeholder IMG-3: Account dashboard screenshot
 - **Aspect ratio:** 4:3 (minimum 1200×900)
-- **Designer description (HTML comment / docx cell):** Designer mock-up (no demo instance exists yet, brief Section 10 point 4) of a SugarAI account record for a fictional UAE distributor, "Gulf Fasteners Trading LLC". Opportunity pipeline on the left; on the right, an Epicor panel showing payment terms, credit status, open sales orders and the last five invoices. Standard SugarAI theme. Fictional data only, no other company names, no third-party logos; layout built from scratch.
+- **Designer description (HTML comment / docx cell):** Designer mock-up (no demo instance exists yet, brief Section 10 point 4) of a SugarAI account record for a fictional UAE company, "Meridian Holdings LLC". Opportunity pipeline on the left; on the right, an Epicor panel showing payment terms, credit status, open sales orders and the last five invoices. Standard SugarAI theme. Fictional data only, no other company names, no third-party logos; layout built from scratch.
 - **Caption (counted):** Illustrative: a SugarAI account record with Epicor orders, invoices and credit status alongside the pipeline.
 - **Alt text (not counted):** SugarAI account record showing Epicor order and invoice data
 
@@ -184,7 +184,7 @@ Managers see pipeline beside booked orders and invoiced revenue, and SugarAI's A
 **IMAGE SLOT IMG-4** (`figure.img-slot`, `data-slot="IMG-4"`, left column)
 - **Placeholder label:** Image placeholder IMG-4: Outlook and mobile composite
 - **Aspect ratio:** 4:3 (minimum 1200×900)
-- **Designer description (HTML comment / docx cell):** Designer mock-up composite (no demo instance exists yet). Left: Outlook with the Sugar Connect sidebar open on a contact, showing the related account. Right: the SugarAI mobile app on a phone showing the same account with its Epicor-synchronised fields (payment terms, recent orders). Fictional data only (reuse "Gulf Fasteners Trading LLC" from IMG-3 for consistency). Layout built from scratch; no logos beyond the native product UI.
+- **Designer description (HTML comment / docx cell):** Designer mock-up composite (no demo instance exists yet). Left: Outlook with the Sugar Connect sidebar open on a contact, showing the related account. Right: the SugarAI mobile app on a phone showing the same account with its Epicor-synchronised fields (payment terms, recent orders). Fictional data only (reuse "Meridian Holdings LLC" from IMG-3 for consistency). Layout built from scratch; no logos beyond the native product UI.
 - **Caption (counted):** Illustrative: the same customer record in the email sidebar and the SugarAI mobile app.
 - **Alt text (not counted):** Sugar Connect sidebar in Outlook beside the SugarAI mobile app showing one account
 
@@ -365,6 +365,7 @@ No stat from the FSM, Insurance or homepage briefs is reused. The Nucleus 8% rec
     - **Word count: 1,655** by the brief's Section 1 rule (v1 1,642 plus the +13 net from the test-report-v1 fixes; the two test-report-v2 fixes are word-neutral: step 6 10 → 10, callout 34 → 34), counted on the countable copy (excludes eyebrows, buttons, nav, breadcrumb, Sources list, footnote markers, placeholder labels, alt text, designer descriptions and the three `.n` figures). Including the three figures: 1,658. Block totals: Block 1 134, Block 2 90, Block 3 255, Block 8 140, Block 9 142, Block 10 135 (cap), Block 12 50; all other blocks unchanged from v1.
     - **Keywords (exact phrase, case-insensitive, on-page):** CRM integration with Epicor ERP 4 (H1, Block 3 H2, Block 5 sentence 1, FAQ A2 sentence 1); SugarAI with Epicor ERP 2 (hero lede sentence 1, FAQ Q1); CRM integration services 2 (Block 8 H2, FAQ A5); CRM integration partner 1 (Block 9 H2); CRM implementation 2 (Block 8 item 02 H4, Block 10 lede). Total 11 (cap 12). No sentence holds two different keywords.
     - **Dashes:** 0 em dashes, 0 en dashes, 0 double hyphens anywhere in the file.
+16. **Post-delivery correction (2026-10-08): industry targeting removed.** The Content Writer does not want this page aimed at manufacturing/distribution specifically — it should read as general CRM integration with Epicor ERP, for any Epicor-running business. Changed: hero lede sentence 2 ("UAE and GCC manufacturers and distributors" → "UAE and GCC businesses"); hero side sub-line ("Set up for manufacturers and distributors..." → "Set up for businesses...", dropping the `/industries/manufacture-and-distribution/` link entirely); IMG-3 and IMG-4 designer descriptions (fictional company renamed from "Gulf Fasteners Trading LLC" to "Meridian Holdings LLC", a name with no industry signal); footer nav (the "Manufacturing & distribution" link removed, leaving CRM Solutions and ERP integration & add-ons). No other block referenced the industry (the one conditional internal link to a manufacturing-specific SugarAI page, noted in Flag 8, was already left out of the page in v1-v3 and needs no further change). Word count: hero lede -2 words, side sub-line -2 words; new total approximately 1,650, still within the 1,500-1,700 target. Applied directly to draft-v3.md and propagated to the delivered HTML/docx/PDF without a new Build/Test loop, per this project's standing practice for small, scoped corrections found after delivery.
 15. **Post-delivery correction (2026-10-07): A1 and A2 reworded.** An independent plagiarism re-check after Deliver found that A1's `.d` line and A2 (Block 5 sentence 2) tracked Avasant's own sentence construction too closely (a 6-10 word consecutive match beyond the required cohort qualifier and figure). Both are now rephrased with the same facts and the same A1 cohort qualifier (mid-sized enterprises that unify their systems and close off data silos), but different sentence order and verbs, so neither shares a 5+ word run with Avasant's source text. Word counts: A1's `.d` line 19 words (was 20); A2 15 words (was 17) — both within Block 2/Block 5's existing budgets, no cascading changes needed elsewhere. This was applied directly to draft-v3.md and propagated to the delivered HTML/docx/PDF without a new Build/Test loop, per this project's standing practice for small, independently-sourced corrections found after delivery (cf. the Power BI PowerUP!/33x revision).
     - **"Outlook"** once and **"iOS and Android"** once in counted copy (Block 7).
 15. **Workflow step wording vs the TCP swimlane.** Block 4 keeps the generic quote-to-order pattern but rewrites every step, adds the costing and credit check at step 2, and avoids TCP's stage names ("Quoting", "Quote Ready", "New Draft Quote", "Opportunity Complete"). "Won" in step 4 is standard CRM stage language, not a TCP label.

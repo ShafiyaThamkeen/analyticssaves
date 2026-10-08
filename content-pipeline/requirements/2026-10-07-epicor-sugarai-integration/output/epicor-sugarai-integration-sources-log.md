@@ -58,8 +58,9 @@ Deliver could not confirm these resolve: hlbhamt.com returns a captcha interstit
 |:-|:-|:-|
 | CRM Solutions (SugarAI) | https://hlbhamt.com/sugarai-crm-2/ | Breadcrumb parent (brief Section 10 point 3) and footer |
 | Technology Consulting Services | https://hlbhamt.com/services/technology-consulting-services-dubai-uae/ | Breadcrumb |
-| manufacturers and distributors | https://hlbhamt.com/industries/manufacture-and-distribution/ | Block 1, hero side-panel sub-line; footer ("Manufacturing & distribution") |
 | SugarAI CRM services | https://hlbhamt.com/sugarai-crm-2/ | Block 8, item 02 body |
 | ERP practice | https://hlbhamt.com/services/erp-integration-add-ons/ | Block 9, tile 3; footer ("ERP integration & add-ons") |
 | Talk to our integration team | /contact/ | Block 12 (closing CTA) button |
 | SugarAI for manufacturers (conditional link 4) | /sugarai-crm/industries/manufacturing/ | **Omitted**, as in draft-v3 Flag 8, because the URL could not be confirmed |
+
+**2026-10-08 correction:** the "manufacturers and distributors" hero side-panel link and the "Manufacturing & distribution" footer link are both removed — see draft-v3.md Flag 16. This page is general CRM integration with Epicor ERP, not industry-specific.
