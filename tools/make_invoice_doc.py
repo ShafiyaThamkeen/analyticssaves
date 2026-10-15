@@ -44,9 +44,12 @@ def heading(t):
     p = doc.add_paragraph(); spacing(p, 320, 80); border_bottom(p); jc(p); run(p, t, True, 15, BLUE); p.paragraph_format.keep_with_next = True
 def bullet(t):
     p = doc.add_paragraph(); spacing(p, None, 0); p.paragraph_format.left_indent = Twips(360); p.paragraph_format.first_line_indent = Twips(-360)
-    jc(p); run(p, '● ' + t)
+    jc(p)
+    head, sep, rest = t.partition(': ')
+    if sep: run(p, '● ' + head + ':', True); run(p, ' ' + rest)
+    else: run(p, '● ' + t)
 def label(t):
-    p = doc.add_paragraph(); spacing(p, None, 120); jc(p); run(p, t); p.paragraph_format.keep_with_next = True
+    p = doc.add_paragraph(); spacing(p, None, 120); jc(p); run(p, t, True); p.paragraph_format.keep_with_next = True
 def numbered(i, head, copy):
     p = doc.add_paragraph(); spacing(p, None, 120); p.paragraph_format.left_indent = Twips(360); p.paragraph_format.first_line_indent = Twips(-360)
     jc(p); run(p, f'{i}. {head}', True); run(p, ' - ' + copy)

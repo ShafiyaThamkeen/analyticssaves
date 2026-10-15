@@ -14,7 +14,8 @@ Format rules (taken from the sample):
   First heading is always `Page metadata & SEO`, unnumbered.
 - Metadata table (blue header row `Element | Content`): Page title, Meta description, Primary keywords, Secondary keywords (add Supporting keywords and Menu location when the brief has them).
 - Section body is a list of `● Label: text` lines (hanging indent, no space after): Eyebrow, H1/H2, Intro, Buttons, Body, Copy.
-  Small plain sub-labels introduce groups, for example `Hero side panel`, `Four cards (heading / copy):`, `Six-step timeline:`.
+  The label part (`Eyebrow:`, `H1:`, `H2:`, `Intro:`, `Buttons:`, `Copy:` and so on) is always bold; the text after it is regular.
+  Sub-labels that introduce groups are bold too, for example `Hero side panel`, `Four cards (heading / copy):`, `Six-step timeline:`.
 - Card groups, stats and steps go in tables: header row filled `#10538F` with bold white 9 pt text, black 0.5 pt borders, 9 pt cells,
   columns such as `Item | Copy`, `Tag | Heading | Copy`, `Figure | Label | Description`. Rows never split across pages.
   Six-card lists may instead be numbered lines: bold `1. Heading` then ` - copy`.
