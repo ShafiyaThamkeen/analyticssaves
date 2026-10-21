@@ -21,13 +21,14 @@ Format rules (taken from the sample):
   Six-card lists may instead be numbered lines: bold `1. Heading` then ` - copy`.
 - Blank line after each table and between sections. CTA sections are their own numbered section (Eyebrow, H2, Body, Button).
 - FAQ: section `FAQ` with Eyebrow, H2, then `Q: question` in bold and the answer as a plain paragraph beneath.
-- Anything to verify is marked `[CONFIRM]` inline and listed in a final `Items to confirm before publishing` section.
+- Anything still unverified is marked `[CONFIRM]` inline. Add a final `Items to confirm before publishing` section only while such items remain (the Invoice Automation doc has none: all claims were confirmed by the client).
+- The title may be just the page name (the Invoice Automation doc is titled `Invoice Automation`). Image lines in the doc end with ` \u2013 ImageN.png` in page order.
 
 ## Copy rules
 - No competitor names or competitor product terms, and no ERP or software brand names (SAP, Oracle, Dynamics, Sage, Odoo, Zoho, Power BI and the like). Say "enterprise ERP platforms", "accounting systems" instead.
 - Do not copy or closely paraphrase reference pages. Do not use outside statistics; mark any needed figure `[CONFIRM]`.
 - Brand colours for HLB HAMT pages (from the SugarAI CRM page): deep blue `#005A77`, gold `#FBBA00`, text `#111827`, secondary text `#4B5563`, borders `#E5E7EB`.
-- HAMT AI naming: HAMT stands for Human-centric, Automation, Machine learning, Transformation (H = Human-centric, not "Human-integrated").
+- HAMT AI naming: HAMT stands for Human-Centric, Automation, Machine learning, Transformation (H = Human-Centric, written with a capital C, not "Human-integrated").
 - HAMT AI tone: always positive and confident. HAMT AI is accurate from day one and the client's reviewers add expertise that adapts it to their business.
   Never say or imply that HAMT AI "needs to learn", makes errors, guesses, or is unready. Avoid "learns", "flags uncertain", "corrections", "retrains", "keeps learning".
   Use "expert review", "reviewer decisions are built into the models", "adapts to your suppliers", "refine", "tune".

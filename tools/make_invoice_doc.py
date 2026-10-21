@@ -93,8 +93,10 @@ def head_block(sec_el, eyebrow_sel='.eyebrow', h2='h2'):
     if e: bullet('Eyebrow: ' + T(e))
     bullet('H2: ' + T(h))
     if l: bullet('Intro: ' + T(l))
+IMG_N = [0]
 def image_line(sec_el):
-    for s in sec_el.select('svg.ill'): bullet('Image: ' + s.get('aria-label', ''))
+    for s in sec_el.select('svg.ill'):
+        IMG_N[0] += 1; bullet(f"Image: {s.get('aria-label', '')} \u2013 Image{IMG_N[0]}.png")
 def numlist(items):
     for i, (h, c) in enumerate(items, 1): numbered(i, h, c)
 def cards(sec_el, sel):
@@ -107,7 +109,7 @@ def section(t):
     n[0] += 1; heading(f'{n[0]}. {t}')
 
 # ---------------- document ----------------
-title('Invoice Automation - AI Document Processing Sub-page')
+title('Invoice Automation')
 heading('Page metadata & SEO')
 meta_title = T(soup.title); desc = soup.find('meta', attrs={'name': 'description'})['content']
 table(['Element', 'Content'], [
@@ -115,7 +117,6 @@ table(['Element', 'Content'], [
     ['Menu location', 'AI > Document Processing > Invoice Automation'],
     ['Primary keywords', 'invoice automation'],
     ['Secondary keywords', 'AI invoice automation, invoice processing automation, automated invoice processing, accounts payable automation, intelligent document processing, HAMT AI'],
-    ['Supporting keywords', 'invoice processing software, three-way matching, exception handling, invoice data extraction, manual vs automated invoice processing'],
 ], [2475, 7305])
 
 # 1 Hero
@@ -130,13 +131,15 @@ bullet('Hero note: ' + T(hero.select_one('.hero-note')))
 blank(); label('Hero side panel (example invoice card)')
 inv = hero.select_one('.inv')
 bullet('Heading: Example: one supplier invoice moving through the process')
-bullet(f"Sub-line: {T(inv.select_one('.inv-type'))} · {T(inv.select_one('.inv-no'))} · " + ' · '.join(f"{T(d.select_one('span'))} {T(d.select_one('b'))}" for d in inv.select('.inv-sums > div')) + ' (illustrative example)')
-table(['Item', 'Copy'], [[T(c.select_one('strong')), f"{T(c.select_one('p'))} [{T(c.select_one('.pill'))}]"] for c in inv.select('.chk')], [3150, 6630])
+bullet(f"Sub-line: {T(inv.select_one('.inv-type'))}")
+for ln in (T(inv.select_one('.inv-no')), '  ||  '.join(f"{T(d.select_one('span'))} - {T(d.select_one('b'))}" for d in inv.select('.inv-sums > div')).replace('||  Total', '|| Total') + ' (illustrative example)'):
+    p = doc.add_paragraph(); spacing(p, None, 0); p.paragraph_format.left_indent = Twips(360); jc(p); run(p, ln)
+table(['Item', 'Copy'], [[T(c.select_one('strong')), T(c.select_one('p'))] for c in inv.select('.chk')], [3150, 6630])
 bullet('Footer line: ' + T(inv.select_one('.inv-foot')))
 blank()
 
 # 2 Strip
-section('At a glance')
+section('Credential strip')
 label('Four highlights (heading / copy):')
 table(['Item', 'Copy'], [[T(i.select_one('.k')), T(i.select_one('.v'))] for i in soup.select('section.strip .strip-item')], [3150, 6630])
 
@@ -152,23 +155,27 @@ bullet('Bridge line: ' + T(sc.select_one('.bridge'))); blank()
 sc = soup.select_one('#shift'); section('What changes')
 head_block(sc); bullet('H3: ' + T(sc.select_one('.shift-title')))
 label('Six rows (manual today / with HAMT AI):')
-table(['Manual today', 'With HAMT AI'], [[T(r.select_one('.from')), T(r.select_one('.to'))] for r in sc.select('.shift')], [4500, 5280])
+table(['Manual Invoices today', 'Invoice automation with HAMT AI'], [[T(r.select_one('.from')), T(r.select_one('.to'))] for r in sc.select('.shift')], [4500, 5280])
 
 # 5 Benefits
 sc = soup.select_one('#benefits'); section('Benefits')
 head_block(sc); image_line(sc)
-label('Four cards (heading / copy):')
+label('Four cards')
 table(['Item', 'Copy'], [list(x) for x in cards(sc, '.tile')], [3150, 6630])
 
 # 6 Learning
 sc = soup.select_one('#learning'); section('The learning cycle')
 head_block(sc); image_line(sc)
-label('Four steps (heading / copy):'); numlist(path_items(sc))
+label('Four steps:')
+for h, c in path_items(sc):
+    p = doc.add_paragraph(); spacing(p, None, 120); jc(p); run(p, h + ':', True); run(p, ' ' + c)
 bullet('H3: ' + T(sc.select('.sub-h3')[0]))
 label('Four pillars (letter / heading / copy):')
 table(['Tag', 'Heading', 'Copy'], [[T(c.select_one('.icon-sq')), T(c.select_one('h3')), T(c.select_one('p'))] for c in sc.select('.grid-4 .card')], [1260, 2625, 5895])
 bullet('H3: ' + T(sc.select('.sub-h3')[1])); bullet('Copy: ' + T(sc.select('.sub-h3')[1].find_next('p')))
-for li in sc.select('ul.principles li'): bullet('Point: ' + T(li))
+label('Points')
+for li in sc.select('ul.principles li'):
+    p = doc.add_paragraph(); spacing(p, None, 120); jc(p); run(p, T(li))
 blank()
 
 def cta_section(el):
@@ -181,16 +188,18 @@ cta_section(ctas[0])
 sc = soup.select_one('#how'); section('How automated invoice processing works')
 head_block(sc); image_line(sc)
 label('Six-step process (step / heading / copy / points):')
-table(['Step', 'Heading', 'Copy', 'Points'], [[T(c.select_one('.step-n')), T(c.select_one('h3')), T(c.select_one('p')), [T(li) for li in c.select('li')]] for c in sc.select('.grid-3 .card')], [720, 2040, 3900, 3120])
+table(['Step', 'Heading', 'Copy', 'Points'], [[str(int(T(c.select_one('.step-n')))), T(c.select_one('h3')), T(c.select_one('p')), [T(li) for li in c.select('li')]] for c in sc.select('.grid-3 .card')], [720, 2040, 3900, 3120])
 
 # 9 Scale
 sc = soup.select_one('#scale'); section('From mid-market to enterprise')
 head_block(sc); label('Two tiers (tier / heading / copy and points):')
-rows = []
-for c in sc.select('.tier'):
-    rows.append([T(c.select_one('.tier-label')), T(c.select_one('h3')), [T(c.select_one('p'))] + ['• ' + T(li) for li in c.select('li')]])
-table(['Tier', 'Heading', 'Copy'], rows, [1815, 2400, 5565])
-bullet('Note (all deployments): ' + T(sc.select_one('.both'))); blank()
+tiers = sc.select('.tier')
+table(['Tier', T(tiers[0].select_one('.tier-label')), T(tiers[1].select_one('.tier-label'))], [
+    ['Heading', T(tiers[0].select_one('h3')), T(tiers[1].select_one('h3'))],
+    ['Copy', T(tiers[0].select_one('p')), T(tiers[1].select_one('p'))],
+    ['', ['\u2022 ' + T(li) for li in tiers[0].select('li')], ['\u2022 ' + T(li) for li in tiers[1].select('li')]],
+], [1704, 3870, 3848])
+bullet('Bridge line: ' + T(sc.select_one('.both'))); blank()
 
 # 10 Region
 sc = soup.select_one('#region'); section('Built for the UAE, GCC and Middle East')
@@ -210,7 +219,7 @@ head_block(sc); label('Four cards (heading / copy):'); numlist(cards(sc, '.tile'
 # 14 Integration
 sc = soup.select_one('#integration'); section('ERP integration')
 head_block(sc); image_line(sc); label('Three cards (card / covers / copy):')
-table(['Card', 'Covers', 'Copy'], [[T(c.select_one('h3')), T(c.select_one('.systems')), T([p for p in c.select('p') if 'systems' not in (p.get('class') or [])][0])] for c in sc.select('.int-card')], [1815, 3300, 4665])
+table(['Card', 'Covers', 'Copy'], [[T(c.select_one('h3')), T(c.select_one('.systems')).replace(' \u00b7 ', ' | '), T([p for p in c.select('p') if 'systems' not in (p.get('class') or [])][0])] for c in sc.select('.int-card')], [1815, 3300, 4665])
 label('Principles:'); numlist([(T(li), '') for li in sc.select('ul.principles li')]) if False else None
 for i, li in enumerate(sc.select('ul.principles li'), 1):
     p = doc.add_paragraph(); spacing(p, None, 120); p.paragraph_format.left_indent = Twips(360); p.paragraph_format.first_line_indent = Twips(-360); jc(p); run(p, f'{i}. ' + T(li))
@@ -222,19 +231,7 @@ bullet('Eyebrow: ' + T(sc.select_one('.eyebrow'))); bullet('H2: ' + T(sc.select_
 for d in sc.select('details.faq'): qa(T(d.select_one('summary')), T(d.select_one('.ans')))
 blank()
 
-# 17 Notes
-section('Items to confirm before publishing')
-for t in [
- 'Claims carried over from Bala\'s draft and marked [CONFIRM] in the copy: "award-winning", "more than two decades", "more than 150 countries", "within a few weeks", and the UAE e-invoicing dates and AED 50 million threshold.',
- 'HAMT AI: the only source detail was the four pillars. Confidence scoring, supervised retraining on approved corrections, review-rate tracking and logged corrections are written for this page and must be checked against how HAMT AI actually works.',
- 'Retraining: the page says approved corrections feed the models "for your setup, tested before release". Confirm this matches the real process, and whether training is per client or shared.',
- 'Data handling: the page says it is agreed with the client IT team before go-live and that data can stay in the UAE. Confirm both.',
- 'The example invoice (INV-26-10482, PO 4500912, GRN-7731, TRN 100234567890003) is illustrative. VAT rates in the region chips come from Bala\'s draft.',
- 'Bala\'s ten FAQs are merged into six; every answer point is retained. No ERP, competitor or reference-site names appear anywhere.',
- 'Brand colours in the page and images were taken from the HLB HAMT SugarAI CRM page (#005A77, #FBBA00). Please confirm against the official brand guide.',
-]: bullet(t)
-
-doc.core_properties.title = 'Invoice Automation - AI Document Processing Sub-page'; doc.core_properties.author = 'HLB HAMT'
+doc.core_properties.title = 'Invoice Automation'; doc.core_properties.author = 'HLB HAMT'
 doc.save(OUT)
 # word count of page copy (everything from the Hero to the FAQ, excluding metadata, image notes and review notes)
 print('saved', OUT)
